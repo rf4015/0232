@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DYntbxcFNsBSQY4gcyQn6MlMynH/64U+9fuLvUq2EzepbIKiDMdztQwPragYeUeEiC+53GxjOWvaRKaVUMkPOw==",
+  "dgSpecHash": "k3/BugQ3OkVcabbuxNwHt8794YtCeKXjmyMBUdZcxdQwegHCma1rtcAoZ9ZrxsyDGqcU2Y76orEaAGKvCPJxug==",
   "success": true,
-  "projectFilePath": "C:\\mygit\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+  "projectFilePath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.12\\microsoft.aspnetcore.components.7.0.12.nupkg.sha512",

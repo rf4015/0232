@@ -1833,11 +1833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\mygit\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+      "projectUniqueName": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
       "projectName": "MarienProject.Web",
-      "projectPath": "C:\\mygit\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+      "projectPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
       "packagesPath": "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\",
-      "outputPath": "C:\\mygit\\MarienProjectSolution\\MarienProject.Web\\obj\\",
+      "outputPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1859,8 +1859,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\mygit\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj": {
-              "projectPath": "C:\\mygit\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj"
+            "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj": {
+              "projectPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj"
             }
           }
         }
