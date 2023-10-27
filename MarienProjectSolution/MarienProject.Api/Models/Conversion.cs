@@ -5,13 +5,13 @@ namespace MarienProject.Api.Models;
 
 public partial class Conversion
 {
-    public int ConversionId { get; set; }
+    public int Id { get; set; }
 
-    public int UnidadDeMedidaId { get; set; }
+    public int UnitOfMeasurementId { get; set; }
 
-    public string? ConversionDescripcion { get; set; }
+    public string? Description { get; set; }
 
-    public int? ConversionValor { get; set; }
+    public int? Value { get; set; }
 
     public DateTime? CreatedAt { get; set; }
 
@@ -19,5 +19,5 @@ public partial class Conversion
 
     public DateTime? DeleteAt { get; set; }
 
-    public virtual UnidadDeMedidum UnidadDeMedida { get; set; } = null!;
+    public virtual UnitOfMeasurement UnitOfMeasurement { get; set; } = null!;
 }

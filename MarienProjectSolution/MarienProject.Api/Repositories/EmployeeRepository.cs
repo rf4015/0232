@@ -8,20 +8,21 @@ namespace MarienProject.Api.Repositories
 {
 	public class EmployeeRepository : IEmployeeRepository
 	{
-		private readonly DbFarmaciaContext _dbFarmaciaContext;
+		private readonly MarienPharmacyContext _dbFarmaciaContext;
 		private readonly ILogger<EmployeeRepository> _logger; // Agregar el logger de Serilog
 
-		public EmployeeRepository(DbFarmaciaContext dbFarmaciaContext, ILogger<EmployeeRepository> logger)
+		public EmployeeRepository(MarienPharmacyContext dbFarmaciaContext, ILogger<EmployeeRepository> logger)
 		{
 			_dbFarmaciaContext = dbFarmaciaContext;
 			_logger = logger;
 		}
-		public async Task<IEnumerable<Empleado>> GetAllEmployees()
+		public async Task<IEnumerable<Employee>> GetAllEmployees()
 		{
 			try
 			{
-				var employees = await _dbFarmaciaContext.Empleados
-									.Include(e => e.Rol).ToArrayAsync();
+				var employees = await _dbFarmaciaContext.Employees
+									.Include(e => e.Role)
+									.Include(e =>e.User).ToArrayAsync();
 				return employees;
 			}
 			catch (Exception ex)
@@ -30,12 +31,12 @@ namespace MarienProject.Api.Repositories
 				return null;
 			}
 		}
-		public async Task<Empleado> GetEmployeeById(int id)
+		public async Task<Employee> GetEmployeeById(int id)
 		{
 			try
 			{
-				var employee = await _dbFarmaciaContext.Empleados
-									 .Include(e => e.Rol).SingleOrDefaultAsync(e => e.EmpleadoId == id);
+				var employee = await _dbFarmaciaContext.Employees
+									 .Include(e => e.Role).SingleOrDefaultAsync(e => e.Id == id);
 				if (employee == null)
 				{
 					throw new Exception("Employee not found");
@@ -50,11 +51,11 @@ namespace MarienProject.Api.Repositories
 			}
 		}
 
-		public async Task<bool> CreateEmployee(Empleado employee)
+		public async Task<bool> CreateEmployee(Employee employee)
 		{
 			try
 			{
-				_dbFarmaciaContext.Empleados.Add(employee);
+				_dbFarmaciaContext.Employees.Add(employee);
 				await _dbFarmaciaContext.SaveChangesAsync();
 				return true;
 			}
@@ -64,19 +65,20 @@ namespace MarienProject.Api.Repositories
 				return false;
 			}
 		}
-		public async Task<bool> UpdateEmployeeById(Empleado updatedEmployee)
+		public async Task<bool> UpdateEmployeeById(Employee updatedEmployee)
 		{
-			Empleado employee = await _dbFarmaciaContext.Empleados.FirstOrDefaultAsync(e => e.EmpleadoId == updatedEmployee.EmpleadoId);
+			Employee employee = await _dbFarmaciaContext.Employees.FirstOrDefaultAsync(e => e.Id == updatedEmployee.Id);
 
 			if (employee != null)
 			{
 				try
 				{
-					employee.EmpleadoNombres = updatedEmployee.EmpleadoNombres;
-					employee.EmpleadoTelefono = updatedEmployee.EmpleadoTelefono;
-					employee.EmpleadoDni = updatedEmployee.EmpleadoDni;
-					employee.EmpleadoEstado = updatedEmployee.EmpleadoEstado;
-					employee.EmpleadoCorreoElectronico = updatedEmployee.EmpleadoCorreoElectronico;
+					employee.FirstNames = updatedEmployee.FirstNames;
+					employee.LastNames = updatedEmployee.LastNames;
+					employee.Phone = updatedEmployee.Phone;
+					employee.Dni = updatedEmployee.Dni;
+					employee.State = updatedEmployee.State;
+					employee.EmailAddress = updatedEmployee.EmailAddress;
 					//If we need other special method to update:(Password, Username or Rol)!!
 
 					_dbFarmaciaContext.Entry(employee).State = EntityState.Modified; // Marcar la entidad como modificada
@@ -94,13 +96,13 @@ namespace MarienProject.Api.Repositories
 		}
 		public async Task<bool> DeleteEmployeeById(int id)
 		{
-			var employee = await _dbFarmaciaContext.Empleados.FirstOrDefaultAsync(e => e.EmpleadoId == id);
+			var employee = await _dbFarmaciaContext.Employees.FirstOrDefaultAsync(e => e.Id == id);
 
 			if (employee != null)
 			{
 				try
 				{
-					_dbFarmaciaContext.Empleados.Remove(employee);
+					_dbFarmaciaContext.Employees.Remove(employee);
 					await _dbFarmaciaContext.SaveChangesAsync();
 					return true;
 				}

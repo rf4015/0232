@@ -8,26 +8,26 @@ namespace MarienProject.Models.Dtos
 {
 	public class EmployeeDto
 	{
-		public int EmpleadoId { get; set; }
+		public int Id { get; set; }
 
-		public int RolId { get; set; }
+		public string FirstNames { get; set; } = null!;
 
-		public string EmpleadoNombres { get; set; } = null!;
+		public string LastNames { get; set; } = null!;
 
-		public string EmpleadoApellidos { get; set; } = null!;
+		public string Phone { get; set; } = null!;
 
-		public string EmpleadoTelefono { get; set; } = null!;
+		public string EmailAddress { get; set; } = null!;
 
-		public string EmpleadoDni { get; set; } = null!;
+		public string Dni { get; set; } = null!;
 
-		public string EmpleadoCorreoElectronico { get; set; } = null!;
+		public int? UserId { get; set; }
 
-		public string EmpleadoNombreUsuario { get; set; } = null!;
+		public int? RoleId { get; set; }
 
-		public string EmpleadoContraseña { get; set; } = null!;
-
-		public bool? EmpleadoEstado { get; set; }
-
-		public string RolNombre { get; set; } = null!;
+		public bool? State { get; set; }
+		public string RolName { get; set; } = null!;
+		public string UserName { get; set; } = null!;
+		public string UserPassword { get; set; } = null!;
+		public byte[]? ProfileImage { get; set; }
 	}
 }

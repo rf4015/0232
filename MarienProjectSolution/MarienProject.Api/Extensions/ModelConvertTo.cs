@@ -3,20 +3,18 @@ using MarienProject.Api.Models;
 using MarienProject.Models.Dtos;
 public static class ModelConvertTo
 {
-	public static Empleado ConvertToModel(this EmployeeDto employeeDto)
+	public static Employee ConvertToModel(this EmployeeDto employeeDto)
 	{
-		return new Empleado
+		return new Employee
 		{
-			EmpleadoId = employeeDto.EmpleadoId,
-			EmpleadoNombres = employeeDto.EmpleadoNombres,
-			EmpleadoApellidos = employeeDto.EmpleadoApellidos,
-			EmpleadoCorreoElectronico = employeeDto.EmpleadoCorreoElectronico,
-			EmpleadoDni = employeeDto.EmpleadoDni,
-			EmpleadoEstado = employeeDto.EmpleadoEstado,
-			EmpleadoTelefono = employeeDto.EmpleadoTelefono,
-			EmpleadoNombreUsuario = employeeDto.EmpleadoNombreUsuario,
-			EmpleadoContraseña = employeeDto.EmpleadoContraseña,
-			RolId = employeeDto.RolId,
+			Id = employeeDto.Id,
+			FirstNames = employeeDto.FirstNames,
+			LastNames = employeeDto.LastNames,
+			EmailAddress = employeeDto.EmailAddress,
+			Dni = employeeDto.Dni,
+			State = employeeDto.State,
+			Phone = employeeDto.Phone,
+			RoleId = employeeDto.RoleId
 		};
 	}
 }

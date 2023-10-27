@@ -4,6 +4,11 @@ using MarienProject.Api.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Net.Http.Headers;
 using MarienProject.Api.Models;
+using MarienProject.Api.Services.Contracts;
+using MarienProject.Api.Services;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,11 +25,35 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContextPool<DbFarmaciaContext>(options =>
+builder.Services.AddDbContextPool<MarienPharmacyContext>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("MarienProjectConnection"))
 );
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
+
+//JWt configuration
+var privateKey = builder.Configuration.GetValue<string>("JwtSetting:PrivateKey");
+var keybytes = Encoding.ASCII.GetBytes(privateKey);
+
+builder.Services.AddAuthentication(config =>
+{
+	config.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+	config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(config =>
+{
+	config.RequireHttpsMetadata = false;
+	config.SaveToken = true;
+	config.TokenValidationParameters = new TokenValidationParameters
+	{
+		ValidateIssuerSigningKey = true,
+		IssuerSigningKey = new SymmetricSecurityKey(keybytes),
+		ValidateIssuer = false,
+		ValidateAudience = false,
+		ValidateLifetime = true,
+		ClockSkew = TimeSpan.Zero
+	};
+});
 
 var app = builder.Build();
 
@@ -43,6 +72,8 @@ app.UseCors(policy => policy
 app.UseSerilogRequestLogging();
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 

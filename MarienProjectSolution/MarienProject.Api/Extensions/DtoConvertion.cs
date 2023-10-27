@@ -4,39 +4,40 @@ using MarienProject.Models.Dtos;
 
 public static class DtoConvertion
 {
-	public static IEnumerable<EmployeeDto> ConvertToDto(this IEnumerable<Empleado> employees)
+	public static IEnumerable<EmployeeDto> ConvertToDto(this IEnumerable<Employee> employees)
 	{
 		return (from employee in employees
 				select new EmployeeDto
 				{
-					EmpleadoId = employee.EmpleadoId,
-					EmpleadoNombres = employee.EmpleadoNombres,
-					EmpleadoApellidos = employee.EmpleadoApellidos,
-					EmpleadoCorreoElectronico = employee.EmpleadoCorreoElectronico,
-					EmpleadoDni = employee.EmpleadoDni,
-					EmpleadoEstado = employee.EmpleadoEstado,
-					EmpleadoTelefono = employee.EmpleadoTelefono,
-					EmpleadoNombreUsuario = employee.EmpleadoNombreUsuario,
-					EmpleadoContraseña = employee.EmpleadoContraseña,
-					RolId = employee.RolId,
-					RolNombre = employee.Rol.RolNombre,
-				});
+					Id = employee.Id,
+					FirstNames = employee.FirstNames,
+					LastNames = employee.LastNames,
+					EmailAddress = employee.EmailAddress,
+					Dni = employee.Dni,
+					State = employee.State,
+					Phone = employee.Phone,
+					UserId = employee.User.Id, 
+					UserName = employee.User.UserName,
+					UserPassword = employee.User.UserPassaword,
+					RoleId = employee.Role.Id,
+					RolName = employee.Role.Name,
+				}).ToList();
 	}
-	public static EmployeeDto ConvertToDto(this Empleado employee)
+	public static EmployeeDto ConvertToDto(this Employee employee)
 	{
 		return new EmployeeDto
 		{
-			EmpleadoId = employee.EmpleadoId,
-			EmpleadoNombres = employee.EmpleadoNombres,
-			EmpleadoApellidos = employee.EmpleadoApellidos,
-			EmpleadoCorreoElectronico = employee.EmpleadoCorreoElectronico,
-			EmpleadoDni = employee.EmpleadoDni,
-			EmpleadoEstado = employee.EmpleadoEstado,
-			EmpleadoTelefono = employee.EmpleadoTelefono,
-			EmpleadoNombreUsuario = employee.EmpleadoNombreUsuario,
-			EmpleadoContraseña = employee.EmpleadoContraseña,
-			RolId = employee.RolId,
-			RolNombre = employee.Rol.RolNombre,
+			Id = employee.Id,
+			FirstNames = employee.FirstNames,
+			LastNames = employee.LastNames,
+			EmailAddress = employee.EmailAddress,
+			Dni = employee.Dni,
+			State = employee.State,
+			Phone = employee.Phone,
+			UserName = employee.User.UserName,
+			UserPassword = employee.User.UserPassaword,
+			RoleId = employee.Role.Id,
+			RolName = employee.Role.Name,
 		};
 	}
 }

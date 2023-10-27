@@ -825,6 +825,7 @@ C:\mygit\MarienProjectSolution\MarienProject.Web\obj\Debug\net7.0\MarienProject.
 C:\mygit\MarienProjectSolution\MarienProject.Web\obj\Debug\net7.0\refint\MarienProject.Web.dll
 C:\mygit\MarienProjectSolution\MarienProject.Web\obj\Debug\net7.0\MarienProject.Web.pdb
 C:\mygit\MarienProjectSolution\MarienProject.Web\obj\Debug\net7.0\ref\MarienProject.Web.dll
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.7.0.12.cd75lmyo37.js
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat
@@ -833,6 +834,10 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_CJK.dat
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\icudt_no_CJK.dat
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.dll
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.pdb
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.dll
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.pdb
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
@@ -1039,6 +1044,7 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.timezones.blat.gz
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.pdb.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Configuration.dll.gz
@@ -1081,6 +1087,7 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Console.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\dotnet.wasm.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Security.dll.gz
@@ -1151,6 +1158,7 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Transactions.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\icudt.dat.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Ping.dll.gz
@@ -1175,6 +1183,7 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Quic.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.pdb.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.ObjectModel.dll.gz
@@ -1223,15 +1232,6 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Net.Primitives.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.boot.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.pdb.gz
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Models.dll.gz
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.dll.gz
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\MarienProject.Web.pdb.gz
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\MarienProject.Web.staticwebassets.runtime.json
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\MarienProject.Web.dll
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\MarienProject.Web.pdb

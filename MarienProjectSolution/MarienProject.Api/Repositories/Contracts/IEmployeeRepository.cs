@@ -4,9 +4,9 @@ namespace MarienProject.Api.Repositories.Contracts;
 
 public interface IEmployeeRepository
 {
-	Task<IEnumerable<Empleado>> GetAllEmployees();
-	Task<Empleado> GetEmployeeById(int id);
-	Task<bool> CreateEmployee(Empleado newEmployee);
-	Task<bool> UpdateEmployeeById(Empleado updatedEmployee);
+	Task<IEnumerable<Employee>> GetAllEmployees();
+	Task<Employee> GetEmployeeById(int id);
+	Task<bool> CreateEmployee(Employee newEmployee);
+	Task<bool> UpdateEmployeeById(Employee updatedEmployee);
 	Task<bool> DeleteEmployeeById(int id);
 }

@@ -29,6 +29,7 @@ namespace MarienProject.Api.Controllers
 			try
 			{
 				var employees = await _employeeRepository.GetAllEmployees();
+
 				if (employees == null)
 				{
 					return NotFound();
