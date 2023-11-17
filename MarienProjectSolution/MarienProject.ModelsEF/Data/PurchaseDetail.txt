@@ -1,0 +1,1906 @@
+-- Inserción 1
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    1, -- Purchase_Id
+    72, -- StoredMedication_Id 
+    5, -- Employee_Id
+    10, -- Quantity
+    25.99, -- Price
+    5.5, -- Discount
+    2.75, -- Tax
+    259.9, -- Subtotal
+    251.6 -- Total
+);
+
+-- Inserción 2
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    1, -- Purchase_Id
+    5, -- StoredMedication_Id 
+    10, -- Employee_Id
+    15, -- Quantity
+    18.75, -- Price
+    3.25, -- Discount
+    1.5, -- Tax
+    281.25, -- Subtotal
+    278.5 -- Total
+);
+
+-- Inserción 3
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    1, -- Purchase_Id
+    42, -- StoredMedication_Id 
+    5, -- Employee_Id
+    20, -- Quantity
+    10.5, -- Price
+    2.75, -- Discount
+    1.25, -- Tax
+    210.0, -- Subtotal
+    206.0 -- Total
+);
+
+-- Inserción 4
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    1, -- Purchase_Id
+    67, -- StoredMedication_Id 
+    12, -- Employee_Id
+    12, -- Quantity
+    15.99, -- Price
+    2.5, -- Discount
+    1.2, -- Tax
+    191.88, -- Subtotal
+    189.18 -- Total
+);
+
+--
+
+-- Inserción 5
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    2, -- Purchase_Id
+    89, -- StoredMedication_Id 
+    12, -- Employee_Id
+    8, -- Quantity
+    13.5, -- Price
+    2.25, -- Discount
+    1.1, -- Tax
+    108.0, -- Subtotal
+    105.35 -- Total
+);
+
+-- Inserción 6
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    2, -- Purchase_Id
+    104, -- StoredMedication_Id 
+    12, -- Employee_Id
+    15, -- Quantity
+    8.75, -- Price
+    1.75, -- Discount
+    0.9, -- Tax
+    131.25, -- Subtotal
+    129.5 -- Total
+);
+
+-- Inserción 7
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    2, -- Purchase_Id
+    67, -- StoredMedication_Id 
+    12, -- Employee_Id
+    10, -- Quantity
+    20.25, -- Price
+    3.5, -- Discount
+    1.6, -- Tax
+    202.5, -- Subtotal
+    199.6 -- Total
+);
+
+-- Inserción 8
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    3, -- Purchase_Id
+    33, -- StoredMedication_Id 
+    6, -- Employee_Id
+    18, -- Quantity
+    12.75, -- Price
+    2.0, -- Discount
+    1.3, -- Tax
+    229.5, -- Subtotal
+    226.8 -- Total
+);
+
+-- Inserción 9
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    3, -- Purchase_Id
+    95, -- StoredMedication_Id 
+    6, -- Employee_Id
+    25, -- Quantity
+    7.5, -- Price
+    1.25, -- Discount
+    0.8, -- Tax
+    187.5, -- Subtotal
+    185.05 -- Total
+);
+
+-- Inserción 10
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    3, -- Purchase_Id
+    127, -- StoredMedication_Id 
+    6, -- Employee_Id
+    15, -- Quantity
+    10.0, -- Price
+    1.75, -- Discount
+    1.0, -- Tax
+    150.0, -- Subtotal
+    148.25 -- Total
+);
+
+--
+
+-- Inserción 11
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    4, -- Purchase_Id
+    51, -- StoredMedication_Id 
+    9, -- Employee_Id
+    20, -- Quantity
+    9.99, -- Price
+    1.5, -- Discount
+    0.9, -- Tax
+    199.8, -- Subtotal
+    197.29 -- Total
+);
+
+-- Inserción 12
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    4, -- Purchase_Id
+    76, -- StoredMedication_Id 
+    9, -- Employee_Id
+    12, -- Quantity
+    18.5, -- Price
+    2.75, -- Discount
+    1.25, -- Tax
+    222.0, -- Subtotal
+    219.5 -- Total
+);
+
+-- Inserción 13
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    4, -- Purchase_Id
+    95, -- StoredMedication_Id 
+    9, -- Employee_Id
+    15, -- Quantity
+    7.25, -- Price
+    1.0, -- Discount
+    0.8, -- Tax
+    108.75, -- Subtotal
+    107.05 -- Total
+);
+
+--
+
+-- Inserción 14
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    5, -- Purchase_Id
+    110, -- StoredMedication_Id 
+    5, -- Employee_Id
+    8, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    1.2, -- Tax
+    120.0, -- Subtotal
+    118.2 -- Total
+);
+
+-- Inserción 15
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    5, -- Purchase_Id
+    42, -- StoredMedication_Id 
+    5, -- Employee_Id
+    10, -- Quantity
+    12.5, -- Price
+    1.75, -- Discount
+    1.0, -- Tax
+    125.0, -- Subtotal
+    123.75 -- Total
+);
+
+-- Inserción 16
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    5, -- Purchase_Id
+    76, -- StoredMedication_Id 
+    5, -- Employee_Id
+    15, -- Quantity
+    8.75, -- Price
+    1.25, -- Discount
+    0.7, -- Tax
+    131.25, -- Subtotal
+    129.7 -- Total
+);
+
+--
+
+-- Inserción 17
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    6, -- Purchase_Id
+    30, -- StoredMedication_Id 
+    3, -- Employee_Id
+    18, -- Quantity
+    9.5, -- Price
+    1.0, -- Discount
+    0.8, -- Tax
+    171.0, -- Subtotal
+    169.8 -- Total
+);
+
+-- Inserción 18
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    6, -- Purchase_Id
+    67, -- StoredMedication_Id 
+    3, -- Employee_Id
+    14, -- Quantity
+    14.75, -- Price
+    2.25, -- Discount
+    1.0, -- Tax
+    206.5, -- Subtotal
+    204.25 -- Total
+);
+
+-- Inserción 19
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    6, -- Purchase_Id
+    102, -- StoredMedication_Id 
+    3, -- Employee_Id
+    10, -- Quantity
+    11.0, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    110.0, -- Subtotal
+    109.2 -- Total
+);
+
+--
+
+-- Inserción 20
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    7, -- Purchase_Id
+    88, -- StoredMedication_Id 
+    6, -- Employee_Id
+    12, -- Quantity
+    17.5, -- Price
+    2.5, -- Discount
+    1.2, -- Tax
+    210.0, -- Subtotal
+    208.7 -- Total
+);
+
+-- Inserción 21
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    7, -- Purchase_Id
+    123, -- StoredMedication_Id 
+    6, -- Employee_Id
+    15, -- Quantity
+    11.25, -- Price
+    1.75, -- Discount
+    0.9, -- Tax
+    168.75, -- Subtotal
+    167.0 -- Total
+);
+
+-- Inserción 22
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    7, -- Purchase_Id
+    150, -- StoredMedication_Id 
+    6, -- Employee_Id
+    20, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    160.0, -- Subtotal
+    159.5 -- Total
+);
+
+--
+
+-- Inserción 23
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    8, -- Purchase_Id
+    45, -- StoredMedication_Id 
+    8, -- Employee_Id
+    10, -- Quantity
+    13.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    130.0, -- Subtotal
+    128.3 -- Total
+);
+
+-- Inserción 24
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    8, -- Purchase_Id
+    89, -- StoredMedication_Id 
+    8, -- Employee_Id
+    8, -- Quantity
+    15.75, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    126.0, -- Subtotal
+    124.0 -- Total
+);
+
+-- Inserción 25
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    8, -- Purchase_Id
+    115, -- StoredMedication_Id 
+    8, -- Employee_Id
+    12, -- Quantity
+    10.5, -- Price
+    1.25, -- Discount
+    0.6, -- Tax
+    126.0, -- Subtotal
+    124.35 -- Total
+);
+
+--
+
+-- Inserción 26
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    9, -- Purchase_Id
+    22, -- StoredMedication_Id 
+    9, -- Employee_Id
+    15, -- Quantity
+    9.8, -- Price
+    1.2, -- Discount
+    0.7, -- Tax
+    147.0, -- Subtotal
+    145.5 -- Total
+);
+
+-- Inserción 27
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    9, -- Purchase_Id
+    75, -- StoredMedication_Id 
+    9, -- Employee_Id
+    18, -- Quantity
+    7.5, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    135.0, -- Subtotal
+    134.0 -- Total
+);
+
+-- Inserción 28
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    9, -- Purchase_Id
+    103, -- StoredMedication_Id 
+    9, -- Employee_Id
+    10, -- Quantity
+    11.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    110.0, -- Subtotal
+    109.3 -- Total
+);
+
+--
+
+-- Inserción 29
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    10, -- Purchase_Id
+    33, -- StoredMedication_Id 
+    10, -- Employee_Id
+    14, -- Quantity
+    14.2, -- Price
+    1.8, -- Discount
+    0.9, -- Tax
+    198.8, -- Subtotal
+    197.1 -- Total
+);
+
+-- Inserción 30
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    10, -- Purchase_Id
+    67, -- StoredMedication_Id 
+    10, -- Employee_Id
+    16, -- Quantity
+    8.5, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    136.0, -- Subtotal
+    134.4 -- Total
+);
+
+-- Inserción 31
+--INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+--VALUES (
+--    10, -- Purchase_Id
+--    112, -- StoredMedication_Id 
+--    10, -- Employee_Id
+--    20, -- Quantity
+--    10.0, -- Price
+--    1.5, -- Discount
+--    0.7, -- Tax
+--    200.0, -- Subtotal
+--    198.2 -- Total
+--);
+
+--
+
+-- Inserción 32
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    11, -- Purchase_Id
+    17, -- StoredMedication_Id 
+    8, -- Employee_Id
+    12, -- Quantity
+    11.5, -- Price
+    1.3, -- Discount
+    0.6, -- Tax
+    138.0, -- Subtotal
+    137.1 -- Total
+);
+
+-- Inserción 33
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    11, -- Purchase_Id
+    54, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    9.8, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    147.0, -- Subtotal
+    145.5 -- Total
+);
+
+-- Inserción 34
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    11, -- Purchase_Id
+    87, -- StoredMedication_Id 
+    8, -- Employee_Id
+    18, -- Quantity
+    7.5, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    135.0, -- Subtotal
+    134.0 -- Total
+);
+
+--
+
+-- Inserción 35
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    12, -- Purchase_Id
+    101, -- StoredMedication_Id 
+    4, -- Employee_Id
+    14, -- Quantity
+    12.2, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    170.8, -- Subtotal
+    168.6 -- Total
+);
+
+-- Inserción 36
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    12, -- Purchase_Id
+    124, -- StoredMedication_Id 
+    4, -- Employee_Id
+    20, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    200.0, -- Subtotal
+    198.2 -- Total
+);
+
+-- Inserción 37
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    12, -- Purchase_Id
+    156, -- StoredMedication_Id 
+    4, -- Employee_Id
+    16, -- Quantity
+    8.5, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    136.0, -- Subtotal
+    134.4 -- Total
+);
+
+--
+
+-- Inserción 38
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    13, -- Purchase_Id
+    23, -- StoredMedication_Id 
+    9, -- Employee_Id
+    15, -- Quantity
+    9.8, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    147.0, -- Subtotal
+    145.5 -- Total
+);
+
+-- Inserción 39
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    13, -- Purchase_Id
+    68, -- StoredMedication_Id 
+    9, -- Employee_Id
+    18, -- Quantity
+    7.5, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    135.0, -- Subtotal
+    134.0 -- Total
+);
+
+-- Inserción 40
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    13, -- Purchase_Id
+    105, -- StoredMedication_Id 
+    9, -- Employee_Id
+    12, -- Quantity
+    11.5, -- Price
+    1.3, -- Discount
+    0.6, -- Tax
+    138.0, -- Subtotal
+    137.1 -- Total
+);
+
+--
+
+-- Inserción 41
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    14, -- Purchase_Id
+    38, -- StoredMedication_Id 
+    7, -- Employee_Id
+    20, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    200.0, -- Subtotal
+    198.2 -- Total
+);
+
+-- Inserción 42
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    14, -- Purchase_Id
+    77, -- StoredMedication_Id 
+    7, -- Employee_Id
+    16, -- Quantity
+    8.5, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    136.0, -- Subtotal
+    134.4 -- Total
+);
+
+-- Inserción 43
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    14, -- Purchase_Id
+    116, -- StoredMedication_Id 
+    7, -- Employee_Id
+    14, -- Quantity
+    12.2, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    170.8, -- Subtotal
+    168.6 -- Total
+);
+
+--
+
+-- Inserción 44
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    15, -- Purchase_Id
+    54, -- StoredMedication_Id 
+    8, -- Employee_Id
+    18, -- Quantity
+    7.5, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    135.0, -- Subtotal
+    134.0 -- Total
+);
+
+-- Inserción 45
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    15, -- Purchase_Id
+    92, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    9.8, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    147.0, -- Subtotal
+    145.5 -- Total
+);
+
+-- Inserción 46
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    15, -- Purchase_Id
+    129, -- StoredMedication_Id 
+    8, -- Employee_Id
+    12, -- Quantity
+    11.5, -- Price
+    1.3, -- Discount
+    0.6, -- Tax
+    138.0, -- Subtotal
+    137.1 -- Total
+);
+
+--
+
+-- Inserción 47
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    16, -- Purchase_Id
+    76, -- StoredMedication_Id 
+    9, -- Employee_Id
+    22, -- Quantity
+    6.0, -- Price
+    0.8, -- Discount
+    0.4, -- Tax
+    132.0, -- Subtotal
+    131.2 -- Total
+);
+
+-- Inserción 48
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    16, -- Purchase_Id
+    115, -- StoredMedication_Id 
+    9, -- Employee_Id
+    18, -- Quantity
+    8.2, -- Price
+    1.1, -- Discount
+    0.5, -- Tax
+    147.6, -- Subtotal
+    146.2 -- Total
+);
+
+-- Inserción 49
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    16, -- Purchase_Id
+    154, -- StoredMedication_Id 
+    9, -- Employee_Id
+    15, -- Quantity
+    10.5, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    157.5, -- Subtotal
+    155.7 -- Total
+);
+
+--
+
+-- Inserción 50
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    17, -- Purchase_Id
+    11, -- StoredMedication_Id 
+    14, -- Employee_Id
+    20, -- Quantity
+    5.0, -- Price
+    0.7, -- Discount
+    0.3, -- Tax
+    100.0, -- Subtotal
+    99.0 -- Total
+);
+
+-- Inserción 51
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    17, -- Purchase_Id
+    49, -- StoredMedication_Id 
+    14, -- Employee_Id
+    15, -- Quantity
+    8.5, -- Price
+    1.0, -- Discount
+    0.4, -- Tax
+    127.5, -- Subtotal
+    126.1 -- Total
+);
+
+-- Inserción 52
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    17, -- Purchase_Id
+    88, -- StoredMedication_Id 
+    14, -- Employee_Id
+    12, -- Quantity
+    10.0, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    120.0, -- Subtotal
+    118.8 -- Total
+);
+
+--
+
+-- Inserción 53
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    18, -- Purchase_Id
+    27, -- StoredMedication_Id 
+    6, -- Employee_Id
+    18, -- Quantity
+    7.0, -- Price
+    0.9, -- Discount
+    0.5, -- Tax
+    126.0, -- Subtotal
+    125.6 -- Total
+);
+
+-- Inserción 54
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    18, -- Purchase_Id
+    66, -- StoredMedication_Id 
+    6, -- Employee_Id
+    22, -- Quantity
+    5.8, -- Price
+    0.7, -- Discount
+    0.3, -- Tax
+    127.6, -- Subtotal
+    126.6 -- Total
+);
+
+-- Inserción 55
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    18, -- Purchase_Id
+    105, -- StoredMedication_Id 
+    6, -- Employee_Id
+    15, -- Quantity
+    9.2, -- Price
+    1.1, -- Discount
+    0.4, -- Tax
+    138.0, -- Subtotal
+    136.5 -- Total
+);
+
+--
+
+-- Inserción 56
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    19, -- Purchase_Id
+    10, -- StoredMedication_Id 
+    8, -- Employee_Id
+    25, -- Quantity
+    6.5, -- Price
+    1.0, -- Discount
+    0.2, -- Tax
+    162.5, -- Subtotal
+    161.3 -- Total
+);
+
+-- Inserción 57
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    19, -- Purchase_Id
+    50, -- StoredMedication_Id 
+    8, -- Employee_Id
+    20, -- Quantity
+    8.0, -- Price
+    1.5, -- Discount
+    0.4, -- Tax
+    160.0, -- Subtotal
+    158.9 -- Total
+);
+
+-- Inserción 58
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    19, -- Purchase_Id
+    89, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    9.5, -- Price
+    1.2, -- Discount
+    0.3, -- Tax
+    142.5, -- Subtotal
+    141.0 -- Total
+);
+
+--
+
+-- Inserción 59
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    20, -- Purchase_Id
+    32, -- StoredMedication_Id 
+    14, -- Employee_Id
+    18, -- Quantity
+    7.2, -- Price
+    0.8, -- Discount
+    0.2, -- Tax
+    129.6, -- Subtotal
+    128.6 -- Total
+);
+
+-- Inserción 60
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    20, -- Purchase_Id
+    71, -- StoredMedication_Id 
+    14, -- Employee_Id
+    22, -- Quantity
+    5.5, -- Price
+    0.7, -- Discount
+    0.3, -- Tax
+    121.0, -- Subtotal
+    119.9 -- Total
+);
+
+-- Inserción 61
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    20, -- Purchase_Id
+    110, -- StoredMedication_Id 
+    14, -- Employee_Id
+    15, -- Quantity
+    9.0, -- Price
+    1.0, -- Discount
+    0.4, -- Tax
+    135.0, -- Subtotal
+    133.4 -- Total
+);
+
+--
+
+-- Inserción 62
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    21, -- Purchase_Id
+    15, -- StoredMedication_Id 
+    12, -- Employee_Id
+    20, -- Quantity
+    6.0, -- Price
+    1.2, -- Discount
+    0.2, -- Tax
+    120.0, -- Subtotal
+    118.6 -- Total
+);
+
+-- Inserción 63
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    21, -- Purchase_Id
+    45, -- StoredMedication_Id 
+    12, -- Employee_Id
+    15, -- Quantity
+    8.5, -- Price
+    0.5, -- Discount
+    0.3, -- Tax
+    127.5, -- Subtotal
+    127.3 -- Total
+);
+
+-- Inserción 64
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    21, -- Purchase_Id
+    78, -- StoredMedication_Id 
+    12, -- Employee_Id
+    18, -- Quantity
+    7.0, -- Price
+    1.0, -- Discount
+    0.2, -- Tax
+    126.0, -- Subtotal
+    125.2 -- Total
+);
+
+--
+
+-- Inserción 89
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    25, -- Purchase_Id
+    101, -- StoredMedication_Id 
+    9, -- Employee_Id
+    10, -- Quantity
+    12.5, -- Price
+    1.5, -- Discount
+    0.5, -- Tax
+    125.0, -- Subtotal
+    124.0 -- Total
+);
+
+-- Inserción 90
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    25, -- Purchase_Id
+    135, -- StoredMedication_Id 
+    9, -- Employee_Id
+    15, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.2, -- Tax
+    120.0, -- Subtotal
+    119.2 -- Total
+);
+
+-- Inserción 91
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    26, -- Purchase_Id
+    62, -- StoredMedication_Id 
+    7, -- Employee_Id
+    12, -- Quantity
+    10.0, -- Price
+    1.0, -- Discount
+    0.4, -- Tax
+    120.0, -- Subtotal
+    119.6 -- Total
+);
+
+--
+
+-- Inserción 116
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    41, -- StoredMedication_Id 
+    14, -- Employee_Id
+    8, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    0.8, -- Tax
+    120.0, -- Subtotal
+    118.8 -- Total
+);
+
+-- Inserción 117
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    92, -- StoredMedication_Id 
+    14, -- Employee_Id
+    10, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.5, -- Tax
+    100.0, -- Subtotal
+    98.0 -- Total
+);
+
+-- Inserción 118
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    116, -- StoredMedication_Id 
+    14, -- Employee_Id
+    15, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.3, -- Tax
+    120.0, -- Subtotal
+    119.3 -- Total
+);
+
+--
+
+-- Inserción 144
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    27, -- Purchase_Id
+    87, -- StoredMedication_Id 
+    9, -- Employee_Id
+    10, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    150.0, -- Subtotal
+    149.0 -- Total
+);
+
+-- Inserción 145
+--INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+--VALUES (
+--    27, -- Purchase_Id
+--    112, -- StoredMedication_Id 
+--    9, -- Employee_Id
+--    8, -- Quantity
+--    12.0, -- Price
+--    1.5, -- Discount
+--    0.4, -- Tax
+--    96.0, -- Subtotal
+--    94.9 -- Total
+--);
+
+-- Inserción 146
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    27, -- Purchase_Id
+    156, -- StoredMedication_Id 
+    9, -- Employee_Id
+    12, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.3, -- Tax
+    96.0, -- Subtotal
+    95.3 -- Total
+);
+
+--
+
+-- Inserción 147
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    28, -- Purchase_Id
+    42, -- StoredMedication_Id 
+    7, -- Employee_Id
+    15, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    150.0, -- Subtotal
+    149.8 -- Total
+);
+
+-- Inserción 148
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    28, -- Purchase_Id
+    102, -- StoredMedication_Id 
+    7, -- Employee_Id
+    20, -- Quantity
+    8.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    160.0, -- Subtotal
+    159.0 -- Total
+);
+
+-- Inserción 149
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    28, -- Purchase_Id
+    135, -- StoredMedication_Id 
+    7, -- Employee_Id
+    8, -- Quantity
+    15.0, -- Price
+    1.2, -- Discount
+    0.5, -- Tax
+    120.0, -- Subtotal
+    118.3 -- Total
+);
+
+--
+
+-- Inserción 150
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    29, -- Purchase_Id
+    72, -- StoredMedication_Id 
+    14, -- Employee_Id
+    10, -- Quantity
+    12.0, -- Price
+    1.0, -- Discount
+    0.3, -- Tax
+    120.0, -- Subtotal
+    118.7 -- Total
+);
+
+-- Inserción 151
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    29, -- Purchase_Id
+    99, -- StoredMedication_Id 
+    14, -- Employee_Id
+    15, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.5, -- Tax
+    150.0, -- Subtotal
+    148.0 -- Total
+);
+
+-- Inserción 152
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    29, -- Purchase_Id
+    124, -- StoredMedication_Id 
+    14, -- Employee_Id
+    8, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    120.0, -- Subtotal
+    119.0 -- Total
+);
+
+--
+
+-- Inserción 153
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    30, -- Purchase_Id
+    15, -- StoredMedication_Id 
+    6, -- Employee_Id
+    12, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.2, -- Tax
+    96.0, -- Subtotal
+    95.8 -- Total
+);
+
+-- Inserción 154
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    30, -- Purchase_Id
+    42, -- StoredMedication_Id 
+    6, -- Employee_Id
+    20, -- Quantity
+    10.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    200.0, -- Subtotal
+    199.0 -- Total
+);
+
+-- Inserción 155
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    30, -- Purchase_Id
+    65, -- StoredMedication_Id 
+    6, -- Employee_Id
+    8, -- Quantity
+    15.0, -- Price
+    1.5, -- Discount
+    0.5, -- Tax
+    120.0, -- Subtotal
+    119.0 -- Total
+);
+
+--
+
+-- Inserción 156
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    82, -- StoredMedication_Id 
+    11, -- Employee_Id
+    15, -- Quantity
+    10.0, -- Price
+    1.5, -- Discount
+    0.5, -- Tax
+    150.0, -- Subtotal
+    149.0 -- Total
+);
+
+-- Inserción 157
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    107, -- StoredMedication_Id 
+    11, -- Employee_Id
+    10, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    150.0, -- Subtotal
+    149.0 -- Total
+);
+
+-- Inserción 158
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    31, -- Purchase_Id
+    135, -- StoredMedication_Id 
+    11, -- Employee_Id
+    8, -- Quantity
+    20.0, -- Price
+    2.5, -- Discount
+    1.5, -- Tax
+    160.0, -- Subtotal
+    158.0 -- Total
+);
+
+--
+
+-- Inserción 159
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    32, -- Purchase_Id
+    52, -- StoredMedication_Id 
+    8, -- Employee_Id
+    10, -- Quantity
+    12.0, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    120.0, -- Subtotal
+    119.5 -- Total
+);
+
+-- Inserción 160
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    32, -- Purchase_Id
+    73, -- StoredMedication_Id 
+    8, -- Employee_Id
+    5, -- Quantity
+    18.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    90.0, -- Subtotal
+    89.3 -- Total
+);
+
+-- Inserción 161
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    32, -- Purchase_Id
+    98, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    8.0, -- Price
+    1.0, -- Discount
+    0.3, -- Tax
+    120.0, -- Subtotal
+    119.7 -- Total
+);
+
+--
+
+---- Inserción 162
+--INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+--VALUES (
+--    33, -- Purchase_Id
+--    112, -- StoredMedication_Id 
+--    6, -- Employee_Id
+--    12, -- Quantity
+--    15.0, -- Price
+--    2.0, -- Discount
+--    1.0, -- Tax
+--    180.0, -- Subtotal
+--    179.0 -- Total
+--);
+
+-- Inserción 163
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    33, -- Purchase_Id
+    130, -- StoredMedication_Id 
+    6, -- Employee_Id
+    8, -- Quantity
+    20.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    160.0, -- Subtotal
+    157.5 -- Total
+);
+
+-- Inserción 164
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    33, -- Purchase_Id
+    152, -- StoredMedication_Id 
+    6, -- Employee_Id
+    10, -- Quantity
+    12.0, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    120.0, -- Subtotal
+    119.2 -- Total
+);
+
+--
+
+-- Inserción 165
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    34, -- Purchase_Id
+    24, -- StoredMedication_Id 
+    15, -- Employee_Id
+    6, -- Quantity
+    25.0, -- Price
+    2.5, -- Discount
+    1.2, -- Tax
+    150.0, -- Subtotal
+    148.7 -- Total
+);
+
+-- Inserción 166
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    34, -- Purchase_Id
+    37, -- StoredMedication_Id 
+    15, -- Employee_Id
+    4, -- Quantity
+    30.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    120.0, -- Subtotal
+    118.5 -- Total
+);
+
+-- Inserción 167
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    34, -- Purchase_Id
+    52, -- StoredMedication_Id 
+    15, -- Employee_Id
+    8, -- Quantity
+    18.0, -- Price
+    2.0, -- Discount
+    0.9, -- Tax
+    144.0, -- Subtotal
+    142.9 -- Total
+);
+
+--
+
+-- Inserción 168
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    35, -- Purchase_Id
+    83, -- StoredMedication_Id 
+    10, -- Employee_Id
+    5, -- Quantity
+    22.0, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    110.0, -- Subtotal
+    109.2 -- Total
+);
+
+-- Inserción 169
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    35, -- Purchase_Id
+    99, -- StoredMedication_Id 
+    10, -- Employee_Id
+    10, -- Quantity
+    15.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    150.0, -- Subtotal
+    149.0 -- Total
+);
+
+-- Inserción 170
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    35, -- Purchase_Id
+    120, -- StoredMedication_Id 
+    10, -- Employee_Id
+    7, -- Quantity
+    28.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    196.0, -- Subtotal
+    193.5 -- Total
+);
+
+--
+
+-- Inserción 171
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    36, -- Purchase_Id
+    43, -- StoredMedication_Id 
+    8, -- Employee_Id
+    12, -- Quantity
+    20.0, -- Price
+    2.5, -- Discount
+    1.2, -- Tax
+    240.0, -- Subtotal
+    237.7 -- Total
+);
+
+-- Inserción 172
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    36, -- Purchase_Id
+    55, -- StoredMedication_Id 
+    8, -- Employee_Id
+    5, -- Quantity
+    30.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    150.0, -- Subtotal
+    148.5 -- Total
+);
+
+-- Inserción 173
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    36, -- Purchase_Id
+    72, -- StoredMedication_Id 
+    8, -- Employee_Id
+    8, -- Quantity
+    18.0, -- Price
+    2.0, -- Discount
+    0.9, -- Tax
+    144.0, -- Subtotal
+    142.9 -- Total
+);
+
+--
+
+-- Inserción 174
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    37, -- Purchase_Id
+    22, -- StoredMedication_Id 
+    12, -- Employee_Id
+    10, -- Quantity
+    25.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    250.0, -- Subtotal
+    249.0 -- Total
+);
+
+-- Inserción 175
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    37, -- Purchase_Id
+    35, -- StoredMedication_Id 
+    12, -- Employee_Id
+    15, -- Quantity
+    15.0, -- Price
+    1.5, -- Discount
+    0.7, -- Tax
+    225.0, -- Subtotal
+    224.2 -- Total
+);
+
+-- Inserción 176
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    37, -- Purchase_Id
+    49, -- StoredMedication_Id 
+    12, -- Employee_Id
+    8, -- Quantity
+    18.0, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    144.0, -- Subtotal
+    143.5 -- Total
+);
+
+--
+
+-- Inserción 177
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    38, -- Purchase_Id
+    63, -- StoredMedication_Id 
+    5, -- Employee_Id
+    12, -- Quantity
+    22.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    264.0, -- Subtotal
+    263.0 -- Total
+);
+
+-- Inserción 178
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    38, -- Purchase_Id
+    74, -- StoredMedication_Id 
+    5, -- Employee_Id
+    5, -- Quantity
+    35.0, -- Price
+    3.5, -- Discount
+    1.5, -- Tax
+    175.0, -- Subtotal
+    173.0 -- Total
+);
+
+-- Inserción 179
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    38, -- Purchase_Id
+    87, -- StoredMedication_Id 
+    5, -- Employee_Id
+    8, -- Quantity
+    18.0, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    144.0, -- Subtotal
+    143.5 -- Total
+);
+
+--
+
+-- Inserción 180
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    39, -- Purchase_Id
+    102, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    20.0, -- Price
+    2.0, -- Discount
+    1.0, -- Tax
+    300.0, -- Subtotal
+    299.0 -- Total
+);
+
+-- Inserción 181
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    39, -- Purchase_Id
+    115, -- StoredMedication_Id 
+    8, -- Employee_Id
+    10, -- Quantity
+    28.0, -- Price
+    2.8, -- Discount
+    1.4, -- Tax
+    280.0, -- Subtotal
+    277.8 -- Total
+);
+
+-- Inserción 182
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    39, -- Purchase_Id
+    128, -- StoredMedication_Id 
+    8, -- Employee_Id
+    8, -- Quantity
+    35.0, -- Price
+    3.5, -- Discount
+    1.8, -- Tax
+    280.0, -- Subtotal
+    276.3 -- Total
+);
+
+--
+
+-- Inserción 183
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    40, -- Purchase_Id
+    55, -- StoredMedication_Id 
+    10, -- Employee_Id
+    20, -- Quantity
+    15.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    300.0, -- Subtotal
+    299.3 -- Total
+);
+
+-- Inserción 184
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    40, -- Purchase_Id
+    66, -- StoredMedication_Id 
+    10, -- Employee_Id
+    15, -- Quantity
+    22.0, -- Price
+    2.2, -- Discount
+    1.1, -- Tax
+    330.0, -- Subtotal
+    326.9 -- Total
+);
+
+-- Inserción 185
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    40, -- Purchase_Id
+    77, -- StoredMedication_Id 
+    10, -- Employee_Id
+    12, -- Quantity
+    30.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    360.0, -- Subtotal
+    357.5 -- Total
+);
+
+--
+
+-- Inserción 186
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    41, -- Purchase_Id
+    89, -- StoredMedication_Id 
+    12, -- Employee_Id
+    18, -- Quantity
+    18.5, -- Price
+    1.8, -- Discount
+    0.9, -- Tax
+    333.0, -- Subtotal
+    331.1 -- Total
+);
+
+-- Inserción 187
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    41, -- Purchase_Id
+    102, -- StoredMedication_Id 
+    12, -- Employee_Id
+    25, -- Quantity
+    25.0, -- Price
+    2.5, -- Discount
+    1.3, -- Tax
+    625.0, -- Subtotal
+    623.8 -- Total
+);
+
+-- Inserción 188
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    41, -- Purchase_Id
+    115, -- StoredMedication_Id 
+    12, -- Employee_Id
+    15, -- Quantity
+    30.0, -- Price
+    3.0, -- Discount
+    1.5, -- Tax
+    450.0, -- Subtotal
+    448.5 -- Total
+);
+
+--
+
+-- Inserción 189
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    42, -- Purchase_Id
+    121, -- StoredMedication_Id 
+    8, -- Employee_Id
+    20, -- Quantity
+    15.5, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    310.0, -- Subtotal
+    308.3 -- Total
+);
+
+-- Inserción 190
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    42, -- Purchase_Id
+    134, -- StoredMedication_Id 
+    8, -- Employee_Id
+    10, -- Quantity
+    22.0, -- Price
+    2.2, -- Discount
+    1.1, -- Tax
+    220.0, -- Subtotal
+    218.9 -- Total
+);
+
+-- Inserción 191
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    42, -- Purchase_Id
+    147, -- StoredMedication_Id 
+    8, -- Employee_Id
+    15, -- Quantity
+    18.0, -- Price
+    1.8, -- Discount
+    0.9, -- Tax
+    270.0, -- Subtotal
+    268.1 -- Total
+);
+
+--
+
+-- Inserción 192
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    43, -- Purchase_Id
+    92, -- StoredMedication_Id 
+    7, -- Employee_Id
+    25, -- Quantity
+    10.0, -- Price
+    1.0, -- Discount
+    0.5, -- Tax
+    250.0, -- Subtotal
+    248.5 -- Total
+);
+
+-- Inserción 193
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    43, -- Purchase_Id
+    105, -- StoredMedication_Id 
+    7, -- Employee_Id
+    12, -- Quantity
+    15.0, -- Price
+    1.5, -- Discount
+    0.8, -- Tax
+    180.0, -- Subtotal
+    178.3 -- Total
+);
+
+-- Inserción 194
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    43, -- Purchase_Id
+    118, -- StoredMedication_Id 
+    7, -- Employee_Id
+    18, -- Quantity
+    12.5, -- Price
+    1.2, -- Discount
+    0.6, -- Tax
+    225.0, -- Subtotal
+    223.8 -- Total
+);
+
+--
+
+-- Inserción 195
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    44, -- Purchase_Id
+    62, -- StoredMedication_Id 
+    11, -- Employee_Id
+    15, -- Quantity
+    8.0, -- Price
+    0.8, -- Discount
+    0.4, -- Tax
+    120.0, -- Subtotal
+    119.6 -- Total
+);
+
+-- Inserción 196
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    44, -- Purchase_Id
+    78, -- StoredMedication_Id 
+    11, -- Employee_Id
+    10, -- Quantity
+    11.0, -- Price
+    1.1, -- Discount
+    0.5, -- Tax
+    110.0, -- Subtotal
+    109.4 -- Total
+);
+
+-- Inserción 197
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    44, -- Purchase_Id
+    96, -- StoredMedication_Id 
+    11, -- Employee_Id
+    20, -- Quantity
+    9.5, -- Price
+    0.9, -- Discount
+    0.3, -- Tax
+    190.0, -- Subtotal
+    189.4 -- Total
+);
+
+--
+
+-- Inserción 198
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    45, -- Purchase_Id
+    121, -- StoredMedication_Id 
+    11, -- Employee_Id
+    25, -- Quantity
+    5.5, -- Price
+    0.5, -- Discount
+    0.2, -- Tax
+    137.5, -- Subtotal
+    137.2 -- Total
+);
+
+-- Inserción 199
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    45, -- Purchase_Id
+    134, -- StoredMedication_Id 
+    11, -- Employee_Id
+    12, -- Quantity
+    7.0, -- Price
+    0.7, -- Discount
+    0.3, -- Tax
+    84.0, -- Subtotal
+    83.6 -- Total
+);
+
+-- Inserción 200
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    45, -- Purchase_Id
+    152, -- StoredMedication_Id 
+    11, -- Employee_Id
+    18, -- Quantity
+    6.0, -- Price
+    0.6, -- Discount
+    0.2, -- Tax
+    108.0, -- Subtotal
+    107.6 -- Total
+);
+
+--
+
+-- Inserción 201
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    46, -- Purchase_Id
+    48, -- StoredMedication_Id 
+    7, -- Employee_Id
+    15, -- Quantity
+    4.5, -- Price
+    0.5, -- Discount
+    0.15, -- Tax
+    67.5, -- Subtotal
+    67.15 -- Total
+);
+
+-- Inserción 202
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    46, -- Purchase_Id
+    83, -- StoredMedication_Id 
+    7, -- Employee_Id
+    20, -- Quantity
+    3.8, -- Price
+    0.4, -- Discount
+    0.12, -- Tax
+    76.0, -- Subtotal
+    75.72 -- Total
+);
+
+-- Inserción 203
+INSERT INTO PurchaseDetail (Purchase_Id, StoredMedication_Id , Employee_Id, Quantity, Price, Discount, Tax, Subtotal, Total)
+VALUES (
+    46, -- Purchase_Id
+    92, -- StoredMedication_Id 
+    7, -- Employee_Id
+    10, -- Quantity
+    5.0, -- Price
+    0.5, -- Discount
+    0.15, -- Tax
+    50.0, -- Subtotal
+    49.65 -- Total
+);
+
+--
+
+
+

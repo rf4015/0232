@@ -1,0 +1,306 @@
+--CREATE DATABASE MarienPharmacy
+USE MarienPharmacy
+
+CREATE TABLE MedicationCategory (
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE Medication (
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    Category_Id INT FOREIGN KEY 
+    REFERENCES MedicationCategory(Id) NOT NULL,  
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE MedicationLaboratory (
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Name VARCHAR(50) NOT NULL, 
+    State BIT DEFAULT 1,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+CREATE TABLE GenericMedicationName (
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+CREATE TABLE MedicationDetail (
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Medication_Id INT FOREIGN KEY REFERENCES Medication(Id) NOT NULL,
+    MedicationLaboratory_Id INT FOREIGN KEY 
+    REFERENCES MedicationLaboratory(Id) NOT NULL,
+    GenericMedicationName_Id INT FOREIGN KEY 
+    REFERENCES GenericMedicationName(Id) NOT NULL,
+    Description VARCHAR(250),
+    --Prescription DATE,
+    State BIT DEFAULT 1,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+CREATE TABLE Supplier(
+	Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	Name VARCHAR(100) NOT NULL,
+	DNI VARCHAR(20),
+	Email VARCHAR(50),
+	Phone INT,
+	State BIT DEFAULT 1
+)
+
+CREATE TABLE UnitOfMeasurement(
+	Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+	Name VARCHAR(100)
+)
+
+CREATE TABLE Conversion(
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    UnitOfMeasurement_Id INT FOREIGN KEY REFERENCES UnitOfMeasurement(Id) NOT NULL,
+    Description VARCHAR(100),
+    Value INT,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+CREATE TABLE StorageCategory(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(40) NOT NULL,
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE StorageLocationCategory(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(40) NOT NULL,
+    Storage_Id INT FOREIGN KEY REFERENCES StorageCategory (Id),
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE ShelfCategory(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(40) NOT NULL,
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE ShelfLocationCategory(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name VARCHAR(40) NOT NULL,
+    Shelf_Id INT FOREIGN KEY REFERENCES ShelfCategory (Id),
+    State BIT DEFAULT 1
+)
+
+Create Table Prescription(
+    PrescriptionId int identity(1,1) primary key not null,
+    NotesPrescription nvarchar(max),
+    --Quantity int not null,
+    [State] BIT DEFAULT 1,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+/*
+    Relacione directamente el campo prescripción con la Tabla de StoredMedication dado que el campo cantidad 
+    registra la cantidad de unidades del medicamento prescrito. 
+    Ayuda a controlar la cantidad de medicamentos requeridos y puede ser útil para el proceso de facturación.
+
+    Si escuchas el audio del PROFESOR DICE QUE LO PODRIAMOS DEJAR ASÍ O
+    CREAR UNA TABLA INTERMEDIA, REVISALO ACORDE AL AUDIO.
+    REVISA MI SPANGLISH, Y REVISA EL NAME DE LA TABLA CURRENCY según mi traductor se aplica el mismo
+    término para divisa 
+*/
+CREATE TABLE StoredMedication(
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    MedicationDetail_Id INT FOREIGN KEY REFERENCES MedicationDetail(Id) NOT NULL,
+    Supplier_Id INT FOREIGN KEY REFERENCES Supplier(Id) NOT NULL,
+    UnitMeasurement_Id INT FOREIGN KEY REFERENCES UnitOfMeasurement(Id),
+    Location_Id INT FOREIGN KEY REFERENCES StorageLocationCategory (Id),
+    PrescriptionId int FOREIGN KEY REFERENCES Prescription(PrescriptionId),
+    Batch VARCHAR(200),
+    Stock INT NOT NULL,
+    PurchasePrice DECIMAL NOT NULL,
+    SellingPrice DECIMAL NOT NULL,
+    ExpiryDate DATE,
+    ExpeditionDate DATE,
+    ExpiryWarning VARCHAR(100),
+    State BIT DEFAULT 1
+)
+
+CREATE TABLE InternalMovement(
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    StoredMedication_Id INT FOREIGN KEY 
+    REFERENCES StoredMedication(Id) NOT NULL,
+    Description VARCHAR(200),
+    Batch VARCHAR(200),
+    Date DATE,
+    Created_at DATE,
+    Update_at DATE,
+    Delete_at DATE
+)
+
+CREATE TABLE MedicationInStock(
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    StoredMedication_Id INT FOREIGN KEY REFERENCES StoredMedication(Id) NOT NULL,
+    InternalMovement_Id INT FOREIGN KEY REFERENCES InternalMovement(Id) NOT NULL,
+    Location_Id INT FOREIGN KEY REFERENCES ShelfLocationCategory (Id),
+    Stock INT NOT NULL,
+    SellingPrice DECIMAL NOT NULL
+)
+
+CREATE TABLE [Role](
+    Id INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    Name VARCHAR(150) NOT NULL,
+    Description VARCHAR(300)
+)
+
+/*CREATE TABLE ProfileStatus(
+ProfileStatus_Id int identity(1,1) primary key not null,
+ProfileStatus_Status nvarchar(50) not null,
+ProfileStatus_Description nvarchar(200) not null
+)
+*/
+CREATE TABLE UserProfile (
+    Id INT PRIMARY KEY,
+    UserName NVARCHAR(50) NOT NULL UNIQUE,
+	UserPassaword varchar(50) NOT NULL,
+    ProfileImage VARBINARY(MAX),
+    CONSTRAINT UC_UserProfile_Username UNIQUE (Username)
+);
+
+Create table Employee(
+    Id int identity(1,1) primary key not null,
+	FirstNames NVARCHAR(50) not null,
+    LastNames NVARCHAR(50) not null,
+    Phone char(8) not null UNIQUE,
+    EmailAddress nvarchar(120) not null UNIQUE,
+    Dni char(14) not null,
+	UserId INT UNIQUE,
+    RoleId INT,
+    State BIT DEFAULT 1,
+    CONSTRAINT FK_Client_User FOREIGN KEY (UserId) REFERENCES UserProfile(Id),
+    CONSTRAINT FK_Client_Role FOREIGN KEY (RoleId) REFERENCES Role(Id)
+)
+
+Create table InvoiceStatus(
+    Id int identity(1,1) primary key not null,
+    Status nvarchar(150) not null, --Pending, Completed, Canceled
+    Description nvarchar(150)
+)
+
+Create table Purchase(
+    Id int identity(1,1) primary key not null,
+    Supplier_Id int foreign key references Supplier(Id) not null,
+    DeliveryDate date not null,
+    InvoiceStatus_Id int foreign key references InvoiceStatus(Id) not null
+)
+
+Create table PurchaseDetail(
+    Id int identity(1,1) primary key not null,
+    Purchase_Id int foreign key references Purchase(Id) not null,
+    StoredMedication_Id int foreign key references StoredMedication(Id) not null,
+    Employee_Id int foreign key references Employee(Id) not null,
+    Price float not null,
+    Quantity int not null,
+    Discount float not null,
+    Tax float not null,
+    Subtotal float not null,
+    Total float not null
+)
+
+	Create table Customer(
+		Id int identity(1,1) primary key not null,
+		FirstNames NVARCHAR(50) not null,
+		LastNames NVARCHAR(50) not null,
+		Phone char(8) not null UNIQUE,
+		EmailAddress nvarchar(120) not null UNIQUE,
+		UserId INT UNIQUE,
+		RoleId INT,
+		State BIT DEFAULT 1,
+		CONSTRAINT FK_Customer_Role FOREIGN KEY (RoleId) REFERENCES Role(Id),
+		CONSTRAINT FK_Customer_User FOREIGN KEY (UserId) REFERENCES UserProfile(Id)
+	)
+
+Create table DeliveryType(
+    Id int identity(1,1) primary key not null,
+    Type nvarchar(150) not null,
+    Description nvarchar(250)
+)
+
+create table City(
+    Id int identity(1,1) primary key not null,
+    Name nvarchar(150)
+)
+
+create table Municipality(
+    Id int identity(1,1) primary key not null,
+    City_Id  int foreign key references City(Id) not null,
+    Name nvarchar(150)
+)
+
+create table Currency(
+    Id int identity(1,1) primary key not null,
+    Description varchar(100)
+)
+
+create table ExchangeRate(
+    Currency_Id int foreign key references Currency(Id) not null,
+    Date date,
+    BuyingRate float not null,
+    SellingRate float not null
+)
+
+Create table Sale(
+    Id int identity(1,1) primary key not null,
+    Customer_Id int foreign key references Customer(Id) not null,
+    InvoiceStatus_Id int foreign key references InvoiceStatus(Id) not null,
+    DeliveryType_Id int foreign key references DeliveryType(Id) not null,
+    Employee_Id int foreign key references Employee(Id),
+    DeliveryEmployee_Id int foreign key references Employee(Id),
+    Municipality_Id int foreign key references Municipality(Id),
+    OrderDate date,
+    ShippingDate date,
+    DeliveryDate date,
+    Address nvarchar(150),
+    Residence nvarchar(30),
+    PostalCode nvarchar(15),
+    CreditCardNumber nvarchar(16)
+)
+
+Create table SaleDetail(
+    Id int identity(1,1) primary key not null,
+    Sale_Id int foreign key references Sale(Id) not null,
+    MedicationInStock_Id int foreign key references MedicationInStock(Id) not null,
+    Price float not null,
+    Quantity int not null,
+    Discount float not null,
+    Tax float not null,
+    Subtotal float not null,
+    Total float not null
+)
+
+Create table CustomerAddress(
+    Id int identity(1,1) primary key not null,
+    Customer_Id int foreign key references Customer(Id) not null,
+    Municipality_Id int foreign key references Municipality(Id) not null,
+    Address nvarchar(150) not null,
+    Residence nvarchar(150) not null,
+    PostalCode nvarchar(10)
+)
+
+CREATE TABLE RefreshTokenHistory(
+HistorialTokenId INT PRIMARY KEY IDENTITY,
+UserId INT REFERENCES UserProfile(Id),
+Token VARCHAR(500),
+RefreshToken VARCHAR(500),
+CreationDate DATETIME,
+ExpirationDate DATETIME,
+IsActive AS (IIF(ExpirationDate < GETDATE(), CONVERT(BIT, 0), CONVERT(BIT, 1)))
+)

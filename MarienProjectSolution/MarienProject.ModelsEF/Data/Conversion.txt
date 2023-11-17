@@ -1,0 +1,58 @@
+-- Insertar conversiones en la tabla Conversion
+-- Conversiones entre Milligrams y otras unidades
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(1, 'Milligrams to Grams', 0.001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(1, 'Milligrams to Micrograms', 1000, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(1, 'Milligrams to Units', 0.001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(1, 'Milligrams to Ounces', 0.00003527396, GETDATE());
+
+-- Conversiones entre Grams y otras unidades
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(2, 'Grams to Milligrams', 1000, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(2, 'Grams to Micrograms', 1000000, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(2, 'Grams to Units', 1, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(2, 'Grams to Ounces', 0.03527396, GETDATE());
+
+-- Otras conversiones
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(3, 'Milliliters to Teaspoons', 202.884, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(3, 'Milliliters to Liters', 0.001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(4, 'Micrograms to Milligrams', 0.001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(5, 'Units to Milligrams', 1000, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(6, 'Tablets to Capsules', 0.5, GETDATE());
+
+-- Conversiones con Milliliters
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(3, 'Milliliters to Milligrams', 1000, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(3, 'Milliliters to Micrograms', 1000000, GETDATE());
+
+-- Conversiones con Micrograms
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(4, 'Micrograms to Grams', 0.000001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(4, 'Micrograms to Milliliters', 0.000001, GETDATE());
+
+-- Conversiones con Units
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(5, 'Units to Grams', 0.001, GETDATE());
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(5, 'Units to Ounces', 0.00003527396, GETDATE());
+
+-- Conversiones con Teaspoons
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(7, 'Teaspoons to Milliliters', 4.92892, GETDATE());
+
+-- Conversiones con Ounces
+INSERT INTO Conversion (UnitOfMeasurement_Id, [Description], [Value], Created_at)
+VALUES(9, 'Ounces to Grams', 28.3495, GETDATE());

@@ -1,0 +1,788 @@
+-- Insertar detalles de medicamentos en la tabla MedicationDetail
+-- Medication_Id se refiere a la llave primaria en la tabla Medication
+
+-- Detalles para 'Hemorrhoid Relief'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (1, 100, 1, 'Relief for hemorrhoids', GETDATE());
+
+-- Detalles para 'Libera Tos'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (2, 101, 2, 'Cough relief medication', GETDATE());
+
+-- Detalles para 'UREA'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (3, 102, 3, 'Urea cream', GETDATE());
+
+-- Detalles para 'Lancome Teint Idole Fresh Wear'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (4, 103, 4, 'Cosmetic product', GETDATE());
+
+-- Detalles para 'AGE INTERVENTION DUALITY'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (5, 104, 5, 'Skin care product', GETDATE());
+
+-- Detalles para 'Glycate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (6, 105, 6, 'Medication for diabetes', GETDATE());
+
+-- Detalles para 'Badger SPF 35 Sport Sunscreen Cream'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (7, 106, 7, 'Sunscreen for sports activities', GETDATE());
+
+-- Detalles para 'Folic Acid'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (8, 107, 8, 'Vitamin supplement', GETDATE());
+
+-- Detalles para 'Methocarbamol'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (17, 109, 18, 'Muscle relaxant medication', GETDATE());
+
+-- Detalles para 'Pain Reliever'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (18, 110, 19, 'Pain relief medication', GETDATE());
+
+-- Detalles para 'ATACAND HCT'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (19, 111, 20, 'Blood pressure medication', GETDATE());
+
+-- Detalles para 'Sunmark pain reliever'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (20, 112, 21, 'Pain relief medication', GETDATE());
+
+-- Detalles para 'Ranitidine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (21, 113, 22, 'Acid reducer medication', GETDATE());
+
+-- Detalles para 'Antibacterial Hand Towelettes'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (22, 114, 23, 'Hand sanitizer wipes', GETDATE());
+
+-- Detalles para 'Degree'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (23, 115, 24, 'Deodorant', GETDATE());
+
+-- Detalles para 'Nux vomica'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (24, 116, 25, 'Homeopathic remedy', GETDATE());
+
+-- Detalles para 'Ludens Honey Lemon Throat Drops'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (25, 117, 26, 'Throat lozenges', GETDATE());
+
+-- Detalles para 'Lyrica'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (26, 118, 27, 'Medication for neuropathic pain', GETDATE());
+
+-- Detalles para 'RADICAL SKINCARE SKIN PERFECTING SCREEN SPF 30'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (27, 119, 28, 'Sunscreen for skin protection', GETDATE());
+
+-- Detalles para 'Pediaderm AF'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (28, 120, 29, 'Anti-fungal cream', GETDATE());
+
+-- Detalles para 'Trimethobenzamide Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (29, 121, 30, 'Medication for nausea and vomiting', GETDATE());
+
+-- Detalles para 'Glipizide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (30, 122, 31, 'Medication for diabetes', GETDATE());
+
+-- Detalles para 'Povidone Iodine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (31, 123, 32, 'Antiseptic solution', GETDATE());
+
+-- Detalles para 'Benazepril Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (32, 124, 33, 'Blood pressure medication', GETDATE());
+
+-- Detalles para 'Verapamil Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (33, 125, 34, 'Medication for heart conditions', GETDATE());
+
+-- Detalles para 'Citrus Hand Sanitizer'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (34, 126, 35, 'Hand sanitizer gel', GETDATE());
+
+-- Detalles para 'Pain Relief Aspirin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (35, 127, 36, 'Pain relief medication', GETDATE());
+
+-- Detalles para 'CALC PHOS'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (36, 128, 37, 'Calcium phosphate supplement', GETDATE());
+
+-- Detalles para 'Tamsulosin Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (37, 129, 38, 'Medication for urinary symptoms', GETDATE());
+
+-- Detalles para 'HEADACHE FLATULENCE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (38, 130, 39, 'Medication for headaches and flatulence', GETDATE());
+
+-- Detalles para 'Exchange Select Acid Reducer'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (39, 131, 40, 'Acid reducer medication', GETDATE());
+
+-- Detalles para 'Sensorcaine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (47, 132, 48, 'Local anesthetic medication', GETDATE());
+
+-- Detalles para 'ELIGARD'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (48, 133, 49, 'Medication for prostate cancer', GETDATE());
+
+-- Detalles para 'Ropinirole Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (49, 134, 50, 'Medication for restless legs syndrome', GETDATE());
+
+-- Detalles para 'SEROQUEL'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (50, 135, 51, 'Antipsychotic medication', GETDATE());
+
+-- Detalles para 'Ranitidine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (51, 113, 22, 'Acid reducer medication', GETDATE());
+
+-- Detalles para 'CANDIDA MONILA ALBICANS'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (52, 136, 53, 'Antifungal medication', GETDATE());
+
+-- Detalles para 'Quinapril'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (53, 137, 54, 'Medication for high blood pressure', GETDATE());
+
+-- Detalles para 'LAMIVUDINE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (54, 138, 55, 'Antiviral medication', GETDATE());
+
+-- Detalles para 'isosorbide mononitrate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (55, 139, 56, 'Medication for chest pain', GETDATE());
+
+-- Detalles para 'Hydrochlorothiazide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (56, 140, 57, 'Diuretic medication', GETDATE());
+
+-- Detalles para 'CYCLOBENZAPRINE HYROCHLORIDE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (57, 141, 58, 'Muscle relaxant medication', GETDATE());
+
+-- Detalles para 'Hi and Dri Antiperspirant'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (58, 142, 59, 'Antiperspirant', GETDATE());
+
+-- Detalles para 'Aluminum Hydroxide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (59, 143, 60, 'Antacid medication', GETDATE());
+
+-- Detalles para 'Rx Act headache formula'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (60, 144, 61, 'Headache relief medication', GETDATE());
+
+-- Detalles para 'dg health flu and severe cold and cough'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (61, 145, 62, 'Cold and flu relief medication', GETDATE());
+
+-- Detalles para 'Levetiracetam'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (62, 146, 63, 'Antiepileptic medication', GETDATE());
+
+-- Detalles para 'Topamax'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (63, 147, 64, 'Medication for seizures and migraines', GETDATE());
+
+-- Detalles para 'Acid Reducer'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (64, 148, 65, 'Acid reducer medication', GETDATE());
+
+-- Detalles para 'Sprayology Rejuvenation Plus'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (65, 149, 66, 'Homeopathic rejuvenation spray', GETDATE());
+
+-- Detalles para 'Metronidazole'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (66, 150, 67, 'Antibacterial and antiprotozoal medication', GETDATE());
+
+-- Detalles para 'Alprazolam'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (67, 151, 68, 'Anxiety medication', GETDATE());
+
+-- Detalles para 'Tretinoin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (68, 152, 69, 'Topical retinoid medication', GETDATE());
+
+-- Detalles para 'Energize'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (69, 153, 70, 'Energy supplement', GETDATE());
+
+-- Detalles para 'Sodium Bicarbonate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (71, 154, 72, 'Medication for acid indigestion and heartburn', GETDATE());
+
+-- Detalles para 'Femara'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (72, 155, 73, 'Breast cancer treatment medication', GETDATE());
+
+-- Detalles para 'Dexmethylphenidate Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (73, 156, 74, 'Medication for attention deficit hyperactivity disorder (ADHD)', GETDATE());
+
+-- Detalles para 'Nafcillin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (74, 157, 75, 'Antibiotic medication', GETDATE());
+
+-- Detalles para 'Meprobamate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (75, 158, 76, 'Anxiety medication', GETDATE());
+
+-- Detalles para 'Salicylic Acid'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (76, 159, 77, 'Topical treatment for skin conditions', GETDATE());
+
+-- Detalles para 'Chlorhexidine Gluconate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (77, 160, 78, 'Antiseptic solution', GETDATE());
+
+-- Detalles para 'Felodipine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (78, 161, 79, 'Calcium channel blocker medication', GETDATE());
+
+-- Detalles para 'Giant Wild Rye'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (79, 162, 80, 'Herbal remedy', GETDATE());
+
+-- Detalles para 'Actiogen Acne Dots Treatment'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (80, 163, 81, 'Acne treatment', GETDATE());
+
+-- Detalles para 'Oxycodone Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (81, 164, 82, 'Opioid pain medication', GETDATE());
+
+-- Detalles para 'Nu Skin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (82, 165, 83, 'Skincare product', GETDATE());
+
+-- Detalles para 'Cetirizine Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (83, 166, 84, 'Antihistamine medication', GETDATE());
+
+-- Detalles para 'Antacid Antigas'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (84, 167, 85, 'Digestive relief medication', GETDATE());
+
+-- Detalles para 'MultiHance'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (85, 168, 86, 'Contrast agent for MRI', GETDATE());
+
+-- Detalles para 'Clonidine Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (86, 169, 87, 'Medication for high blood pressure', GETDATE());
+
+-- Detalles para 'PHAZYME'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (87, 170, 88, 'Gas relief medication', GETDATE());
+
+-- Detalles para 'Health Smart Antibacterial sweet pea orchid'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (88, 171, 89, 'Hand sanitizer', GETDATE());
+
+-- Detalles para 'Oxycodone and Acetaminophen'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (89, 172, 90, 'Pain medication combination', GETDATE());
+
+-- Detalles para 'Clindamycin Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (90, 173, 91, 'Antibiotic medication', GETDATE());
+
+-- Detalles para 'NITROGEN'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (91, 174, 92, 'Chemical element', GETDATE());
+
+-- Detalles para 'Panama Jack'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (92, 175, 93, 'Sunscreen and skincare product', GETDATE());
+
+-- Detalles para 'Aspirin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (93, 176, 94, 'Pain and fever relief medication', GETDATE());
+
+-- Detalles para 'Sertraline Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (94, 177, 95, 'Antidepressant medication', GETDATE());
+
+-- Detalles para 'LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF 15'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (95, 178, 96, 'Cosmetic product with SPF', GETDATE());
+
+-- Detalles para 'Ursodiol'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (96, 179, 97, 'Bile acid medication', GETDATE());
+
+-- Detalles para 'Lamb Quarters'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (97, 180, 98, 'Plant species', GETDATE());
+
+-- Detalles para 'FRESH DECOR'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (98, 181, 99, 'Home decor brand', GETDATE());
+
+-- Detalles para 'SYAGRUS ROMANZOFFIANA POLLEN'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (99, 182, 100, 'Pollen from palm trees', GETDATE());
+
+-- Detalles para 'Escitalopram'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (100, 183, 101, 'Antidepressant medication', GETDATE());
+
+-- Detalles para 'Lavender and Sage Antibacterial Foaming Hand Wash'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (101, 184, 102, 'Antibacterial hand wash', GETDATE());
+
+-- Detalles para '4 Kidney'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (102, 185, 103, 'Kidney support supplement', GETDATE());
+
+-- Detalles para 'TriLipiderm'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (103, 186, 104, 'Skin care product', GETDATE());
+
+-- Detalles para 'Health Smart Antibacterial cucumber melon'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (104, 187, 105, 'Antibacterial product', GETDATE());
+
+-- Detalles para 'Morphine Sulfate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (105, 188, 106, 'Pain relief medication', GETDATE());
+
+-- Detalles para 'Dermarest'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (106, 189, 107, 'Skin care product', GETDATE());
+
+-- Detalles para 'ABELMOSCHUS'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (107, 190, 108, 'Plant species', GETDATE());
+
+-- Detalles para 'Testim'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (108, 191, 109, 'Hormone replacement gel', GETDATE());
+
+-- Detalles para 'DR.G WHITENING FORTIFIER'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (109, 192, 110, 'Skin care product', GETDATE());
+
+-- Detalles para 'Health Mart Multi-Symptom Cold and Flu Night Time'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (110, 193, 111, 'Cold and flu medication', GETDATE());
+
+-- Detalles para 'Lansoprazole'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (111, 194, 112, 'Proton pump inhibitor', GETDATE());
+
+-- Detalles para 'JIANZE FIRST AID ANTISEPTIC SKIN TOWELETTE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (112, 195, 113, 'Antiseptic skin towelette', GETDATE());
+
+-- Detalles para 'Nitrous Oxide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (113, 196, 114, 'Anesthetic gas', GETDATE());
+
+-- Detalles para 'Revalife'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (114, 197, 115, 'Dietary supplement', GETDATE());
+
+-- Detalles para 'Sunbrellas Kids Sunblock SPF 45'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (115, 198, 116, 'Sunblock for kids', GETDATE());
+
+-- Detalles para 'NORTRIPTYLINE HYDROCHLORIDE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (116, 199, 117, 'Antidepressant medication', GETDATE());
+
+-- Detalles para 'Nicotine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (117, 200, 118, 'Smoking cessation aid', GETDATE());
+
+-- Detalles para 'Furosemide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (118, 200, 119, 'Diuretic medication', GETDATE());
+
+-- Detalles para 'Eggplant'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (119, 200, 120, 'Vegetable', GETDATE());
+
+-- Detalles para 'Desert Sage'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (120, 199, 121, 'Plant species', GETDATE());
+
+-- Detalles para 'Inflamyar'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (121, 104, 122, 'Homeopathic remedy', GETDATE());
+
+
+-- Detalles para 'Clear Eyes Redness Relief'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (141, 86, 142, 'Eye drops for redness relief', GETDATE());
+
+-- Detalles para 'Epsom Salt'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (142, 87, 143, 'Magnesium sulfate for bath use', GETDATE());
+
+-- Detalles para 'pain relief'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (143, 28, 144, 'Pain relief medication', GETDATE());
+
+-- Detalles para 'POLYMYXIN B SULFATE and TRIMETHOPRIM SULFATE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (144, 59, 145, 'Antibiotic medication', GETDATE());
+
+-- Detalles para 'Bronchial Cough'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (145, 90, 146, 'Cough relief medication', GETDATE());
+
+-- Detalles para 'Health Mart nicotine polacrilex'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (146, 71, 147, 'Nicotine replacement therapy', GETDATE());
+
+-- Detalles para 'Childrens Uniphed'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (147, 62, 148, 'Children''s cold medication', GETDATE());
+
+-- Detalles para 'Lisinopril'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (148, 93, 149, 'Blood pressure medication', GETDATE());
+
+-- Detalles para 'pain and fever'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (149, 60, 150, 'Pain and fever relief medication', GETDATE());
+
+-- Detalles para 'Carisoprodol'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (150, 25, 151, 'Muscle relaxant medication', GETDATE());
+
+-- Detalles para 'Allergy Relief'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (151, 2, 152, 'Allergy relief medication', GETDATE());
+
+-- Detalles para 'Isosorbide Mononitrate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (152, 7, 153, 'Heart medication', GETDATE());
+
+-- Detalles para 'Tinnitus Relief'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (153, 8, 154, 'Tinnitus relief supplement', GETDATE());
+
+-- Detalles para 'Erythromycin'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (154, 99, 155, 'Antibiotic medication', GETDATE());
+
+-- Detalles para 'ANTIBACTERIAL HAND SP WITH LIGHT MOISTURIZERS REFILL'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (155, 10, 156, 'Antibacterial hand sanitizer', GETDATE());
+
+-- Detalles para 'Fngsode'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (156, 31, 157, 'Antifungal medication', GETDATE());
+
+-- Detalles para 'Neutrogena Revitalizing Lip Balm'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (157, 42, 158, 'Lip balm with SPF', GETDATE());
+
+-- Detalles para 'Oxybutynin Chloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (158, 153, 159, 'Bladder and urinary medication', GETDATE());
+
+-- Detalles para 'Hydrocortisone'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (159, 34, 160, 'Topical corticosteroid', GETDATE());
+
+-- Detalles para 'Luxiq'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (160, 15, 161, 'Prescription skin foam', GETDATE());
+
+-- Detalles para 'Venlafaxine Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (161, 36, 162, 'Antidepressant medication', GETDATE());
+
+-- Detalles para 'Shingles Control'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (162, 77, 163, 'Shingles symptom relief', GETDATE());
+
+-- Detalles para 'Bloating Complex'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (163, 98, 164, 'Dietary supplement', GETDATE());
+
+-- Detalles para 'XtraCare Antibacterial Hand Cleanse'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (164, 89, 165, 'Antibacterial hand sanitizer', GETDATE());
+
+-- Detalles para 'Medroxyprogesterone Acetate'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (165, 90, 166, 'Hormone medication', GETDATE());
+
+-- Detalles para 'Dry Cough Diarrhea'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (166, 91, 167, 'Symptom relief medication', GETDATE());
+
+-- Detalles para 'Own'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (167, 92, 168, 'Product brand', GETDATE());
+
+-- Detalles para 'RUMEX CRISPUS POLLEN'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (168, 53, 169, 'Pollen extract', GETDATE());
+
+-- Detalles para 'OPANA'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (169, 114, 170, 'Prescription pain medication', GETDATE());
+
+-- Detalles para 'Topcare Nicotine'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (170, 165, 171, 'Nicotine replacement therapy', GETDATE());
+
+-- Detalles para 'Ondansetron'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (171, 186, 172, 'Anti-nausea medication', GETDATE());
+
+-- Detalles para 'Lidocaine Hydrochloride'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (172, 197, 173, 'Local anesthetic', GETDATE());
+
+-- Detalles para 'COUMADIN'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (173, 158, 174, 'Blood thinner medication', GETDATE());
+
+-- Detalles para 'Lisinopril'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (174, 129, 175, 'Blood pressure medication', GETDATE());
+
+-- Detalles para 'NHS Insomnia 4'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (175, 180, 176, 'Insomnia medication', GETDATE());
+
+-- Detalles para 'Guaifenesin DM'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (176, 191, 177, 'Cough and cold medication', GETDATE());
+
+-- Detalles para 'PredniSONE'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (177, 3, 178, 'Corticosteroid medication', GETDATE());
+
+-- Detalles para 'ALLIUM SATIVUM'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (178, 1, 179, 'Garlic supplement', GETDATE());
+
+-- Detalles para 'Indapamide'
+INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+VALUES
+    (179, 9, 180, 'Diuretic medication', GETDATE());
+
+---- Detalles para 'Gillette Mach 3 Invisible'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (180, 11, 181, 'Men''s razor blades', GETDATE());
+
+---- Detalles para 'Creations Garden'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (191, 9, 192, 'Skin care product', GETDATE());
+
+---- Detalles para 'Brintellix'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (192, 41, 193, 'Antidepressant medication', GETDATE());
+
+---- Detalles para 'Glytone acne cleansing toner'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (193, 48, 194, 'Skin toner for acne', GETDATE());
+
+---- Detalles para 'Allopurinol'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (194, 49, 195, 'Gout medication', GETDATE());
+
+---- Detalles para 'kolorz'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (195, 50, 196, 'Hair color product', GETDATE());
+
+---- Detalles para 'Natrum muriaticum'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (196, 71, 197, 'Homeopathic remedy', GETDATE());
+
+---- Detalles para 'Good Neighbor Pharmacy'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (197, 112, 198, 'Pharmacy brand products', GETDATE());
+
+---- Detalles para 'Stavudine'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (198, 113, 199, 'Antiretroviral medication', GETDATE());
+
+---- Detalles para 'Sodium Bicarbonate'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (199, 134, 200, 'Antacid and cleaning agent', GETDATE());
+
+---- Detalles para 'AVINZA'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (200, 155, 201, 'Pain medication', GETDATE());
+
+---- Detalles para 'Baborganic Pure Line Reducing'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (201, 166, 202, 'Skin care product', GETDATE());
+
+---- Detalles para 'Horseradish'
+--INSERT INTO MedicationDetail (Medication_Id, MedicationLaboratory_Id, GenericMedicationName_Id, [Description], Created_at)
+--VALUES
+--    (202, 37, 203, 'Herbal supplement', GETDATE());
