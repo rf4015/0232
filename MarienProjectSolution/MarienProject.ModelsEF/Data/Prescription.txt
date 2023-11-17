@@ -1,0 +1,857 @@
+-- Medicamento: 'Hemorrhoid Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hemorrhoid Relief is used for the relief of hemorrhoid symptoms. Follow the recommended dosage for optimal results.', 1, CONVERT(DATE, '01/01/2022', 103));
+
+-- Medicamento: 'Libera Tos'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Libera Tos is a cough syrup. Take as directed for relief from cough symptoms.', 1, CONVERT(DATE, '02/02/2022', 103));
+
+-- Medicamento: 'UREA'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('UREA is used as a moisturizer to treat or prevent dry, rough, scaly, itchy skin. Apply as directed.', 1, CONVERT(DATE, '03/03/2022', 103));
+
+-- Medicamento: 'Lancome Teint Idole Fresh Wear'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lancome Teint Idole Fresh Wear is a cosmetic product. Follow the application instructions for a fresh and long-lasting complexion.', 1, CONVERT(DATE, '04/04/2022', 103));
+
+-- Medicamento: 'AGE INTERVENTION DUALITY'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('AGE INTERVENTION DUALITY is a skincare product. Apply as directed for age intervention benefits.', 1, CONVERT(DATE, '05/05/2022', 103));
+
+-- Medicamento: 'Glycate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Glycate is used for glycemic control. Take as directed by your healthcare provider for optimal blood sugar management.', 1, CONVERT(DATE, '06/06/2022', 103));
+
+-- Medicamento: 'Sport Sunscreen Cream'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sport Sunscreen Cream provides sun protection during outdoor activities. Apply as directed for effective sunblock.', 1, CONVERT(DATE, '07/07/2022', 103));
+
+-- Medicamento: 'Folic Acid'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Folic Acid is a supplement used to treat or prevent folic acid deficiency. Take as directed by your doctor.', 1, CONVERT(DATE, '08/08/2022', 103));
+
+-- Medicamento: 'Imax'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Imax is a medication. Take as directed by your healthcare provider for the prescribed therapeutic effects.', 1, CONVERT(DATE, '09/09/2022', 103));
+
+-- Medicamento: 'Methocarbamol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Methocarbamol is a muscle relaxant. Take as directed for relief from muscle pain and discomfort.', 1, CONVERT(DATE, '10/10/2022', 103));
+
+-- Medicamento: 'Pain Reliever'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pain Reliever is used for the relief of mild to moderate pain. Follow the recommended dosage for optimal pain relief.', 1, CONVERT(DATE, '11/11/2022', 103));
+
+-- Medicamento: 'Atacand'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Atacand is an angiotensin II receptor blocker used to treat high blood pressure. Take as directed by your doctor.', 1, CONVERT(DATE, '12/12/2022', 103));
+
+-- Medicamento: 'Sunmark pain reliever'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sunmark pain reliever is used for the relief of mild to moderate pain. Follow the recommended dosage for optimal pain relief.', 1, CONVERT(DATE, '01/01/2023', 103));
+
+-- Medicamento: 'Ranitidine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ranitidine is an H2 blocker used to treat and prevent ulcers. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '02/02/2023', 103));
+
+-- Medicamento: 'Antibacterial Hand Towelettes'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Antibacterial Hand Towelettes are used for hand hygiene. Use as directed for effective hand sanitization.', 1, CONVERT(DATE, '03/03/2023', 103));
+
+-- Medicamento: 'Degree'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Degree is an antiperspirant. Apply as directed for effective protection against perspiration.', 1, CONVERT(DATE, '04/04/2023', 103));
+
+-- Medicamento: 'Nux vomica'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Nux vomica is a homeopathic remedy. Take as directed for the relief of digestive issues and nausea.', 1, CONVERT(DATE, '05/05/2023', 103));
+
+-- Medicamento: 'Ludens Honey'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ludens Honey is a throat lozenge. Take as directed for soothing relief from sore throat and cough.', 1, CONVERT(DATE, '06/06/2023', 103));
+
+-- Medicamento: 'Lyrica'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lyrica is used to treat nerve pain and seizures. Take as directed by your healthcare provider for optimal results.', 1, CONVERT(DATE, '07/07/2023', 103));
+
+-- Medicamento: 'Radical Skin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Radical Skin is a skincare product. Apply as directed for radical skin rejuvenation and care.', 1, CONVERT(DATE, '08/08/2023', 103));
+
+-- Medicamento: 'Pediaderm AF'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pediaderm AF is an antifungal medication. Apply as directed for the treatment of fungal infections.', 1, CONVERT(DATE, '09/09/2023', 103));
+
+-- Medicamento: 'Trimethobenzamide Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Trimethobenzamide Hydrochloride is used to treat nausea and vomiting. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '10/10/2023', 103));
+
+-- Medicamento: 'Glipizide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Glipizide is used for glycemic control. Take as directed by your healthcare provider for optimal blood sugar management.', 1, CONVERT(DATE, '11/11/2023', 103));
+
+-- Medicamento: 'Treatment Set'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Treatment Set is a skincare product set. Apply each product as directed for a comprehensive skincare routine.', 1, CONVERT(DATE, '12/12/2023', 103));
+
+-- Medicamento: 'Povidone Iodine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Povidone Iodine is an antiseptic. Use as directed for wound care and skin disinfection.', 1, CONVERT(DATE, '01/01/2024', 103));
+
+-- Medicamento: 'Benazepril Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Benazepril Hydrochloride is an ACE inhibitor used to treat high blood pressure. Take as directed by your doctor.', 1, CONVERT(DATE, '02/02/2024', 103));
+
+-- Medicamento: 'Verapamil Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Verapamil Hydrochloride is a calcium channel blocker used to treat high blood pressure and angina. Take as directed by your doctor.', 1, CONVERT(DATE, '03/03/2024', 103));
+
+-- Medicamento: 'Citrus Hand Sanitizer'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Citrus Hand Sanitizer is used for hand hygiene. Use as directed for effective hand sanitization.', 1, CONVERT(DATE, '04/04/2024', 103));
+
+-- Medicamento: 'Pain Relief Aspirin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pain Relief Aspirin is used for the relief of mild to moderate pain. Follow the recommended dosage for optimal pain relief.', 1, CONVERT(DATE, '05/05/2024', 103));
+
+-- Medicamento: 'Calc Phos'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Calc Phos is a homeopathic remedy. Take as directed for the relief of symptoms related to calcium phosphate deficiency.', 1, CONVERT(DATE, '06/06/2024', 103));
+
+-- Medicamento: 'Tamsulosin Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Tamsulosin Hydrochloride is an alpha-blocker used to treat symptoms of an enlarged prostate. Take as directed by your doctor.', 1, CONVERT(DATE, '07/07/2024', 103));
+
+-- Medicamento: 'H Flatulence'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('H Flatulence is used for the relief of flatulence symptoms. Follow the recommended dosage for optimal relief.', 1, CONVERT(DATE, '08/08/2024', 103));
+
+-- Medicamento: 'Exchange Select Acid Reducer'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Exchange Select Acid Reducer is used to reduce stomach acid production. Take as directed by your doctor.', 1, CONVERT(DATE, '09/09/2024', 103));
+
+-- Medicamento: 'Herbon Berry BuddiesWatermelon Goodypops'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Herbon Berry BuddiesWatermelon Goodypops are a dietary supplement. Take as directed for added nutritional support.', 1, CONVERT(DATE, '10/10/2024', 103));
+
+-- Medicamento: 'Sensorcaine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sensorcaine is a local anesthetic. Administered as directed by a healthcare professional for pain relief.', 1, CONVERT(DATE, '11/11/2024', 103));
+
+-- Medicamento: 'ELIGARD'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('ELIGARD is used for the palliative treatment of advanced prostate cancer. Administered as directed by a healthcare professional.', 1, CONVERT(DATE, '12/12/2024', 103));
+
+-- Medicamento: 'Ropinirole Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ropinirole Hydrochloride is used to treat Parkinson''s disease and restless legs syndrome. Take as directed by your doctor.', 1, CONVERT(DATE, '01/01/2025', 103));
+
+-- Medicamento: 'SEROQUEL'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('SEROQUEL is an antipsychotic medication used to treat schizophrenia and bipolar disorder. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '02/02/2025', 103));
+
+-- Medicamento: 'Ranitidine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ranitidine is an H2 blocker used to treat and prevent ulcers. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '03/03/2025', 103));
+
+-- Medicamento: 'CANDIDA MONILA ALBICANS'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('CANDIDA MONILA ALBICANS is used for the treatment of fungal infections. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '04/04/2025', 103));
+
+-- Medicamento: 'Quinapril'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Quinapril is an ACE inhibitor used to treat high blood pressure and heart failure. Take as directed by your doctor.', 1, CONVERT(DATE, '05/05/2025', 103));
+
+-- Medicamento: 'LAMIVUDINE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('LAMIVUDINE is an antiretroviral medication used to treat HIV. Take as directed by your healthcare provider.', 1, CONVERT(DATE, '06/06/2025', 103));
+
+-- Medicamento: 'isosorbide mononitrate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Isosorbide Mononitrate is used to prevent chest pain (angina). Take as directed by your doctor.', 1, CONVERT(DATE, '07/07/2025', 103));
+
+-- Medicamento: 'Hydrochlorothiazide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hydrochlorothiazide is a thiazide diuretic used to treat high blood pressure. Take as directed by your doctor.', 1, CONVERT(DATE, '08/08/2025', 103));
+
+-- Medicamento: 'CYCLOBENZAPRINE HYROCHLORIDE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('CYCLOBENZAPRINE HYDROCHLORIDE is a muscle relaxant. Take as directed for relief from muscle spasms and discomfort.', 1, CONVERT(DATE, '09/09/2025', 103));
+
+-- Medicamento: 'Amazonian Clay'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Amazonian Clay is a cosmetic product. Follow the application instructions for a flawless complexion.', 1, CONVERT(DATE, '10/10/2025', 103));
+
+-- Medicamento: 'Hi and Dri Antiperspirant'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hi and Dri Antiperspirant is used for effective protection against perspiration. Apply as directed for optimal results.', 1, CONVERT(DATE, '11/11/2025', 103));
+
+-- Medicamento: 'Aluminum Hydroxide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Aluminum Hydroxide is an antacid. Take as directed for relief from heartburn and indigestion.', 1, CONVERT(DATE, '12/12/2025', 103));
+
+-- Medicamento: 'Rx Act headache formula'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Rx Act headache formula is used for the relief of headaches. Follow the recommended dosage for optimal pain relief.', 1, CONVERT(DATE, '01/01/2026', 103));
+
+-- Medicamento: 'dg health flu and severe cold and cough'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('dg health flu and severe cold and cough is used for the relief of flu and cold symptoms. Follow the recommended dosage for optimal relief.', 1, CONVERT(DATE, '02/02/2026', 103));
+
+-- Medicamento: 'Levetiracetam'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Levetiracetam is an anticonvulsant used to treat seizures. Take as directed by your doctor for seizure control.', 1, CONVERT(DATE, '03/03/2026', 103));
+
+-- Medicamento: 'Topamax'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Topamax is used to treat seizures and prevent migraine headaches. Take as directed by your doctor for optimal results.', 1, CONVERT(DATE, '04/04/2026', 103));
+
+-- Medicamento: 'Acid Reducer'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Acid Reducer is used to reduce stomach acid production. Take as directed by your doctor for relief from acid-related conditions.', 1, CONVERT(DATE, '05/05/2026', 103));
+
+-- Medicamento: 'Sprayology Rejuvenation Plus'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sprayology Rejuvenation Plus is a homeopathic spray. Use as directed for rejuvenation and well-being.', 1, CONVERT(DATE, '06/06/2026', 103));
+
+-- Medicamento: 'Appetite Craving Control'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Appetite Craving Control helps manage and control appetite. Follow the recommended dosage for effective appetite control.', 1, CONVERT(DATE, '07/07/2026', 103));
+
+-- Medicamento: 'Metronidazole'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Metronidazole is an antibiotic used to treat various infections. Take as directed by your doctor for the prescribed duration.', 1, CONVERT(DATE, '08/08/2026', 103));
+
+-- Medicamento: 'Urban Decay Naked Skin Beauty Balm SPF'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Urban Decay Naked Skin Beauty Balm SPF provides sun protection and enhances skin appearance. Apply as part of your skincare routine.', 1, CONVERT(DATE, '09/09/2026', 103));
+
+-- Medicamento: 'Alprazolam'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Alprazolam is a medication for anxiety and panic disorders. Take as directed for relief from anxiety symptoms.', 1, CONVERT(DATE, '10/10/2026', 103));
+
+-- Medicamento: 'Tretinoin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Tretinoin is a topical retinoid used for acne treatment. Apply as directed for clear and healthy skin.', 1, CONVERT(DATE, '11/11/2026', 103));
+
+-- Medicamento: 'Energize'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Energize is a dietary supplement for energy support. Take as directed for a natural energy boost.', 1, CONVERT(DATE, '12/12/2026', 103));
+
+-- Medicamento: 'RITUALS broad spectrum'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('RITUALS broad spectrum is a sunscreen with broad-spectrum protection. Apply before sun exposure for effective sun protection.', 1, CONVERT(DATE, '01/01/2027', 103));
+
+-- Medicamento: 'Sodium Bicarbonate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sodium Bicarbonate is used to relieve heartburn and indigestion. Take as directed for optimal relief.', 1, CONVERT(DATE, '02/02/2027', 103));
+
+-- Medicamento: 'Femara'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Femara is used for breast cancer treatment. Take as directed by your oncologist for the prescribed duration.', 1, CONVERT(DATE, '03/03/2027', 103));
+
+-- Medicamento: 'Dexmethylphenidate Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Dexmethylphenidate Hydrochloride is used for attention deficit hyperactivity disorder (ADHD). Take as directed for symptom management.', 1, CONVERT(DATE, '04/04/2027', 103));
+
+-- Medicamento: 'Nafcillin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Nafcillin is an antibiotic used to treat bacterial infections. Follow the prescribed dosage for the recommended duration.', 1, CONVERT(DATE, '05/05/2027', 103));
+
+-- Medicamento: 'Meprobamate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Meprobamate is a muscle relaxant used to relieve muscle spasms. Take as directed for effective muscle spasm relief.', 1, CONVERT(DATE, '06/06/2027', 103));
+
+-- Medicamento: 'Salicylic Acid'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Salicylic Acid is used for acne treatment. Apply as directed for clear and healthy skin.', 1, CONVERT(DATE, '07/07/2027', 103));
+
+-- Medicamento: 'Chlorhexidine Gluconate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Chlorhexidine Gluconate is an antiseptic used for wound cleaning. Use as directed for proper wound care.', 1, CONVERT(DATE, '08/08/2027', 103));
+
+-- Medicamento: 'Felodipine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Felodipine is a calcium channel blocker used to treat high blood pressure. Take as prescribed for optimal blood pressure control.', 1, CONVERT(DATE, '09/09/2027', 103));
+
+-- Medicamento: 'Giant Wild Rye'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Giant Wild Rye is a herbal supplement. Follow the recommended dosage for the intended health benefits.', 1, CONVERT(DATE, '10/10/2027', 103));
+
+-- Medicamento: 'Actiogen Acne Dots Treatment'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Actiogen Acne Dots Treatment is for acne spot treatment. Apply to affected areas as directed for acne relief.', 1, CONVERT(DATE, '11/11/2027', 103));
+
+-- Medicamento: 'Oxycodone Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Oxycodone Hydrochloride is a pain reliever. Take as prescribed for relief from moderate to severe pain.', 1, CONVERT(DATE, '12/12/2027', 103));
+
+-- Medicamento: 'Nu Skin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Nu Skin is a skincare product. Follow the instructions for application to promote healthy skin.', 1, CONVERT(DATE, '01/01/2028', 103));
+
+-- Medicamento: 'Cetirizine Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Cetirizine Hydrochloride is an antihistamine used for allergy relief. Take as directed for relief from allergy symptoms.', 1, CONVERT(DATE, '02/02/2028', 103));
+
+-- Medicamento: 'Antacid Antigas'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Antacid Antigas is used to relieve symptoms of extra gas, stomach bloating, and discomfort. Take as directed for relief.', 1, CONVERT(DATE, '03/03/2028', 103));
+
+-- Medicamento: 'MultiHance'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('MultiHance is a contrast agent used in magnetic resonance imaging (MRI). Follow the prescribed dosage for the imaging procedure.', 1, CONVERT(DATE, '04/04/2028', 103));
+
+-- Medicamento: 'Clonidine Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Clonidine Hydrochloride is used to treat high blood pressure. Take as prescribed for effective blood pressure control.', 1, CONVERT(DATE, '05/05/2028', 103));
+
+-- Medicamento: 'PHAZYME'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('PHAZYME is used for the relief of symptoms associated with gas. Take as directed for relief from gas discomfort.', 1, CONVERT(DATE, '06/06/2028', 103));
+
+-- Medicamento: 'Health Smart Antibacterial sweet pea orchid'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Smart Antibacterial sweet pea orchid is a hand sanitizer. Use as directed for effective hand hygiene.', 1, CONVERT(DATE, '07/07/2028', 103));
+
+-- Medicamento: 'Oxycodone and Acetaminophen'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Oxycodone and Acetaminophen is a combination medication used for pain relief. Take as prescribed for relief from pain.', 1, CONVERT(DATE, '08/08/2028', 103));
+
+-- Medicamento: 'Miconazole Seven'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Miconazole Seven is an antifungal cream. Apply as directed for the treatment of fungal infections.', 1, CONVERT(DATE, '09/09/2028', 103));
+
+-- Medicamento: 'Clindamycin Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Clindamycin Hydrochloride is an antibiotic used to treat bacterial infections. Follow the prescribed dosage for the recommended duration.', 1, CONVERT(DATE, '10/10/2028', 103));
+
+-- Medicamento: 'NITROGEN'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('NITROGEN is used for various industrial and medical purposes. Follow safety guidelines for handling and use.', 1, CONVERT(DATE, '11/11/2028', 103));
+
+-- Medicamento: 'Panama Jack'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Panama Jack is a skincare product. Follow the instructions for application to promote healthy skin.', 1, CONVERT(DATE, '12/12/2028', 103));
+
+-- Medicamento: 'Aspirin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Aspirin is a common pain reliever and fever reducer. Take as directed for relief from pain or fever.', 1, CONVERT(DATE, '13/01/2029', 103));
+
+-- Medicamento: 'Remedy with Phytoplex ZGuard'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Remedy with Phytoplex ZGuard is a skin protectant. Apply as directed to protect the skin from irritation.', 1, CONVERT(DATE, '14/02/2029', 103));
+
+-- Medicamento: 'Sertraline Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sertraline Hydrochloride is an antidepressant. Take as prescribed for the treatment of depressive disorders.', 1, CONVERT(DATE, '15/03/2029', 103));
+
+-- Medicamento: 'LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('LBEL Couleur Luxe Rouge Amplifier XP amplifying SPF is a cosmetic product. Use as directed for lip color and sun protection.', 1, CONVERT(DATE, '16/04/2029', 103));
+
+-- Medicamento: 'Ursodiol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ursodiol is used to treat gallstones. Take as prescribed for the dissolution of gallstones.', 1, CONVERT(DATE, '17/05/2029', 103));
+
+-- Medicamento: 'Lamb Quarters'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lamb Quarters is a herbal supplement. Take as directed for its potential health benefits.', 1, CONVERT(DATE, '18/06/2029', 103));
+
+-- Medicamento: 'FRESH DECOR'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('FRESH DECOR is a skincare product. Follow the instructions for application to enhance skin appearance.', 1, CONVERT(DATE, '19/07/2029', 103));
+
+-- Medicamento: 'SYAGRUS ROMANZOFFIANA POLLEN'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('SYAGRUS ROMANZOFFIANA POLLEN is used in homeopathic remedies. Follow recommended guidelines for use.', 1, CONVERT(DATE, '20/08/2029', 103));
+
+-- Medicamento: 'Escitalopram'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Escitalopram is an antidepressant. Take as prescribed for the treatment of anxiety and depressive disorders.', 1, CONVERT(DATE, '21/09/2029', 103));
+
+-- Medicamento: 'Lavender and Sage Antibacterial Foaming Hand Wash'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lavender and Sage Antibacterial Foaming Hand Wash is a hand hygiene product. Use as directed for effective hand cleansing.', 1, CONVERT(DATE, '22/10/2029', 103));
+
+-- Medicamento: 'Four Kidney'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Four Kidney is a dietary supplement. Take as directed for potential kidney health benefits.', 1, CONVERT(DATE, '23/11/2029', 103));
+
+-- Medicamento: 'TriLipiderm'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('TriLipiderm is a skincare product. Apply as directed for skin moisturizing and nourishment.', 1, CONVERT(DATE, '24/12/2029', 103));
+
+-- Medicamento: 'Health Smart Antibacterial cucumber melon'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Smart Antibacterial cucumber melon is a hand hygiene product. Use as directed for effective hand cleansing.', 1, CONVERT(DATE, '25/01/2030', 103));
+
+-- Medicamento: 'Morphine Sulfate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Morphine Sulfate is a pain reliever. Take as prescribed for relief from moderate to severe pain.', 1, CONVERT(DATE, '26/02/2030', 103));
+
+-- Medicamento: 'Dermarest'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Dermarest is used to treat skin conditions. Apply as directed for relief from itching and inflammation.', 1, CONVERT(DATE, '27/03/2030', 103));
+
+-- Medicamento: 'ABELMOSCHUS'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('ABELMOSCHUS is a herbal supplement. Take as directed for potential health benefits.', 1, CONVERT(DATE, '28/04/2030', 103));
+
+-- Medicamento: 'Testim'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Testim is a testosterone replacement therapy. Use as prescribed for the treatment of low testosterone.', 1, CONVERT(DATE, '29/05/2030', 103));
+
+-- Medicamento: 'DR WHITENING FORTIFIER'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('DR WHITENING FORTIFIER is a dental product. Follow the instructions for teeth whitening.', 1, CONVERT(DATE, '30/06/2030', 103));
+
+-- Medicamento: 'Health Mart MultiSymptom Cold and Flu Night Time'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Mart MultiSymptom Cold and Flu Night Time is used for cold and flu relief. Take as directed before bedtime.', 1, CONVERT(DATE, '31/07/2030', 103));
+
+-- Medicamento: 'Lansoprazole'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lansoprazole is a proton pump inhibitor. Take as prescribed for the treatment of acid-related stomach conditions.', 1, CONVERT(DATE, '01/08/2030', 103));
+
+-- Medicamento: 'JIANZE FIRST AID ANTISEPTIC SKIN TOWELETTE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('JIANZE FIRST AID ANTISEPTIC SKIN TOWELETTE is for skin disinfection. Use as directed for wound care.', 1, CONVERT(DATE, '02/09/2030', 103));
+
+-- Medicamento: 'Nitrous Oxide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Nitrous Oxide is an inhalation anesthetic. Administer as directed for medical procedures requiring anesthesia.', 1, CONVERT(DATE, '03/10/2030', 103));
+
+-- Medicamento: 'Revalife'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Revalife is a dietary supplement. Take as part of a healthy lifestyle for potential well-being benefits.', 1, CONVERT(DATE, '04/11/2030', 103));
+
+-- Medicamento: 'Sunbrellas Kids Sunblock SPF'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sunbrellas Kids Sunblock SPF is a sunscreen. Apply generously and reapply as needed for sun protection.', 1, CONVERT(DATE, '05/12/2030', 103));
+
+-- Medicamento: 'NORTRIPTYLINE HYDROCHLORIDE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('NORTRIPTYLINE HYDROCHLORIDE is used to treat depression. Take as prescribed for mental health support.', 1, CONVERT(DATE, '06/01/2031', 103));
+
+-- Medicamento: 'Nicotine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Nicotine is used for smoking cessation. Follow the recommended dosage for quitting smoking.', 1, CONVERT(DATE, '07/02/2031', 103));
+
+-- Medicamento: 'Furosemide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Furosemide is a diuretic. Take as directed for the treatment of fluid retention and edema.', 1, CONVERT(DATE, '08/03/2031', 103));
+
+-- Medicamento: 'Eggplant'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Eggplant is a dietary inclusion. Consume as part of a balanced diet for potential health benefits.', 1, CONVERT(DATE, '09/04/2031', 103));
+
+-- Medicamento: 'Desert Sage'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Desert Sage is an herbal remedy. Use as directed for potential health and wellness benefits.', 1, CONVERT(DATE, '10/05/2031', 103));
+
+-- Medicamento: 'Inflamyar'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Inflamyar is used for pain relief. Take as directed for the relief of inflammatory conditions.', 1, CONVERT(DATE, '11/06/2031', 103));
+
+-- Medicamento: 'DepoEstradiol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('DepoEstradiol is a hormonal medication. Administer as prescribed for hormonal imbalance treatment.', 1, CONVERT(DATE, '12/07/2031', 103));
+
+-- Medicamento: 'Clear Eyes Redness Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Clear Eyes Redness Relief is for eye redness. Use as directed for relief from minor eye irritations.', 1, CONVERT(DATE, '13/08/2031', 103));
+
+-- Medicamento: 'Epsom Salt'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Epsom Salt is used for bath soaking. Dissolve in warm water for a relaxing and soothing bath experience.', 1, CONVERT(DATE, '14/09/2031', 103));
+
+-- Medicamento: 'pain relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pain Relief is an analgesic. Take as directed for relief from mild to moderate pain.', 1, CONVERT(DATE, '15/10/2031', 103));
+
+-- Medicamento: 'POLYMYXIN B SULFATE and TRIMETHOPRIM SULFATE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('POLYMYXIN B SULFATE and TRIMETHOPRIM SULFATE is an antibiotic. Take as prescribed for bacterial infections.', 1, CONVERT(DATE, '16/11/2031', 103));
+
+-- Medicamento: 'Bronchial Cough'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Bronchial Cough is for cough relief. Take as directed for relief from bronchial irritation and coughing.', 1, CONVERT(DATE, '17/12/2031', 103));
+
+-- Medicamento: 'Health Mart nicotine polacrilex'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Mart Nicotine Polacrilex is used for smoking cessation. Follow the recommended dosage for quitting smoking.', 1, CONVERT(DATE, '18/01/2032', 103));
+
+-- Medicamento: 'Childrens Uniphed'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Childrens Uniphed is for allergy relief. Administer as directed for relief from allergy symptoms in children.', 1, CONVERT(DATE, '19/02/2032', 103));
+
+-- Medicamento: 'Lisinopril'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lisinopril is an ACE inhibitor. Take as prescribed for the treatment of hypertension and heart failure.', 1, CONVERT(DATE, '20/03/2032', 103));
+
+-- Medicamento: 'pain and fever'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pain and Fever medication is an analgesic and antipyretic. Take as directed for relief from pain and fever.', 1, CONVERT(DATE, '21/04/2032', 103));
+
+-- Medicamento: 'Carisoprodol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Carisoprodol is a muscle relaxant. Take as directed for relief from muscle spasms and pain.', 1, CONVERT(DATE, '22/05/2032', 103));
+
+-- Medicamento: 'Allergy Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Allergy Relief is an antihistamine. Take as prescribed for relief from allergy symptoms such as sneezing and itching.', 1, CONVERT(DATE, '23/06/2032', 103));
+
+-- Medicamento: 'Isosorbide Mononitrate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Isosorbide Mononitrate is a nitrate. Take as directed for the prevention of chest pain (angina).', 1, CONVERT(DATE, '24/07/2032', 103));
+
+-- Medicamento: 'Tinnitus Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Tinnitus Relief is for relief from ringing in the ears. Follow the recommended dosage for managing tinnitus symptoms.', 1, CONVERT(DATE, '25/08/2032', 103));
+
+-- Medicamento: 'Erythromycin'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Erythromycin is an antibiotic. Take as prescribed for the treatment of bacterial infections.', 1, CONVERT(DATE, '26/09/2032', 103));
+
+-- Medicamento: 'ANTIBACTERIAL HAND SP WITH LIGHT MOISTURIZERS REFILL'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('ANTIBACTERIAL HAND SP WITH LIGHT MOISTURIZERS REFILL is for hand hygiene. Use as directed for clean and moisturized hands.', 1, CONVERT(DATE, '27/10/2032', 103));
+
+-- Medicamento: 'Fngsode'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Fngsode is used for fungal infections. Apply topically as directed for the treatment of fungal skin conditions.', 1, CONVERT(DATE, '28/11/2032', 103));
+
+-- Medicamento: 'Neutrogena Revitalizing Lip Balm'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Neutrogena Revitalizing Lip Balm provides lip hydration. Apply as needed for moisturized and revitalized lips.', 1, CONVERT(DATE, '29/12/2032', 103));
+
+-- Medicamento: 'Oxybutynin Chloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Oxybutynin Chloride is for overactive bladder. Take as prescribed for the management of urinary symptoms.', 1, CONVERT(DATE, '30/01/2033', 103));
+
+-- Medicamento: 'Hydrocortisone'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hydrocortisone is a corticosteroid. Apply topically as directed for the relief of skin inflammation and itching.', 1, CONVERT(DATE, '12/02/2033', 103));
+
+-- Medicamento: 'Luxiq'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Luxiq is a topical corticosteroid. Apply a thin layer to the affected skin area as directed for the treatment of inflammatory skin conditions.', 1, CONVERT(DATE, '01/03/2033', 103));
+
+-- Medicamento: 'Venlafaxine Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Venlafaxine Hydrochloride is an antidepressant. Take as prescribed for the management of depressive symptoms.', 1, CONVERT(DATE, '02/04/2033', 103));
+
+-- Medicamento: 'Shingles Control'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Shingles Control is for the relief of shingles pain. Follow the recommended dosage for the management of shingles symptoms.', 1, CONVERT(DATE, '03/05/2033', 103));
+
+-- Medicamento: 'Bloating Complex'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Bloating Complex helps relieve digestive discomfort. Take as directed for the relief of bloating and gas.', 1, CONVERT(DATE, '04/06/2033', 103));
+
+-- Medicamento: 'XtraCare Antibacterial Hand Cleanse'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('XtraCare Antibacterial Hand Cleanse is for hand hygiene. Use as directed for clean and germ-free hands.', 1, CONVERT(DATE, '05/07/2033', 103));
+
+-- Medicamento: 'Medroxyprogesterone Acetate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Medroxyprogesterone Acetate is a hormone. Take as prescribed for hormonal imbalance and other related conditions.', 1, CONVERT(DATE, '06/08/2033', 103));
+
+-- Medicamento: 'Dry Cough Diarrhea'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Dry Cough Diarrhea medication helps relieve cough and diarrhea symptoms. Follow the recommended dosage for relief.', 1, CONVERT(DATE, '07/09/2033', 103));
+
+-- Medicamento: 'Own'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Own is a medication for personal well-being. Take as directed for overall health and vitality.', 1, CONVERT(DATE, '08/10/2033', 103));
+
+-- Medicamento: 'RUMEX CRISPUS POLLEN'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('RUMEX CRISPUS POLLEN is used for allergy relief. Follow the recommended dosage for relief from pollen-related allergy symptoms.', 1, CONVERT(DATE, '09/11/2033', 103));
+
+-- Medicamento: 'OPANA'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('OPANA is a pain reliever. Take as prescribed for the management of moderate to severe pain.', 1, CONVERT(DATE, '10/12/2033', 103));
+
+-- Medicamento: 'Advanced Eye Relief Redness Instant Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Advanced Eye Relief Redness Instant Relief provides quick relief from eye redness. Use as directed for soothing eye comfort.', 1, CONVERT(DATE, '11/01/2034', 103));
+
+-- Medicamento: 'Topcare Nicotine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Topcare Nicotine aids in smoking cessation. Follow the recommended dosage for effective nicotine replacement therapy.', 1, CONVERT(DATE, '12/02/2034', 103));
+
+-- Medicamento: 'Ondansetron'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Ondansetron is an anti-nausea medication. Take as prescribed for the prevention and treatment of nausea and vomiting.', 1, CONVERT(DATE, '13/03/2034', 103));
+
+-- Medicamento: 'Lidocaine Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lidocaine Hydrochloride is a local anesthetic. Use as directed for numbing and pain relief in the affected area.', 1, CONVERT(DATE, '14/04/2034', 103));
+
+-- Medicamento: 'COUMADIN'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('COUMADIN is an anticoagulant. Take as prescribed for the prevention of blood clots and related conditions.', 1, CONVERT(DATE, '15/05/2034', 103));
+
+-- Medicamento: 'Lisinopril'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lisinopril is an ACE inhibitor. Take as directed for the management of high blood pressure and related conditions.', 1, CONVERT(DATE, '16/06/2034', 103));
+
+-- Medicamento: 'NHS Insomnia 4'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('NHS Insomnia 4 is for the relief of insomnia. Follow the recommended dosage for a restful night\s sleep.', 1, CONVERT(DATE, '17/07/2034', 103));
+
+-- Medicamento: 'Guaifenesin DM'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Guaifenesin DM helps relieve cough and chest congestion. Take as directed for effective relief.', 1, CONVERT(DATE, '18/08/2034', 103));
+
+-- Medicamento: 'PredniSONE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('PredniSONE is a corticosteroid. Take as prescribed for the management of inflammatory and immune-related conditions.', 1, CONVERT(DATE, '19/09/2034', 103));
+
+-- Medicamento: 'ALLIUM SATIVUM'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('ALLIUM SATIVUM is used for various health benefits. Follow the recommended dosage for overall well-being.', 1, CONVERT(DATE, '20/10/2034', 103));
+
+-- Medicamento: 'Indapamide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Indapamide is a diuretic. Take as directed for the management of high blood pressure and fluid retention.', 1, CONVERT(DATE, '21/11/2034', 103));
+
+-- Medicamento: 'Gillette Mach Invisible'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Gillette Mach Invisible provides effective protection against perspiration and odor. Use as directed for long-lasting freshness.', 1, CONVERT(DATE, '22/12/2034', 103));
+
+-- Medicamento: 'Handy Solutions Crest Complete'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Handy Solutions Crest Complete is a fluoride toothpaste. Use as part of your daily oral hygiene routine for strong, healthy teeth.', 1, CONVERT(DATE, '23/01/2035', 103));
+
+-- Medicamento: 'Creations Garden'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Creations Garden offers a blend of essential nutrients. Follow the recommended dosage for overall health and well-being.', 1, CONVERT(DATE, '24/02/2035', 103));
+
+-- Medicamento: 'Brintellix'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Brintellix is an antidepressant. Take as prescribed for the management of depressive disorders.', 1, CONVERT(DATE, '25/03/2035', 103));
+
+-- Medicamento: 'Glytone acne cleansing toner'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Glytone acne cleansing toner helps treat acne-prone skin. Use as part of your skincare routine for clear and healthy skin.', 1, CONVERT(DATE, '26/04/2035', 103));
+
+-- Medicamento: 'Allopurinol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Allopurinol is used for the management of gout and related conditions. Take as directed for effective relief.', 1, CONVERT(DATE, '27/05/2035', 103));
+
+-- Medicamento: 'kolorz'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('kolorz is a coloring agent. Use as directed for various applications, following safety guidelines.', 1, CONVERT(DATE, '28/06/2035', 103));
+
+-- Medicamento: 'Natrum muriaticum'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Natrum muriaticum is a homeopathic remedy. Follow the recommended dosage for the management of specific health conditions.', 1, CONVERT(DATE, '29/07/2035', 103));
+
+-- Medicamento: 'dorzolamide hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Dorzolamide hydrochloride is used for the treatment of glaucoma. Use as prescribed for effective intraocular pressure control.', 1, CONVERT(DATE, '30/08/2035', 103));
+
+-- Medicamento: 'SHENG CHUN HERBAL'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('SHENG CHUN HERBAL is a herbal supplement. Follow the recommended dosage for overall health and well-being.', 1, CONVERT(DATE, '01/10/2035', 103));
+
+-- Medicamento: 'Hydrochlorothiazide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hydrochlorothiazide is a diuretic. Take as directed for the management of high blood pressure and fluid retention.', 1, CONVERT(DATE, '02/11/2035', 103));
+
+-- Medicamento: 'Lab1796 Allergy Escape'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lab1796 Allergy Escape provides relief from allergy symptoms. Use as directed for effective allergy management.', 1, CONVERT(DATE, '03/12/2035', 103));
+
+-- Medicamento: 'Neutrogena Men'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Neutrogena Men is a skincare product designed for men. Use as part of your daily skincare routine for healthy-looking skin.', 1, CONVERT(DATE, '04/01/2036', 103));
+
+-- Medicamento: 'Osteodoron AM Bone Support'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Osteodoron AM Bone Support is a supplement for bone health. Take as directed for the support of strong and healthy bones.', 1, CONVERT(DATE, '05/02/2036', 103));
+
+-- Medicamento: 'Handi-Sani'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Handi-Sani is an antibacterial hand sanitizer. Use as needed to maintain hand hygiene and prevent the spread of germs.', 1, CONVERT(DATE, '06/03/2036', 103));
+
+-- Medicamento: 'LOreal Paris'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('LOreal Paris is a beauty product. Use as part of your beauty routine for a radiant and youthful appearance.', 1, CONVERT(DATE, '07/04/2036', 103));
+
+-- Medicamento: 'Good Neighbor Pharmacy'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Good Neighbor Pharmacy offers a range of healthcare products. Follow specific product instructions for optimal results.', 1, CONVERT(DATE, '08/05/2036', 103));
+
+-- Medicamento: 'Stavudine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Stavudine is an antiretroviral medication. Take as prescribed for the management of HIV infection.', 1, CONVERT(DATE, '09/06/2036', 103));
+
+-- Medicamento: 'Sodium Bicarbonate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sodium Bicarbonate is used for various purposes, including as an antacid. Follow recommended dosages for specific applications.', 1, CONVERT(DATE, '10/07/2036', 103));
+
+-- Medicamento: 'AVINZA'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('AVINZA is a prescription pain medication. Take as directed by your healthcare provider for pain management.', 1, CONVERT(DATE, '11/08/2036', 103));
+
+-- Medicamento: 'Two in One'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Two in One is a combination medication. Follow the recommended dosage for the specific conditions it is prescribed for.', 1, CONVERT(DATE, '12/09/2036', 103));
+
+-- Medicamento: 'Baborganic Pure Line Reducing'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Baborganic Pure Line Reducing is a skincare product. Incorporate into your skincare routine for anti-aging benefits.', 1, CONVERT(DATE, '13/10/2036', 103));
+
+-- Medicamento: 'Horseradish'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Horseradish is a natural remedy. Use as recommended for its potential health benefits, including respiratory support.', 1, CONVERT(DATE, '14/11/2036', 103));
+
+-- Medicamento: 'HYALURONIC ACID'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('HYALURONIC ACID is a skincare ingredient. Follow product instructions for its use in your skincare routine.', 1, CONVERT(DATE, '15/12/2036', 103));
+
+-- Medicamento: 'Camphor Spirit'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Camphor Spirit is used for various purposes, including as a topical analgesic. Apply as directed for pain relief.', 1, CONVERT(DATE, '16/01/2037', 103));
+
+-- Medicamento: 'Health Mart Extra Strength Gas Relief'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Mart Extra Strength Gas Relief helps relieve gas-related symptoms. Take as directed for effective relief.', 1, CONVERT(DATE, '17/02/2037', 103));
+
+-- Medicamento: 'Activated Charcoal'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Activated Charcoal is used for various health purposes. Follow recommended dosages for its intended benefits.', 1, CONVERT(DATE, '18/03/2037', 103));
+
+-- Medicamento: 'Bamboo Firming Fluid'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Bamboo Firming Fluid is a skincare product. Use as part of your anti-aging skincare routine for firmer-looking skin.', 1, CONVERT(DATE, '19/04/2037', 103));
+
+-- Medicamento: 'Colon Prep MAXIMUM'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Colon Prep MAXIMUM is used for colon cleansing before medical procedures. Follow the prescribed regimen for best results.', 1, CONVERT(DATE, '20/05/2037', 103));
+
+-- Medicamento: 'Proactiv Revitalizing Toner'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Proactiv Revitalizing Toner is a skincare product. Use as part of your daily skincare routine for clearer and healthier-looking skin.', 1, CONVERT(DATE, '21/06/2037', 103));
+
+-- Medicamento: 'Magnesium Sulfate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Magnesium Sulfate is a mineral supplement. Take as directed by your healthcare provider for magnesium deficiency or other medical conditions.', 1, CONVERT(DATE, '22/07/2037', 103));
+
+-- Medicamento: 'Good Neighbor Pharmacy Loperamide Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Good Neighbor Pharmacy Loperamide Hydrochloride is an anti-diarrheal medication. Use as directed for relief from diarrhea.', 1, CONVERT(DATE, '23/08/2037', 103));
+
+-- Medicamento: 'NICOTINE'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('NICOTINE is used as part of a smoking cessation program. Follow the prescribed plan to quit smoking successfully.', 1, CONVERT(DATE, '24/09/2037', 103));
+
+-- Medicamento: 'Raspberry'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Raspberry is a natural flavoring. Use in culinary applications or as directed for its sweet and fruity taste.', 1, CONVERT(DATE, '25/10/2037', 103));
+
+-- Medicamento: 'Metoclopramide Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Metoclopramide Hydrochloride is used to treat gastrointestinal issues. Take as prescribed for relief from symptoms like nausea and vomiting.', 1, CONVERT(DATE, '26/11/2037', 103));
+
+-- Medicamento: 'Peppermint'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Peppermint is commonly used for its flavor and potential health benefits. Incorporate into your diet or use as directed.', 1, CONVERT(DATE, '27/12/2037', 103));
+
+-- Medicamento: 'Lansoprazole'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lansoprazole is a proton pump inhibitor. Take as directed for the treatment of conditions such as acid reflux and ulcers.', 1, CONVERT(DATE, '28/01/2038', 103));
+
+-- Medicamento: 'GOLDENROD POLLEN'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('GOLDENROD POLLEN may be used for allergic reactions. Follow the prescribed dosage for relief from allergy symptoms.', 1, CONVERT(DATE, '01/03/2038', 103));
+
+-- Medicamento: 'Pain Reliever PM'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Pain Reliever PM is a nighttime pain reliever. Take as directed before bedtime for relief from pain and improved sleep.', 1, CONVERT(DATE, '02/04/2038', 103));
+
+-- Medicamento: 'Dorzolamide Hydrochloride'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Dorzolamide Hydrochloride is used to lower high pressure in the eye. Follow the prescribed dosage for the treatment of glaucoma or other eye conditions.', 1, CONVERT(DATE, '03/05/2038', 103));
+
+-- Medicamento: 'SHENG CHUN HERBAL'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('SHENG CHUN HERBAL is a traditional herbal remedy. Use as directed for its potential health benefits and traditional medicinal properties.', 1, CONVERT(DATE, '04/06/2038', 103));
+
+-- Medicamento: 'Hydrochlorothiazide'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Hydrochlorothiazide is a diuretic. Take as prescribed for the treatment of high blood pressure or fluid retention associated with certain medical conditions.', 1, CONVERT(DATE, '05/07/2038', 103));
+
+-- Medicamento: 'Lab1796 Allergy Escape'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Lab1796 Allergy Escape may be used for allergy relief. Follow the prescribed dosage for relief from common allergy symptoms.', 1, CONVERT(DATE, '06/08/2038', 103));
+
+-- Medicamento: 'Neutrogena Men'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Neutrogena Men is a skincare product designed for men. Use as part of your daily skincare routine for healthier-looking skin.',1, CONVERT(DATE, '07/09/2038', 103));
+
+-- Medicamento: 'Osteodoron AM Bone Support'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Osteodoron AM Bone Support is a dietary supplement. Take as directed for bone support and overall bone health.', 1, CONVERT(DATE, '08/10/2038', 103));
+
+-- Medicamento: 'Handi-Sani'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Handi-Sani is a hand sanitizer. Use as directed for hand hygiene and to help prevent the spread of germs.', 1, CONVERT(DATE, '09/11/2038', 103));
+
+-- Medicamento: 'LOreal Paris'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('LOreal Paris is a cosmetic product. Use as part of your beauty routine for a radiant and flawless appearance.', 1, CONVERT(DATE, '10/12/2038', 103));
+
+-- Medicamento: 'Good Neighbor Pharmacy'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Good Neighbor Pharmacy is a brand offering various healthcare products. Use each product according to its specific instructions and intended purpose.', 1, CONVERT(DATE, '11/01/2039', 103));
+
+-- Medicamento: 'Stavudine'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Stavudine is an antiretroviral medication used in the treatment of HIV. Take as part of your prescribed HIV treatment regimen.', 1, CONVERT(DATE, '12/02/2039', 103));
+
+-- Medicamento: 'Sodium Bicarbonate'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Sodium Bicarbonate is commonly used to relieve heartburn and indigestion. Follow the recommended dosage for relief from acid-related stomach issues.', 1, CONVERT(DATE, '13/03/2039', 103));
+
+-- Medicamento: 'AVINZA'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('AVINZA is a prescription pain medication. Take as directed for the relief of moderate to severe pain.', 1, CONVERT(DATE, '14/04/2039', 103));
+
+-- Medicamento: 'Two in One'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Two in One is a combination medication. Follow the prescribed dosage for the treatment of specific health conditions it is intended for.', 1, CONVERT(DATE, '15/05/2039', 103));
+
+-- Medicamento: 'Baborganic Pure Line Reducing'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Baborganic Pure Line Reducing is a skincare product. Use as part of your skincare routine for its line-reducing properties.', 1, CONVERT(DATE, '16/06/2039', 103));
+
+-- Medicamento: 'Horseradish'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Horseradish may have various health benefits. Use as directed for potential therapeutic effects and culinary purposes.', 1, CONVERT(DATE, '17/07/2039', 103));
+
+-- Medicamento: 'Bio Metronidazole'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Bio Metronidazole is an antibiotic. Take as prescribed for the treatment of bacterial infections.', 1, CONVERT(DATE, '18/08/2039', 103));
+
+-- Medicamento: 'Atenolol'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Atenolol is a beta-blocker. Follow the recommended dosage for the management of high blood pressure and other cardiovascular conditions.', 1, CONVERT(DATE, '19/09/2039', 103));
+
+-- Medicamento: 'Health Smart Antibacterial vanilla brown sugar'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Health Smart Antibacterial vanilla brown sugar is a hygiene product. Use as directed for hand sanitation and a pleasant vanilla brown sugar scent.', 1, CONVERT(DATE, '20/10/2039', 103));
+
+-- Medicamento: 'NHS Sunscreen'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('NHS Sunscreen is a sun protection product. Apply generously before sun exposure for effective protection against harmful UV rays.', 1, CONVERT(DATE, '21/11/2039', 103));
+
+-- Medicamento: 'Skin Clear and Cover'
+INSERT INTO Prescription (NotesPrescription, [State], Created_at)
+VALUES ('Skin Clear and Cover is a skincare product. Use as part of your skincare routine for clear and radiant skin.', 1, CONVERT(DATE, '22/12/2039', 103));
+
+

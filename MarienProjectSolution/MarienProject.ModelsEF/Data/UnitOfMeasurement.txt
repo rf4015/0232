@@ -1,0 +1,18 @@
+
+INSERT INTO UnitOfMeasurement VALUES('Milligrams');
+INSERT INTO UnitOfMeasurement VALUES('Grams');
+INSERT INTO UnitOfMeasurement VALUES('Milliliters');
+INSERT INTO UnitOfMeasurement VALUES('Micrograms');
+INSERT INTO UnitOfMeasurement VALUES('Units');
+INSERT INTO UnitOfMeasurement VALUES('Tablets');
+INSERT INTO UnitOfMeasurement VALUES('Teaspoons');
+INSERT INTO UnitOfMeasurement VALUES('Milliequivalents');
+INSERT INTO UnitOfMeasurement VALUES('International Units');
+INSERT INTO UnitOfMeasurement VALUES('Ounces');
+INSERT INTO UnitOfMeasurement VALUES('Pounds');
+INSERT INTO UnitOfMeasurement VALUES('Liters');
+INSERT INTO UnitOfMeasurement VALUES('Nanograms');
+INSERT INTO UnitOfMeasurement VALUES('Pints');
+INSERT INTO UnitOfMeasurement VALUES('Fluid Ounces');
+INSERT INTO UnitOfMeasurement VALUES('Drops');
+INSERT INTO UnitOfMeasurement VALUES('Capsules');

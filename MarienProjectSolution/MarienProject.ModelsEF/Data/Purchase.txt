@@ -1,0 +1,2074 @@
+-- Inserción 1
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    15, -- Supplier_Id
+    '2022-05-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 2
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    87, -- Supplier_Id
+    '2021-08-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 3
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2020-11-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 4
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    56, -- Supplier_Id
+    '2023-02-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 5
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    199, -- Supplier_Id
+    '2019-07-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 6
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    33, -- Supplier_Id
+    '2020-04-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 7
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    142, -- Supplier_Id
+    '2022-09-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 8
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    78, -- Supplier_Id
+    '2023-01-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 9
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    105, -- Supplier_Id
+    '2021-06-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 10
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    45, -- Supplier_Id
+    '2020-10-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 11
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    175, -- Supplier_Id
+    '2022-07-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 12
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    91, -- Supplier_Id
+    '2020-05-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 13
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    63, -- Supplier_Id
+    '2021-11-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 14
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    118, -- Supplier_Id
+    '2019-12-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 15
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    7, -- Supplier_Id
+    '2023-03-26', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 16
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    155, -- Supplier_Id
+    '2022-02-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 17
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    23, -- Supplier_Id
+    '2020-09-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 18
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    189, -- Supplier_Id
+    '2021-01-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 19
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    132, -- Supplier_Id
+    '2022-04-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 20
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    46, -- Supplier_Id
+    '2023-08-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 21
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    82, -- Supplier_Id
+    '2019-06-21', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 22
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2020-12-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 23
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    37, -- Supplier_Id
+    '2021-03-31', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 24
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    96, -- Supplier_Id
+    '2022-10-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 25
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    112, -- Supplier_Id
+    '2023-05-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 26
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    68, -- Supplier_Id
+    '2019-10-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 27
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    143, -- Supplier_Id
+    '2021-07-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 28
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    54, -- Supplier_Id
+    '2022-01-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 29
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    19, -- Supplier_Id
+    '2020-04-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 30
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    176, -- Supplier_Id
+    '2023-12-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 31
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    75, -- Supplier_Id
+    '2022-09-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 32
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    117, -- Supplier_Id
+    '2019-12-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 33
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    93, -- Supplier_Id
+    '2021-05-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 34
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    61, -- Supplier_Id
+    '2020-10-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 35
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    134, -- Supplier_Id
+    '2023-02-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 36
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    48, -- Supplier_Id
+    '2019-07-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 37
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    87, -- Supplier_Id
+    '2022-03-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 38
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    26, -- Supplier_Id
+    '2020-08-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 39
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    160, -- Supplier_Id
+    '2021-11-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 40
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    112, -- Supplier_Id
+    '2022-06-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 41
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    32, -- Supplier_Id
+    '2019-03-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 42
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    195, -- Supplier_Id
+    '2023-10-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 43
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    68, -- Supplier_Id
+    '2021-08-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 44
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2020-12-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 45
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    76, -- Supplier_Id
+    '2022-04-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 46
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    145, -- Supplier_Id
+    '2019-11-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 47
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    42, -- Supplier_Id
+    '2023-05-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 48
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    101, -- Supplier_Id
+    '2021-01-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 49
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    19, -- Supplier_Id
+    '2020-06-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 50
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    83, -- Supplier_Id
+    '2022-11-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 51
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    56, -- Supplier_Id
+    '2023-08-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 52
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    127, -- Supplier_Id
+    '2021-03-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 53
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    92, -- Supplier_Id
+    '2020-07-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 54
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    34, -- Supplier_Id
+    '2019-02-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 55
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    174, -- Supplier_Id
+    '2022-09-04', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 56
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    71, -- Supplier_Id
+    '2020-01-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 57
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    146, -- Supplier_Id
+    '2023-04-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 58
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    48, -- Supplier_Id
+    '2021-07-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 59
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    108, -- Supplier_Id
+    '2019-10-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 60
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    12, -- Supplier_Id
+    '2022-05-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 61
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    183, -- Supplier_Id
+    '2020-12-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 62
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    54, -- Supplier_Id
+    '2023-03-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 63
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    79, -- Supplier_Id
+    '2019-08-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 64
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    138, -- Supplier_Id
+    '2021-12-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 65
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    37, -- Supplier_Id
+    '2022-07-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 66
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    116, -- Supplier_Id
+    '2020-04-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 67
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    88, -- Supplier_Id
+    '2023-01-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 68
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    22, -- Supplier_Id
+    '2019-06-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 69
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    155, -- Supplier_Id
+    '2022-09-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 70
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    43, -- Supplier_Id
+    '2020-02-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 71
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    102, -- Supplier_Id
+    '2021-08-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 72
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    72, -- Supplier_Id
+    '2019-03-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 73
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    142, -- Supplier_Id
+    '2022-11-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 74
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    59, -- Supplier_Id
+    '2020-06-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 75
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    176, -- Supplier_Id
+    '2023-03-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 76
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    50, -- Supplier_Id
+    '2021-01-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 77
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    111, -- Supplier_Id
+    '2020-07-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 78
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    18, -- Supplier_Id
+    '2019-11-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 79
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    92, -- Supplier_Id
+    '2022-04-24', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 80
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    29, -- Supplier_Id
+    '2021-10-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 81
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    83, -- Supplier_Id
+    '2020-05-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 82
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    135, -- Supplier_Id
+    '2023-08-17', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 83
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    68, -- Supplier_Id
+    '2019-02-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 84
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2022-07-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 85
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    40, -- Supplier_Id
+    '2020-12-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 86
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    106, -- Supplier_Id
+    '2021-05-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 87
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    22, -- Supplier_Id
+    '2019-09-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 88
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    152, -- Supplier_Id
+    '2023-04-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 89
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    74, -- Supplier_Id
+    '2020-01-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 90
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    148, -- Supplier_Id
+    '2022-08-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 91
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    32, -- Supplier_Id
+    '2021-02-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 92
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    195, -- Supplier_Id
+    '2020-09-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 93
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    68, -- Supplier_Id
+    '2023-06-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 94
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2019-12-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 95
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    76, -- Supplier_Id
+    '2022-03-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 96
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    145, -- Supplier_Id
+    '2020-10-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 97
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    42, -- Supplier_Id
+    '2022-05-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 98
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    101, -- Supplier_Id
+    '2019-01-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 99
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    19, -- Supplier_Id
+    '2023-10-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 100
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    83, -- Supplier_Id
+    '2021-07-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 101
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    56, -- Supplier_Id
+    '2019-04-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 102
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    127, -- Supplier_Id
+    '2022-01-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 103
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    92, -- Supplier_Id
+    '2020-08-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 104
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    34, -- Supplier_Id
+    '2023-05-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 105
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    174, -- Supplier_Id
+    '2021-12-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 106
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    71, -- Supplier_Id
+    '2020-07-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 107
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    146, -- Supplier_Id
+    '2023-03-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 108
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    49, -- Supplier_Id
+    '2020-02-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 109
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    112, -- Supplier_Id
+    '2021-09-13', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 110
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    57, -- Supplier_Id
+    '2022-04-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 111
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    95, -- Supplier_Id
+    '2019-06-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 112
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    161, -- Supplier_Id
+    '2022-11-26', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 113
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    64, -- Supplier_Id
+    '2020-01-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 114
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    129, -- Supplier_Id
+    '2023-08-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 115
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    37, -- Supplier_Id
+    '2019-11-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 116
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    84, -- Supplier_Id
+    '2023-01-17', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 117
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    45, -- Supplier_Id
+    '2020-06-04', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 118
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    103, -- Supplier_Id
+    '2021-02-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 119
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    12, -- Supplier_Id
+    '2019-10-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 120
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    189, -- Supplier_Id
+    '2022-07-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 121
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    78, -- Supplier_Id
+    '2023-04-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 122
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    23, -- Supplier_Id
+    '2020-11-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 123
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    137, -- Supplier_Id
+    '2021-08-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 124
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    53, -- Supplier_Id
+    '2019-05-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 125
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    114, -- Supplier_Id
+    '2022-02-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 126
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    67, -- Supplier_Id
+    '2020-09-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 127
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    161, -- Supplier_Id
+    '2023-06-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 128
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    89, -- Supplier_Id
+    '2019-03-13', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 129
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    36, -- Supplier_Id
+    '2022-10-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 130
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    146, -- Supplier_Id
+    '2020-05-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 131
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    75, -- Supplier_Id
+    '2023-02-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 132
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    42, -- Supplier_Id
+    '2019-07-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 133
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    103, -- Supplier_Id
+    '2021-12-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 134
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    17, -- Supplier_Id
+    '2020-02-26', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 135
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    98, -- Supplier_Id
+    '2022-09-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 136
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    57, -- Supplier_Id
+    '2019-04-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 137
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2023-11-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 138
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    29, -- Supplier_Id
+    '2021-08-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 139
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    162, -- Supplier_Id
+    '2020-01-24', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 140
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    71, -- Supplier_Id
+    '2022-04-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 141
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    46, -- Supplier_Id
+    '2019-05-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 142
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    88, -- Supplier_Id
+    '2020-11-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 143
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    133, -- Supplier_Id
+    '2021-06-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 144
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    20, -- Supplier_Id
+    '2023-03-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 145
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    102, -- Supplier_Id
+    '2019-09-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 146
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    64, -- Supplier_Id
+    '2022-01-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 147
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    175, -- Supplier_Id
+    '2020-08-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 148
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    77, -- Supplier_Id
+    '2021-04-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 149
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    39, -- Supplier_Id
+    '2022-11-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 150
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    118, -- Supplier_Id
+    '2019-02-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 151
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    91, -- Supplier_Id
+    '2020-05-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 152
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    28, -- Supplier_Id
+    '2021-01-17', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 153
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    143, -- Supplier_Id
+    '2022-06-04', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 154
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    50, -- Supplier_Id
+    '2019-12-21', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 155
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    101, -- Supplier_Id
+    '2022-09-04', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 156
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    67, -- Supplier_Id
+    '2020-02-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 157
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    112, -- Supplier_Id
+    '2021-07-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 158
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    56, -- Supplier_Id
+    '2023-04-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 159
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    85, -- Supplier_Id
+    '2019-11-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 160
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    125, -- Supplier_Id
+    '2022-03-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 161
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    42, -- Supplier_Id
+    '2020-10-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 162
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    94, -- Supplier_Id
+    '2021-05-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 163
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    32, -- Supplier_Id
+    '2019-02-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 164
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    134, -- Supplier_Id
+    '2022-07-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 165
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    75, -- Supplier_Id
+    '2019-09-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 166
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    107, -- Supplier_Id
+    '2020-04-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 167
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    63, -- Supplier_Id
+    '2021-11-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 168
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    19, -- Supplier_Id
+    '2019-06-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 169
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    158, -- Supplier_Id
+    '2022-02-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 170
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    54, -- Supplier_Id
+    '2019-12-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 171
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    83, -- Supplier_Id
+    '2021-07-21', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 172
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    29, -- Supplier_Id
+    '2022-03-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 173
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    112, -- Supplier_Id
+    '2019-08-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 174
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    71, -- Supplier_Id
+    '2020-01-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 175
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    132, -- Supplier_Id
+    '2022-08-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 176
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    46, -- Supplier_Id
+    '2020-05-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 177
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    95, -- Supplier_Id
+    '2021-01-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 178
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    23, -- Supplier_Id
+    '2019-11-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 179
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    150, -- Supplier_Id
+    '2022-06-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 180
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    61, -- Supplier_Id
+    '2019-09-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 181
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    117, -- Supplier_Id
+    '2020-03-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 182
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    78, -- Supplier_Id
+    '2021-10-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 183
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    37, -- Supplier_Id
+    '2022-05-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 184
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    108, -- Supplier_Id
+    '2019-02-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 185
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    52, -- Supplier_Id
+    '2020-09-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 186
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    128, -- Supplier_Id
+    '2021-04-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 187
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    70, -- Supplier_Id
+    '2019-07-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 188
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    96, -- Supplier_Id
+    '2022-01-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 189
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    44, -- Supplier_Id
+    '2019-04-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 190
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    136, -- Supplier_Id
+    '2020-11-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 191
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    89, -- Supplier_Id
+    '2022-07-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 192
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    13, -- Supplier_Id
+    '2019-05-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 193
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    124, -- Supplier_Id
+    '2020-02-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 194
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    58, -- Supplier_Id
+    '2021-09-17', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 195
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    33, -- Supplier_Id
+    '2019-03-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 196
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    102, -- Supplier_Id
+    '2020-10-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 197
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    79, -- Supplier_Id
+    '2021-06-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 198
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    23, -- Supplier_Id
+    '2019-01-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 199
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    115, -- Supplier_Id
+    '2022-04-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 200
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    49, -- Supplier_Id
+    '2019-11-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 201
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    93, -- Supplier_Id
+    '2020-06-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 202
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    18, -- Supplier_Id
+    '2021-02-06', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 203
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    142, -- Supplier_Id
+    '2019-08-23', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 204
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    68, -- Supplier_Id
+    '2022-01-10', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 205
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    38, -- Supplier_Id
+    '2019-04-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 206
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    105, -- Supplier_Id
+    '2020-12-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 207
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    57, -- Supplier_Id
+    '2019-09-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 208
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    130, -- Supplier_Id
+    '2020-03-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+/*
+-- Inserción 209
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    67, -- Supplier_Id
+    '2021-10-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 210
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    26, -- Supplier_Id
+    '2019-05-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 211
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    148, -- Supplier_Id
+    '2022-08-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 212
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    94, -- Supplier_Id
+    '2019-02-12', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 213
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    45, -- Supplier_Id
+    '2020-09-27', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 214
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    85, -- Supplier_Id
+    '2019-07-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 215
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    32, -- Supplier_Id
+    '2021-04-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 216
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    110, -- Supplier_Id
+    '2022-11-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 217
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    75, -- Supplier_Id
+    '2019-12-08', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 218
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    21, -- Supplier_Id
+    '2021-08-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 219
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    126, -- Supplier_Id
+    '2022-04-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 220
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    59, -- Supplier_Id
+    '2019-01-29', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 221
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    97, -- Supplier_Id
+    '2020-10-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 222
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    42, -- Supplier_Id
+    '2021-06-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 223
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    104, -- Supplier_Id
+    '2019-03-21', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 224
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    84, -- Supplier_Id
+    '2020-12-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 225
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    28, -- Supplier_Id
+    '2019-08-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 226
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    146, -- Supplier_Id
+    '2022-02-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 227
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    69, -- Supplier_Id
+    '2019-05-05', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 228
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    113, -- Supplier_Id
+    '2020-01-22', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 229
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    53, -- Supplier_Id
+    '2021-10-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 230
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    20, -- Supplier_Id
+    '2019-11-26', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 231
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    118, -- Supplier_Id
+    '2020-06-17', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 232
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    48, -- Supplier_Id
+    '2021-02-03', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 233
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    98, -- Supplier_Id
+    '2019-09-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 234
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    37, -- Supplier_Id
+    '2022-03-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 235
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    109, -- Supplier_Id
+    '2019-01-13', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 236
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    55, -- Supplier_Id
+    '2020-07-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 237
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    81, -- Supplier_Id
+    '2022-10-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 238
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    41, -- Supplier_Id
+    '2019-05-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 239
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    107, -- Supplier_Id
+    '2021-01-18', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 240
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    63, -- Supplier_Id
+    '2019-08-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 241
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    136, -- Supplier_Id
+    '2020-03-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 242
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    73, -- Supplier_Id
+    '2021-11-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 243
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    24, -- Supplier_Id
+    '2019-12-30', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 244
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    91, -- Supplier_Id
+    '2020-06-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 245
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    46, -- Supplier_Id
+    '2019-02-25', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 246
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    111, -- Supplier_Id
+    '2020-10-02', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 247
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    64, -- Supplier_Id
+    '2021-05-20', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 248
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    100, -- Supplier_Id
+    '2019-01-09', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 249
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    34, -- Supplier_Id
+    '2020-08-16', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 250
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    123, -- Supplier_Id
+    '2019-04-04', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 251
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    66, -- Supplier_Id
+    '2020-11-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 252
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    19, -- Supplier_Id
+    '2019-07-15', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 253
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    116, -- Supplier_Id
+    '2022-02-07', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 254
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    54, -- Supplier_Id
+    '2019-09-24', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 255
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    88, -- Supplier_Id
+    '2021-04-11', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 256
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    38, -- Supplier_Id
+    '2019-12-28', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 257
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    105, -- Supplier_Id
+    '2020-07-14', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 258
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    27, -- Supplier_Id
+    '2019-02-01', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+-- Inserción 259
+INSERT INTO Purchase (Supplier_Id, DeliveryDate, InvoiceStatus_Id)
+VALUES (
+    141, -- Supplier_Id
+    '2022-08-19', -- Fecha aleatoria entre 2019 y 2023
+    2 -- InvoiceStatus_Id
+);
+
+*/
