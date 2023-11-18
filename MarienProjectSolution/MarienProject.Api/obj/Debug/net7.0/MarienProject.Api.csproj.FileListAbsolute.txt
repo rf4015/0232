@@ -93,3 +93,288 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.deps.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.runtimeconfig.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MarienProject.Api.props
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
+C:\Users\User1\source\repos\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.deps.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.runtimeconfig.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.deps.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.runtimeconfig.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MarienProject.Api.props
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll

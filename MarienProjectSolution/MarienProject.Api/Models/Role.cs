@@ -14,4 +14,6 @@ public partial class Role
     public virtual ICollection<Customer> Customers { get; set; } = new List<Customer>();
 
     public virtual ICollection<Employee> Employees { get; set; } = new List<Employee>();
+
+    public virtual ICollection<Menu> Menus { get; set; } = new List<Menu>();
 }

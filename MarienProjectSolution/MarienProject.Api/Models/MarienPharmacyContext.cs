@@ -15,6 +15,7 @@ public partial class MarienPharmacyContext : DbContext
     {
     }
 
+    public virtual DbSet<CustomModels.AllCustomerData> AllCustomerDatas { get; set; }
     public virtual DbSet<City> Cities { get; set; }
 
     public virtual DbSet<Conversion> Conversions { get; set; }
@@ -47,6 +48,8 @@ public partial class MarienPharmacyContext : DbContext
 
     public virtual DbSet<MedicationLaboratory> MedicationLaboratories { get; set; }
 
+    public virtual DbSet<Menu> Menus { get; set; }
+
     public virtual DbSet<Municipality> Municipalities { get; set; }
 
     public virtual DbSet<Purchase> Purchases { get; set; }
@@ -77,13 +80,11 @@ public partial class MarienPharmacyContext : DbContext
 
     public virtual DbSet<UserProfile> UserProfiles { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<City>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__City__3214EC07C5AE7EE0");
+            entity.HasKey(e => e.Id).HasName("PK__City__3214EC07644C79C2");
 
             entity.ToTable("City");
 
@@ -92,7 +93,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<Conversion>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Conversi__3214EC07CE5FD7E4");
+            entity.HasKey(e => e.Id).HasName("PK__Conversi__3214EC07A4BC55D1");
 
             entity.ToTable("Conversion");
 
@@ -113,12 +114,12 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.UnitOfMeasurement).WithMany(p => p.Conversions)
                 .HasForeignKey(d => d.UnitOfMeasurementId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Conversio__UnitO__3A81B327");
+                .HasConstraintName("FK__Conversio__UnitO__4CA06362");
         });
 
         modelBuilder.Entity<Currency>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Currency__3214EC071ACE6CED");
+            entity.HasKey(e => e.Id).HasName("PK__Currency__3214EC07288719B6");
 
             entity.ToTable("Currency");
 
@@ -129,15 +130,15 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Customer__3214EC073D98B175");
+            entity.HasKey(e => e.Id).HasName("PK__Customer__3214EC07EA706471");
 
             entity.ToTable("Customer");
 
-            entity.HasIndex(e => e.UserId, "UQ__Customer__1788CC4D0CFC941F").IsUnique();
+            entity.HasIndex(e => e.UserId, "UQ__Customer__1788CC4DABD3D834").IsUnique();
 
-            entity.HasIndex(e => e.EmailAddress, "UQ__Customer__49A1474075F22B61").IsUnique();
+            entity.HasIndex(e => e.EmailAddress, "UQ__Customer__49A147405E2B5BA4").IsUnique();
 
-            entity.HasIndex(e => e.Phone, "UQ__Customer__5C7E359EBD25B678").IsUnique();
+            entity.HasIndex(e => e.Phone, "UQ__Customer__5C7E359EE5C9062D").IsUnique();
 
             entity.Property(e => e.EmailAddress).HasMaxLength(120);
             entity.Property(e => e.FirstNames).HasMaxLength(50);
@@ -159,7 +160,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<CustomerAddress>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Customer__3214EC072EB6FB97");
+            entity.HasKey(e => e.Id).HasName("PK__Customer__3214EC078B6CBCF7");
 
             entity.ToTable("CustomerAddress");
 
@@ -172,17 +173,17 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.Customer).WithMany(p => p.CustomerAddresses)
                 .HasForeignKey(d => d.CustomerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CustomerA__Custo__0E6E26BF");
+                .HasConstraintName("FK__CustomerA__Custo__208CD6FA");
 
             entity.HasOne(d => d.Municipality).WithMany(p => p.CustomerAddresses)
                 .HasForeignKey(d => d.MunicipalityId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CustomerA__Munic__0F624AF8");
+                .HasConstraintName("FK__CustomerA__Munic__2180FB33");
         });
 
         modelBuilder.Entity<DeliveryType>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Delivery__3214EC07226FF2F2");
+            entity.HasKey(e => e.Id).HasName("PK__Delivery__3214EC07C2EFE678");
 
             entity.ToTable("DeliveryType");
 
@@ -192,15 +193,15 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<Employee>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Employee__3214EC07C2AB0160");
+            entity.HasKey(e => e.Id).HasName("PK__Employee__3214EC07B677DEB3");
 
             entity.ToTable("Employee");
 
-            entity.HasIndex(e => e.UserId, "UQ__Employee__1788CC4D9C9A090D").IsUnique();
+            entity.HasIndex(e => e.UserId, "UQ__Employee__1788CC4DF854DEDD").IsUnique();
 
-            entity.HasIndex(e => e.EmailAddress, "UQ__Employee__49A14740814A1E1A").IsUnique();
+            entity.HasIndex(e => e.EmailAddress, "UQ__Employee__49A14740B19CA027").IsUnique();
 
-            entity.HasIndex(e => e.Phone, "UQ__Employee__5C7E359EF08FD8A7").IsUnique();
+            entity.HasIndex(e => e.Phone, "UQ__Employee__5C7E359ED08BBE13").IsUnique();
 
             entity.Property(e => e.Dni)
                 .HasMaxLength(14)
@@ -236,12 +237,12 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.Currency).WithMany()
                 .HasForeignKey(d => d.CurrencyId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ExchangeR__Curre__00200768");
+                .HasConstraintName("FK__ExchangeR__Curre__123EB7A3");
         });
 
         modelBuilder.Entity<GenericMedicationName>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__GenericM__3214EC07BD545C76");
+            entity.HasKey(e => e.Id).HasName("PK__GenericM__3214EC071796027E");
 
             entity.ToTable("GenericMedicationName");
 
@@ -261,7 +262,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<InternalMovement>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Internal__3214EC0750560A34");
+            entity.HasKey(e => e.Id).HasName("PK__Internal__3214EC07FC5579D1");
 
             entity.ToTable("InternalMovement");
 
@@ -286,12 +287,12 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.StoredMedication).WithMany(p => p.InternalMovements)
                 .HasForeignKey(d => d.StoredMedicationId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__InternalM__Store__5165187F");
+                .HasConstraintName("FK__InternalM__Store__6383C8BA");
         });
 
         modelBuilder.Entity<InvoiceStatus>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__InvoiceS__3214EC07FF732CCA");
+            entity.HasKey(e => e.Id).HasName("PK__InvoiceS__3214EC07288DBF76");
 
             entity.ToTable("InvoiceStatus");
 
@@ -301,7 +302,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<Medication>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC0719B4E44F");
+            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07E14DC109");
 
             entity.ToTable("Medication");
 
@@ -314,12 +315,12 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.Category).WithMany(p => p.Medications)
                 .HasForeignKey(d => d.CategoryId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Categ__276EDEB3");
+                .HasConstraintName("FK__Medicatio__Categ__398D8EEE");
         });
 
         modelBuilder.Entity<MedicationCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07A94097F1");
+            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07BA95BD98");
 
             entity.ToTable("MedicationCategory");
 
@@ -331,7 +332,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<MedicationDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC0746D14C4F");
+            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC0735F9C02B");
 
             entity.ToTable("MedicationDetail");
 
@@ -356,22 +357,22 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.GenericMedicationName).WithMany(p => p.MedicationDetails)
                 .HasForeignKey(d => d.GenericMedicationNameId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Gener__31EC6D26");
+                .HasConstraintName("FK__Medicatio__Gener__440B1D61");
 
             entity.HasOne(d => d.Medication).WithMany(p => p.MedicationDetails)
                 .HasForeignKey(d => d.MedicationId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Medic__300424B4");
+                .HasConstraintName("FK__Medicatio__Medic__4222D4EF");
 
             entity.HasOne(d => d.MedicationLaboratory).WithMany(p => p.MedicationDetails)
                 .HasForeignKey(d => d.MedicationLaboratoryId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Medic__30F848ED");
+                .HasConstraintName("FK__Medicatio__Medic__4316F928");
         });
 
         modelBuilder.Entity<MedicationInStock>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07EC2A5CE4");
+            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07490CCB48");
 
             entity.ToTable("MedicationInStock");
 
@@ -383,21 +384,21 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.InternalMovement).WithMany(p => p.MedicationInStocks)
                 .HasForeignKey(d => d.InternalMovementId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Inter__5535A963");
+                .HasConstraintName("FK__Medicatio__Inter__6754599E");
 
             entity.HasOne(d => d.Location).WithMany(p => p.MedicationInStocks)
                 .HasForeignKey(d => d.LocationId)
-                .HasConstraintName("FK__Medicatio__Locat__5629CD9C");
+                .HasConstraintName("FK__Medicatio__Locat__68487DD7");
 
             entity.HasOne(d => d.StoredMedication).WithMany(p => p.MedicationInStocks)
                 .HasForeignKey(d => d.StoredMedicationId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Medicatio__Store__5441852A");
+                .HasConstraintName("FK__Medicatio__Store__66603565");
         });
 
         modelBuilder.Entity<MedicationLaboratory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC07B23C08E5");
+            entity.HasKey(e => e.Id).HasName("PK__Medicati__3214EC075E850D78");
 
             entity.ToTable("MedicationLaboratory");
 
@@ -416,9 +417,30 @@ public partial class MarienPharmacyContext : DbContext
                 .HasColumnName("Update_at");
         });
 
+        modelBuilder.Entity<Menu>(entity =>
+        {
+            entity.HasKey(e => e.IdMenu).HasName("PK__Menu__F6BCBF2ED44B4DEC");
+
+            entity.ToTable("Menu");
+
+            entity.Property(e => e.IdMenu).HasColumnName("Id_Menu");
+            entity.Property(e => e.IdMenuFather).HasColumnName("Id_MenuFather");
+            entity.Property(e => e.IdRole).HasColumnName("Id_Role");
+            entity.Property(e => e.MenuName).HasColumnName("Menu_Name");
+
+            entity.HasOne(d => d.IdMenuFatherNavigation).WithMany(p => p.InverseIdMenuFatherNavigation)
+                .HasForeignKey(d => d.IdMenuFather)
+                .HasConstraintName("FK_Id_MenuFather");
+
+            entity.HasOne(d => d.IdRoleNavigation).WithMany(p => p.Menus)
+                .HasForeignKey(d => d.IdRole)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Id_Role");
+        });
+
         modelBuilder.Entity<Municipality>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Municipa__3214EC07C5B4F467");
+            entity.HasKey(e => e.Id).HasName("PK__Municipa__3214EC07AEFEA113");
 
             entity.ToTable("Municipality");
 
@@ -428,12 +450,12 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.City).WithMany(p => p.Municipalities)
                 .HasForeignKey(d => d.CityId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Municipal__City___7C4F7684");
+                .HasConstraintName("FK__Municipal__City___0E6E26BF");
         });
 
         modelBuilder.Entity<Purchase>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Purchase__3214EC07D034371B");
+            entity.HasKey(e => e.Id).HasName("PK__Purchase__3214EC077ADDD220");
 
             entity.ToTable("Purchase");
 
@@ -444,17 +466,17 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.InvoiceStatus).WithMany(p => p.Purchases)
                 .HasForeignKey(d => d.InvoiceStatusId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Purchase__Invoic__693CA210");
+                .HasConstraintName("FK__Purchase__Invoic__7B5B524B");
 
             entity.HasOne(d => d.Supplier).WithMany(p => p.Purchases)
                 .HasForeignKey(d => d.SupplierId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Purchase__Suppli__68487DD7");
+                .HasConstraintName("FK__Purchase__Suppli__7A672E12");
         });
 
         modelBuilder.Entity<PurchaseDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Purchase__3214EC07F9F46134");
+            entity.HasKey(e => e.Id).HasName("PK__Purchase__3214EC073AE27588");
 
             entity.ToTable("PurchaseDetail");
 
@@ -465,22 +487,22 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.Employee).WithMany(p => p.PurchaseDetails)
                 .HasForeignKey(d => d.EmployeeId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__PurchaseD__Emplo__6E01572D");
+                .HasConstraintName("FK__PurchaseD__Emplo__00200768");
 
             entity.HasOne(d => d.Purchase).WithMany(p => p.PurchaseDetails)
                 .HasForeignKey(d => d.PurchaseId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__PurchaseD__Purch__6C190EBB");
+                .HasConstraintName("FK__PurchaseD__Purch__7E37BEF6");
 
             entity.HasOne(d => d.StoredMedication).WithMany(p => p.PurchaseDetails)
                 .HasForeignKey(d => d.StoredMedicationId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__PurchaseD__Store__6D0D32F4");
+                .HasConstraintName("FK__PurchaseD__Store__7F2BE32F");
         });
 
         modelBuilder.Entity<RefreshTokenHistory>(entity =>
         {
-            entity.HasKey(e => e.HistorialTokenId).HasName("PK__RefreshT__1CD201C1EDA403F5");
+            entity.HasKey(e => e.HistorialTokenId).HasName("PK__RefreshT__1CD201C1E94BCA1D");
 
             entity.ToTable("RefreshTokenHistory");
 
@@ -496,12 +518,12 @@ public partial class MarienPharmacyContext : DbContext
 
             entity.HasOne(d => d.User).WithMany(p => p.RefreshTokenHistories)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK__RefreshTo__UserI__1CBC4616");
+                .HasConstraintName("FK__RefreshTo__UserI__245D67DE");
         });
 
         modelBuilder.Entity<Role>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Role__3214EC07D9EA54A6");
+            entity.HasKey(e => e.Id).HasName("PK__Role__3214EC07C3EA1872");
 
             entity.ToTable("Role");
 
@@ -515,7 +537,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<Sale>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Sale__3214EC079A37C649");
+            entity.HasKey(e => e.Id).HasName("PK__Sale__3214EC0741BC0CAE");
 
             entity.ToTable("Sale");
 
@@ -536,34 +558,34 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.Customer).WithMany(p => p.Sales)
                 .HasForeignKey(d => d.CustomerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Sale__Customer_I__02FC7413");
+                .HasConstraintName("FK__Sale__Customer_I__151B244E");
 
             entity.HasOne(d => d.DeliveryEmployee).WithMany(p => p.SaleDeliveryEmployees)
                 .HasForeignKey(d => d.DeliveryEmployeeId)
-                .HasConstraintName("FK__Sale__DeliveryEm__06CD04F7");
+                .HasConstraintName("FK__Sale__DeliveryEm__18EBB532");
 
             entity.HasOne(d => d.DeliveryType).WithMany(p => p.Sales)
                 .HasForeignKey(d => d.DeliveryTypeId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Sale__DeliveryTy__04E4BC85");
+                .HasConstraintName("FK__Sale__DeliveryTy__17036CC0");
 
             entity.HasOne(d => d.Employee).WithMany(p => p.SaleEmployees)
                 .HasForeignKey(d => d.EmployeeId)
-                .HasConstraintName("FK__Sale__Employee_I__05D8E0BE");
+                .HasConstraintName("FK__Sale__Employee_I__17F790F9");
 
             entity.HasOne(d => d.InvoiceStatus).WithMany(p => p.Sales)
                 .HasForeignKey(d => d.InvoiceStatusId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Sale__InvoiceSta__03F0984C");
+                .HasConstraintName("FK__Sale__InvoiceSta__160F4887");
 
             entity.HasOne(d => d.Municipality).WithMany(p => p.Sales)
                 .HasForeignKey(d => d.MunicipalityId)
-                .HasConstraintName("FK__Sale__Municipali__07C12930");
+                .HasConstraintName("FK__Sale__Municipali__19DFD96B");
         });
 
         modelBuilder.Entity<SaleDetail>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__SaleDeta__3214EC07A98354B7");
+            entity.HasKey(e => e.Id).HasName("PK__SaleDeta__3214EC0716B63ADA");
 
             entity.ToTable("SaleDetail");
 
@@ -573,17 +595,17 @@ public partial class MarienPharmacyContext : DbContext
             entity.HasOne(d => d.MedicationInStock).WithMany(p => p.SaleDetails)
                 .HasForeignKey(d => d.MedicationInStockId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__SaleDetai__Medic__0B91BA14");
+                .HasConstraintName("FK__SaleDetai__Medic__1DB06A4F");
 
             entity.HasOne(d => d.Sale).WithMany(p => p.SaleDetails)
                 .HasForeignKey(d => d.SaleId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__SaleDetai__Sale___0A9D95DB");
+                .HasConstraintName("FK__SaleDetai__Sale___1CBC4616");
         });
 
         modelBuilder.Entity<ShelfCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__ShelfCat__3214EC07FC93C2D6");
+            entity.HasKey(e => e.Id).HasName("PK__ShelfCat__3214EC07148CD69C");
 
             entity.ToTable("ShelfCategory");
 
@@ -595,7 +617,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<ShelfLocationCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__ShelfLoc__3214EC07C591F755");
+            entity.HasKey(e => e.Id).HasName("PK__ShelfLoc__3214EC07B33278F0");
 
             entity.ToTable("ShelfLocationCategory");
 
@@ -607,12 +629,12 @@ public partial class MarienPharmacyContext : DbContext
 
             entity.HasOne(d => d.Shelf).WithMany(p => p.ShelfLocationCategories)
                 .HasForeignKey(d => d.ShelfId)
-                .HasConstraintName("FK__ShelfLoca__Shelf__46E78A0C");
+                .HasConstraintName("FK__ShelfLoca__Shelf__59063A47");
         });
 
         modelBuilder.Entity<StorageCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__StorageC__3214EC077C461A4C");
+            entity.HasKey(e => e.Id).HasName("PK__StorageC__3214EC07B5813A1F");
 
             entity.ToTable("StorageCategory");
 
@@ -624,7 +646,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<StorageLocationCategory>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__StorageL__3214EC0764B50D11");
+            entity.HasKey(e => e.Id).HasName("PK__StorageL__3214EC07C3FAFC34");
 
             entity.ToTable("StorageLocationCategory");
 
@@ -636,12 +658,12 @@ public partial class MarienPharmacyContext : DbContext
 
             entity.HasOne(d => d.Storage).WithMany(p => p.StorageLocationCategories)
                 .HasForeignKey(d => d.StorageId)
-                .HasConstraintName("FK__StorageLo__Stora__403A8C7D");
+                .HasConstraintName("FK__StorageLo__Stora__52593CB8");
         });
 
         modelBuilder.Entity<StoredMedication>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__StoredMe__3214EC073747FB80");
+            entity.HasKey(e => e.Id).HasName("PK__StoredMe__3214EC07E726FF48");
 
             entity.ToTable("StoredMedication");
 
@@ -663,26 +685,26 @@ public partial class MarienPharmacyContext : DbContext
 
             entity.HasOne(d => d.Location).WithMany(p => p.StoredMedications)
                 .HasForeignKey(d => d.LocationId)
-                .HasConstraintName("FK__StoredMed__Locat__4D94879B");
+                .HasConstraintName("FK__StoredMed__Locat__5FB337D6");
 
             entity.HasOne(d => d.MedicationDetail).WithMany(p => p.StoredMedications)
                 .HasForeignKey(d => d.MedicationDetailId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__StoredMed__Medic__4AB81AF0");
+                .HasConstraintName("FK__StoredMed__Medic__5CD6CB2B");
 
             entity.HasOne(d => d.Supplier).WithMany(p => p.StoredMedications)
                 .HasForeignKey(d => d.SupplierId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__StoredMed__Suppl__4BAC3F29");
+                .HasConstraintName("FK__StoredMed__Suppl__5DCAEF64");
 
             entity.HasOne(d => d.UnitMeasurement).WithMany(p => p.StoredMedications)
                 .HasForeignKey(d => d.UnitMeasurementId)
-                .HasConstraintName("FK__StoredMed__UnitM__4CA06362");
+                .HasConstraintName("FK__StoredMed__UnitM__5EBF139D");
         });
 
         modelBuilder.Entity<Supplier>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Supplier__3214EC075C867517");
+            entity.HasKey(e => e.Id).HasName("PK__Supplier__3214EC078B5CBD75");
 
             entity.ToTable("Supplier");
 
@@ -701,7 +723,7 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<UnitOfMeasurement>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UnitOfMe__3214EC075F710347");
+            entity.HasKey(e => e.Id).HasName("PK__UnitOfMe__3214EC074AF015E1");
 
             entity.ToTable("UnitOfMeasurement");
 
@@ -712,13 +734,13 @@ public partial class MarienPharmacyContext : DbContext
 
         modelBuilder.Entity<UserProfile>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UserProf__3214EC0735F7B244");
+            entity.HasKey(e => e.Id).HasName("PK__UserProf__3214EC075C2C3127");
 
             entity.ToTable("UserProfile");
 
             entity.HasIndex(e => e.UserName, "UC_UserProfile_Username").IsUnique();
 
-            entity.HasIndex(e => e.UserName, "UQ__UserProf__C9F284560BFC5FF4").IsUnique();
+            entity.HasIndex(e => e.UserName, "UQ__UserProf__C9F28456AA866E55").IsUnique();
 
             entity.Property(e => e.UserName).HasMaxLength(50);
             entity.Property(e => e.UserPassaword)

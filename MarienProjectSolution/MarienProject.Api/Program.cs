@@ -9,6 +9,7 @@ using MarienProject.Api.Services;
 using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,7 +31,16 @@ builder.Services.AddDbContextPool<MarienPharmacyContext>(options =>
 );
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
+builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+builder.Services.AddScoped<ISaleDetailRepository, SaleDetailRepository>();
 builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
+
+builder.Services.AddControllers().AddJsonOptions(options => 
+{
+	options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+});
 
 //JWt configuration
 var privateKey = builder.Configuration.GetValue<string>("JwtSetting:PrivateKey");

@@ -1827,23 +1827,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\": {},
+    "C:\\Users\\User1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
       "projectName": "MarienProject.Web",
-      "projectPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
-      "packagesPath": "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\",
-      "outputPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\obj\\",
+      "projectPath": "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+      "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jefrey zuniga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1852,15 +1852,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj": {
-              "projectPath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj"
+            "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj": {
+              "projectPath": "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Models\\MarienProject.Models.csproj"
             }
           }
         }
@@ -1896,12 +1895,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[7.0.11, 7.0.11]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
