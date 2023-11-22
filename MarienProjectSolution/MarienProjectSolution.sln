@@ -8,6 +8,11 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarienProject.Api", "MarienProject.Api\MarienProject.Api.csproj", "{73F1758B-6CB5-4211-AD19-59851CCB1686}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarienProject.Models", "MarienProject.Models\MarienProject.Models.csproj", "{7E5E8006-036D-4B53-8886-9FF9677B0C0F}"
+<<<<<<< HEAD
+=======
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarienProject.ModelsEF", "MarienProject.ModelsEF\MarienProject.ModelsEF.csproj", "{B2F4B72A-934B-4740-AA1C-E597779F6D8A}"
+>>>>>>> 0304586d01c6ace74a1a1474cfd1a3bd4aeaf80b
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +32,10 @@ Global
 		{7E5E8006-036D-4B53-8886-9FF9677B0C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E5E8006-036D-4B53-8886-9FF9677B0C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E5E8006-036D-4B53-8886-9FF9677B0C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F4B72A-934B-4740-AA1C-E597779F6D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F4B72A-934B-4740-AA1C-E597779F6D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F4B72A-934B-4740-AA1C-E597779F6D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F4B72A-934B-4740-AA1C-E597779F6D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

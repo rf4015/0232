@@ -1,0 +1,310 @@
+-- Insertar categoría 1
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Painkillers', 1);
+
+-- Insertar categoría 2
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antibiotics', 1);
+
+-- Insertar categoría 3
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anti-inflammatories', 1);
+
+-- Insertar categoría 4
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antipyretics', 1);
+
+-- Insertar categoría 5
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antidepressants', 1);
+
+-- Insertar categoría 6
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihistamines', 1);
+
+-- Insertar categoría 7
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Vitamin Supplements', 1);
+
+-- Insertar categoría 8
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antivirals', 1);
+
+-- Insertar categoría 9
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antifungals', 1);
+
+-- Insertar categoría 10
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anesthetics', 1);
+
+-- Insertar categoría 11
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihypertensives', 1);
+
+-- Insertar categoría 12
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Diuretics', 1);
+
+-- Insertar categoría 13
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiemetics', 1);
+
+-- Insertar categoría 14
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antacids', 1);
+
+-- Insertar categoría 15
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Laxatives', 1);
+
+-- Insertar categoría 16
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiparasitics', 1);
+
+-- Insertar categoría 17
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihistamines', 1);
+
+-- Insertar categoría 18
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Immunosuppressants', 1);
+
+-- Insertar categoría 19
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Cardiotonics', 1);
+
+-- Insertar categoría 20
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Hormones', 1);
+
+-- Insertar categoría 21
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Vitamins', 1);
+
+-- Insertar categoría 22
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anti-infectives', 1);
+
+-- Insertar categoría 23
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Muscle Relaxants', 1);
+
+-- Insertar categoría 24
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Expectorants', 1);
+
+-- Insertar categoría 25
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Bronchodilators', 1);
+
+-- Insertar categoría 26
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antacids', 1);
+
+-- Insertar categoría 27
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anticoagulants', 1);
+
+-- Insertar categoría 28
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antipsychotics', 1);
+
+-- Insertar categoría 29
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiepileptics', 1);
+
+-- Insertar categoría 30
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antidiabetics', 1);
+
+-- Insertar categoría 31
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anabolic Steroids', 1);
+
+-- Insertar categoría 32
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiarrhythmics', 1);
+
+-- Insertar categoría 33
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antithrombotics', 1);
+
+-- Insertar categoría 34
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihyperlipidemics', 1);
+
+-- Insertar categoría 35
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Local Anesthetics', 1);
+
+-- Insertar categoría 36
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiemetics', 1);
+
+-- Insertar categoría 37
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiasthmatics', 1);
+
+-- Insertar categoría 38
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antivirals', 1);
+
+-- Insertar categoría 39
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Corticosteroids', 1);
+
+-- Insertar categoría 40
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antifungals', 1);
+
+-- Insertar categoría 41
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antipyretics', 1);
+
+-- Insertar categoría 42
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anthelmintics', 1);
+
+-- Insertar categoría 43
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antimycotics', 1);
+
+-- Insertar categoría 44
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antacids', 1);
+
+-- Insertar categoría 45
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihemorrhagics', 1);
+
+-- Insertar categoría 46
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiretrovirals', 1);
+
+-- Insertar categoría 47
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anti-infectives', 1);
+
+-- Insertar categoría 48
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antivertiginous', 1);
+
+-- Insertar categoría 49
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anticonvulsants', 1);
+
+-- Insertar categoría 50
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antacids', 1);
+
+-- Insertar categoría 51
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Contraceptives', 1);
+
+-- Insertar categoría 52
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antitussives', 1);
+
+-- Insertar categoría 53
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiparasitics', 1);
+
+-- Insertar categoría 54
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Nonsteroidal Anti-inflammatories', 1);
+
+-- Insertar categoría 55
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antianemics', 1);
+
+-- Insertar categoría 56
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antirheumatics', 1);
+
+-- Insertar categoría 57
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihistamines', 1);
+
+-- Insertar categoría 58
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Decongestants', 1);
+
+-- Insertar categoría 59
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antioxidants', 1);
+
+-- Insertar categoría 60
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antihypertensives', 1);
+
+-- Insertar categoría 61
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antitumorals', 1);
+
+-- Insertar categoría 62
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antifibrinolytics', 1);
+
+-- Insertar categoría 63
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiseptics', 1);
+
+-- Insertar categoría 64
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiepileptics', 1);
+
+-- Insertar categoría 65
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antimigraines', 1);
+
+-- Insertar categoría 66
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antidiarrheals', 1);
+
+-- Insertar categoría 67
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antispasmodics', 1);
+
+-- Insertar categoría 68
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiemetics', 1);
+
+-- Insertar categoría 69
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antioxidants', 1);
+
+-- Insertar categoría 70
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antifungals', 1);
+
+-- Insertar categoría 71
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiseptics', 1);
+
+-- Insertar categoría 72
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiemetics', 1);
+
+-- Insertar categoría 73
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anti-infectives', 1);
+
+-- Insertar categoría 74
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antivirals', 1);
+
+-- Insertar categoría 75
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Anthelmintics', 1);
+
+-- Insertar categoría 76
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antithrombotics', 1);
+
+-- Insertar categoría 77
+INSERT INTO ShelfCategory ([Name], [State])
+VALUES ('Antiepileptics', 1);
+
+
+

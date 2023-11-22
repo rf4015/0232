@@ -1,0 +1,2840 @@
+-- Insertar detalle de venta 301
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    147, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 302
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    147, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 303
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    148, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 304
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    148, -- Sale_Id
+    67, -- MedicationInStock_Id
+    90, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    900, -- Subtotal
+    899.4 -- Total
+);
+
+-- Insertar detalle de venta 305
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    149, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 306
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    149, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 307
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    150, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 308
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    150, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 309
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    151, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 310
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    151, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 311
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    152, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 312
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    152, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 313
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    153, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 314
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    153, -- Sale_Id
+    67, -- MedicationInStock_Id
+    90, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    900, -- Subtotal
+    899.4 -- Total
+);
+
+-- Insertar detalle de venta 315
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    154, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 316
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    154, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 317
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    155, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 318
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    155, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 319
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    156, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 320
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    156, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 321
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    157, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 322
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    157, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 323
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    158, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 324
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    158, -- Sale_Id
+    67, -- MedicationInStock_Id
+    90, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    900, -- Subtotal
+    899.4 -- Total
+);
+
+-- Insertar detalle de venta 325
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    159, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 326
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    159, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 327
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    160, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 328
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    160, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 329
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    161, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 330
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    161, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 331
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    162, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 332
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    162, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 333
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    163, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 334
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    163, -- Sale_Id
+    67, -- MedicationInStock_Id
+    90, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    900, -- Subtotal
+    899.4 -- Total
+);
+
+-- Insertar detalle de venta 335
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    164, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 336
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    164, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 337
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    165, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 338
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    165, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 339
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    166, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 340
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    166, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 341
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    167, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 342
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    167, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 343
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    168, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 344
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    168, -- Sale_Id
+    67, -- MedicationInStock_Id
+    90, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    900, -- Subtotal
+    899.4 -- Total
+);
+
+-- Insertar detalle de venta 345
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    169, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 346
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    169, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 347
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    170, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 348
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    170, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 349
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    171, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 350
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    172, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 351
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    172, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 352
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    173, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 353
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    173, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 354
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    174, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 355
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    174, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 356
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    175, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 357
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    175, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 358
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    176, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 359
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    176, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 360
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    177, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 361
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    177, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 362
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    178, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 363
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    178, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 364
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    179, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 365
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    179, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 366
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    180, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 367
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    180, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 368
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    181, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 369
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    181, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 370
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    182, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 371
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    182, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 372
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    183, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 373
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    183, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 374
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    184, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 375
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    184, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 376
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    185, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 377
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    185, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 378
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    186, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 379
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    186, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 380
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    187, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 381
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    187, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 382
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    188, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 383
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    188, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 384
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    189, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 385
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    189, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 386
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    190, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 387
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    190, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 388
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    191, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 389
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    191, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 390
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    192, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 391
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    192, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 392
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    193, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 393
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    193, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 394
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    194, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 395
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    194, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 396
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    195, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 397
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    195, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 398
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    196, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 399
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    196, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 400
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    197, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 401
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    197, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 402
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    198, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 403
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    198, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 404
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    199, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 405
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    199, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 406
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    200, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 407
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    200, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 408
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    201, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 409
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    201, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 410
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    202, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 411
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    202, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 412
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    203, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 413
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    203, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 414
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    204, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 415
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    204, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 416
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    205, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 417
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    205, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+/*
+-- Insertar detalle de venta 418
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    206, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 419
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    206, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+-- Insertar detalle de venta 420
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    207, -- Sale_Id
+    178, -- MedicationInStock_Id
+    83, -- Price en córdobas
+    18, -- Quantity
+    1.8, -- Discount
+    1.2, -- Tax
+    1494, -- Subtotal
+    1492.2 -- Total
+);
+
+-- Insertar detalle de venta 421
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    207, -- Sale_Id
+    101, -- MedicationInStock_Id
+    140, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1400, -- Subtotal
+    1399.4 -- Total
+);
+
+-- Insertar detalle de venta 422
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    208, -- Sale_Id
+    66, -- MedicationInStock_Id
+    105, -- Price en córdobas
+    12, -- Quantity
+    1.2, -- Discount
+    0.9, -- Tax
+    1260, -- Subtotal
+    1258.7 -- Total
+);
+
+-- Insertar detalle de venta 423
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    208, -- Sale_Id
+    145, -- MedicationInStock_Id
+    78, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1170, -- Subtotal
+    1168.5 -- Total
+);
+
+-- Insertar detalle de venta 424
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    209, -- Sale_Id
+    89, -- MedicationInStock_Id
+    110, -- Price en córdobas
+    10, -- Quantity
+    1.0, -- Discount
+    0.6, -- Tax
+    1100, -- Subtotal
+    1099.4 -- Total
+);
+
+-- Insertar detalle de venta 425
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    209, -- Sale_Id
+    110, -- MedicationInStock_Id
+    75, -- Price en córdobas
+    15, -- Quantity
+    2.0, -- Discount
+    1.3, -- Tax
+    1125, -- Subtotal
+    1121.7 -- Total
+);
+
+-- Insertar detalle de venta 426
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    210, -- Sale_Id
+    97, -- MedicationInStock_Id
+    150, -- Price en córdobas
+    5, -- Quantity
+    2.0, -- Discount
+    1.5, -- Tax
+    750, -- Subtotal
+    747.5 -- Total
+);
+
+-- Insertar detalle de venta 427
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    210, -- Sale_Id
+    55, -- MedicationInStock_Id
+    120, -- Price en córdobas
+    8, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    960, -- Subtotal
+    958.5 -- Total
+);
+
+-- Insertar detalle de venta 428
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    211, -- Sale_Id
+    134, -- MedicationInStock_Id
+    70, -- Price en córdobas
+    20, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    1400, -- Subtotal
+    1398.5 -- Total
+);
+
+-- Insertar detalle de venta 429
+INSERT INTO SaleDetail (
+    Sale_Id,
+    MedicationInStock_Id,
+    Price,
+    Quantity,
+    Discount,
+    Tax,
+    Subtotal,
+    Total
+)
+VALUES (
+    211, -- Sale_Id
+    55, -- MedicationInStock_Id
+    155, -- Price en córdobas
+    15, -- Quantity
+    1.5, -- Discount
+    1.0, -- Tax
+    2325, -- Subtotal
+    2323.5 -- Total
+);
+
+*/

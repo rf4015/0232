@@ -1,0 +1,3 @@
+Insert into DeliveryType values('Delivery','Home or site delivery')
+Insert into DeliveryType values('Pick Up','Just come to the pharmacy to pick up your product')
+Insert into DeliveryType values('Normal delivery','You carry out the entire purchasing process at the pharmacy')

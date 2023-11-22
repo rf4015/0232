@@ -1,0 +1,24 @@
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.dll.config
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.dll
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.pdb
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.CopyComplete
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.dll
+C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.pdb
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.dll.config
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\MarienProject.ModelsEF.pdb
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.xml
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.AssemblyReference.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.CoreCompileInputs.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.CopyComplete
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.pdb

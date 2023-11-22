@@ -1,0 +1,130 @@
+INSERT INTO [Role] (Name, Description)
+VALUES ('Admin', 'Administrator role with full access to all system functionalities and data.');
+
+-- Inserción 2
+INSERT INTO [Role] (Name, Description)
+VALUES ('Manager', 'Manager role with access to employee management, project oversight, and report generation.');
+
+-- Inserción 3
+INSERT INTO [Role] (Name, Description)
+VALUES ('Employee', 'Employee role with basic access for daily tasks and limited access to sensitive information.');
+
+-- Inserción para el rol "Client"
+INSERT INTO [Role] (Name, Description)
+VALUES ('Client', 'Client role with limited access to their own data and the ability to view and interact with their account information.');
+
+
+--INSERT INTO CUSTOER OF 15 CUSTOMER
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Fielding', 'Dowe', '62709352', 'fdowe0@huffingtonpost.com', 1, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Mallissa', 'Landa', '36886242', 'mlanda1@oracle.com', 2, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Elias', 'Beinke', '59851151', 'ebeinke2@free.fr', 3, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Farly', 'Dacks', '36261636', 'fdacks3@wufoo.com', 4, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Amandi', 'Shevlin', '04867137', 'ashevlin4@pbs.org', 5, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Olva', 'Lathwood', '80761439', 'olathwood5@ning.com', 6, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Opal', 'Gilvear', '23686203', 'ogilvear6@usatoday.com', 7, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Kelila', 'Carous', '52499060', 'kcarous7@elpais.com', 8, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Kristi', 'Wollrauch', '54677388', 'kwollrauch8@google.com', 9, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Fonsie', 'Stillman', '54406428', 'fstillman9@icq.com', 10, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Dagmar', 'Flecknoe', '03582526', 'dflecknoea@dion.com', 11, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Brunhilde', 'Jillins', '09209934', 'bjillinsb@seattletimes.com', 12, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Christan', 'Lindsley', '60429894', 'clindsleyc@moonfruit.com', 13, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Cortie', 'Mattes', '89344156', 'cmattesd@alexa.com', 14, 4);
+insert into Customer (FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId) values ('Bram', 'Wilhelmy', '68006753', 'bwilhelmye@elpais.com', 15, 4);
+
+--EN MI CASO HICE LA INSERCION DE LOS ID DEBIDO A QUE NO ME DEJO ESTABLECER LA PROPIEDAD IDENTITY
+--INSERTO INTO USERPROFILE OF 15 CUSTOMER
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (1, 'Dowe_doe', 'AdminM2-', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (2, 'Mallis-em', 'MissGi3_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (3, 'Eliselias_12', 'kali255_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (4, '_FNatFreddy', 'TheHack23_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (5, 'ShevAdm', 'Encryt4_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (6, 'OlivEmplo_', '1234_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (7, 'WalterO2', 'scorpion78_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (8, 'KeliAdm', 'JE2020_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (9, 'Kirsten676', 'WebDevelop968_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (10, 'Fonsie', 'stillman2_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (11, 'admin', '1234marien_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (12, 'JillFast1', 'VallesT90', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (13, 'Lindsey9', 'GodGun98y_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (14, 'Stanley990', 'mysecretpassword12', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (15, 'BramWTL5', 'Crash098', NULL);
+
+--INSERT INTO EMPLOYEE 0F 30 RECORDS
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Jennette', 'Bellows', '35252201', 'jbellows0@bloglines.com', '579174522836G', 16, 1);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Lucinda', 'Assaf', '14081871', 'lassaf1@google.nl', '646202876238T', 17, 1);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Miltie', 'Tullot', '83980447', 'mtullot2@topsy.com', '955866231092Z', 18, 1);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Ichabod', 'Druery', '99941335', 'idruery3@ted.com', '322592880309K', 19, 2);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Audy', 'Houseago', '42845945', 'ahouseago4@businessinsider.com', '055953009189Y', 20, 2);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Phillida', 'Kenninghan', '52696212', 'pkenninghan5@g.co', '710685325851O', 21, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Ly', 'Nuccitelli', '13434769', 'lnuccitelli6@disqus.com', '920748222574X', 22, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Carrol', 'Rogister', '54555762', 'crogister7@thetimes.co.uk', '213735314099B', 23, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Laetitia', 'Fulop', '36421853', 'lfulop8@bandcamp.com', '844002730637R', 24, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Timmy', 'Filippazzo', '50228831', 'tfilippazzo9@nba.com', '095312707293Y', 25, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Bruis', 'Klimowicz', '47668276', 'bklimowicza@bbb.org', '860723617546B', 26, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Gretta', 'Illston', '65461583', 'gillstonb@wix.com', '998712495955L', 27, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Jamie', 'Gandar', '95466183', 'jgandarc@gnu.org', '721755261256H', 28, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Karol', 'Abdy', '02168001', 'kabdyd@bluehost.com', '015980466679M', 29, 3);
+insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Stefania', 'Tegeller', '50305120', 'stegellere@webnode.com', '990750820418U', 30, 3);
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Roda', 'Sturgis', '67084137', 'rsturgisf@edublogs.org', '109342718761Y');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Maxim', 'Copplestone', '54554342', 'mcopplestoneg@gnu.org', '526547233016N');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Lizette', 'Scutching', '94735303', 'lscutchingh@uol.com.br', '356487405572M');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Barbabra', 'Haugg', '65822639', 'bhauggi@archive.org', '850783932577L');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Nahum', 'Yon', '39137044', 'nyonj@parallels.com', '510535310522J');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Winnie', 'Barlas', '97496527', 'wbarlask@merriam-webster.com', '237820785466H');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Maud', 'Beggin', '25798824', 'mbegginl@globo.com', '429469522624E');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Allina', 'Jennison', '88200320', 'ajennisonm@canalblog.com', '634957440926J');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Abram', 'Petersen', '26143449', 'apetersenn@discovery.com', '531224842446S');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Gabey', 'Donati', '36910077', 'gdonatio@dot.gov', '160073613558P');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Marlo', 'Berth', '69206624', 'mberthp@about.me', '788909132914A');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Jory', 'Westbrook', '18444849', 'jwestbrookq@chronoengine.com', '688660492985E');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Northrop', 'Cardero', '20623766', 'ncarderor@ft.com', '865813289296V');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Minta', 'Stanman', '35999350', 'mstanmans@goo.gl', '219297322270T');
+--insert into Employee (FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId) values ('Kelli', 'Flook', '85679949', 'kflookt@fc2.com', '330675383966R');
+
+--EN MI CASO HICE LA INSERCION DE LOS ID DEBIDO A QUE NO ME DEJO ESTABLECER LA PROPIEDAD IDENTITY
+--INSERTO INTO USERPROFILE OF 15 CUSTOMER
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (16, 'Jannet_doe', 'UserFaker23_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (17, 'Assaft_em', 'UserFaker24_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (18, 'Helmut_12', 'kali25_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (19, 'Onner_LCK', 'UserFaker26_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (20, 'Holiday76', 'UserFaker27_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (21, 'LilNasX_', 'UserFaker28_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (22, 'PostMalone32', 'UserFaker29_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (23, 'GGG09', 'UserFaker30_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (24, 'Demo879', 'UserFaker31_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (25, 'Elephunku8', 'UserFaker32_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (26, 'Grafftti833', 'UserFaker45_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (27, 'Congratulionsu8_', 'UserFaker93_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (28, 'Guma994', 'UserFaker2976_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (29, 'Respect9832@', 'UserFaker00_', NULL);
+INSERT INTO UserProfile (Id, UserName, UserPassaword, ProfileImage)
+VALUES (30, 'HouseF9_2', 'UserFaker410_', NULL);
