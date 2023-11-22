@@ -34,6 +34,7 @@ public static class DtoConvertion
 			Dni = employee.Dni,
 			State = employee.State,
 			Phone = employee.Phone,
+			UserId = employee.User.Id,
 			UserName = employee.User.UserName,
 			UserPassword = employee.User.UserPassaword,
 			RoleId = employee.Role.Id,

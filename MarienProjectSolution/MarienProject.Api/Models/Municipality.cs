@@ -9,9 +9,9 @@ public partial class Municipality
 
     public int CityId { get; set; }
 
-    public string? Name { get; set; }
+    public string Name { get; set; }
 
-    public virtual City City { get; set; } = null!;
+    public virtual City City { get; set; }
 
     public virtual ICollection<CustomerAddress> CustomerAddresses { get; set; } = new List<CustomerAddress>();
 

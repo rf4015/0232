@@ -3,11 +3,17 @@ using MarienProject.Api.Models;
 using MarienProject.Models.Dtos;
 public static class ModelConvertTo
 {
-	public static Employee ConvertToModel(this EmployeeDto employeeDto)
+	public static object[] ConvertToModel(this SaveEmployeeDto employeeDto)
 	{
-		return new Employee
+		UserProfile userProfile = new UserProfile
 		{
-			Id = employeeDto.Id,
+			UserName = employeeDto.UserName,
+			UserPassaword = employeeDto.UserPassword,
+			ProfileImage = employeeDto.ProfileImage,
+
+		};
+		Employee employee = new Employee
+		{
 			FirstNames = employeeDto.FirstNames,
 			LastNames = employeeDto.LastNames,
 			EmailAddress = employeeDto.EmailAddress,
@@ -16,5 +22,6 @@ public static class ModelConvertTo
 			Phone = employeeDto.Phone,
 			RoleId = employeeDto.RoleId
 		};
+		return new object[] { employee, userProfile };
 	}
 }

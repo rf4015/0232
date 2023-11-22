@@ -9,6 +9,7 @@
     "assembly": {
       "Microsoft.AspNetCore.Authorization.dll": "sha256-8f3B2YKtr38X\/o9azir1JiTTvPB3b+xEcluEyMAk1iE=",
       "Microsoft.AspNetCore.Components.dll": "sha256-4ILNFgB643G5ZkreiD24BGeHIeuV3whK+n6lzWroM3s=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-RETzcaqJB7uXmSqtgbNeKNNc5YC\/Ux+Ud\/XI\/\/VCR38=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-pMIawRgV4NJefI\/7ZXCbth0OgQLXSJtmcv+bSXL\/bKU=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-pdpLkBiIFrOxHFkkT83QGELitQkKq3egcI2\/+NwCs60=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-poSf0gkmt9SmR3CAzufUprKH4XE+f8sWOzJKwUqQ3j0=",
@@ -29,6 +30,7 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-q4ruoDSCjV\/QJY9ZkzV6uxvEvZUVrDbyUjU3SSh5SlE=",
       "Microsoft.JSInterop.dll": "sha256-kASAE+8NzefI7+Xifd2BiK+J9Ex95Owvsrw3Sh03Lok=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-x9wUJSTizwabTgkZJEi0od\/mBSZHJhE6xvh8F45kNsk=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.IO.Pipelines.dll": "sha256-P\/MqD0fCBd5bgTM16JC1QC\/Zz7s+CwViyzmDFkBG4\/c=",
       "Microsoft.CSharp.dll": "sha256-BUiVGe6p6jUmOK8r05pxkju2yOY+W440Yo1+skPhq9s=",
       "Microsoft.VisualBasic.Core.dll": "sha256-vKIUs2cWQIUo8dpQTCzbxP67FlfRjXtAwpjc4v\/5i50=",
@@ -198,15 +200,15 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "MarienProject.Models.dll": "sha256-YeUxRC+ueuKNzgkNdo67fvkiPjMeHsRi0hILl\/HSWsQ=",
-      "MarienProject.Web.dll": "sha256-T6uLBua7eTlPV35Dup5dJdTrSQQ6MTdjD8lWSAwsXY4="
+      "MarienProject.Models.dll": "sha256-DkXHwYAftK8SupazrmlqxKx6GEqFaFYKmVnvMqBqASc=",
+      "MarienProject.Web.dll": "sha256-ecFDehPIEuPVTFtcJjm21oQyCiz0uRx2i4Kzs+9rFOs="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MarienProject.Models.pdb": "sha256-\/72RlMBf3DUGaqu5ENwKgEb9kWo8pXMr9ntefe2JFOQ=",
-      "MarienProject.Web.pdb": "sha256-apPtadup31ituy0elX+OS0z6pnJeuDwtwmraJYghkvI="
+      "MarienProject.Models.pdb": "sha256-Y9p0hqet+2Bdl+Cy3pLHywd6TEzyMQjP9Hs+f0OkV9g=",
+      "MarienProject.Web.pdb": "sha256-RLukOv4dgA3AR33uTvdc7jHAiRpCJajoKehds39MhzA="
     },
     "runtime": {
       "dotnet.7.0.12.cd75lmyo37.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

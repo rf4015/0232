@@ -9,7 +9,7 @@ public partial class Conversion
 
     public int UnitOfMeasurementId { get; set; }
 
-    public string? Description { get; set; }
+    public string Description { get; set; }
 
     public int? Value { get; set; }
 
@@ -19,5 +19,5 @@ public partial class Conversion
 
     public DateTime? DeleteAt { get; set; }
 
-    public virtual UnitOfMeasurement UnitOfMeasurement { get; set; } = null!;
+    public virtual UnitOfMeasurement UnitOfMeasurement { get; set; }
 }

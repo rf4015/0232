@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "k3/BugQ3OkVcabbuxNwHt8794YtCeKXjmyMBUdZcxdQwegHCma1rtcAoZ9ZrxsyDGqcU2Y76orEaAGKvCPJxug==",
+  "dgSpecHash": "AgTj0/aEWSQ3BikqCk9tkLazkUB2ciOA4NjBCI/wIHg0O8vg/VQ4YKr67BBOD+0Xe94/h5/Xv8KdKXVUNmvXeQ==",
   "success": true,
-  "projectFilePath": "C:\\Jefrey13\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
+  "projectFilePath": "C:\\Users\\Jefrey zuniga\\Desktop\\JWT\\JWT\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.12\\microsoft.aspnetcore.components.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.12\\microsoft.aspnetcore.components.analyzers.7.0.12.nupkg.sha512",
+    "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\5.0.0\\microsoft.aspnetcore.components.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.12\\microsoft.aspnetcore.components.forms.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.12\\microsoft.aspnetcore.components.web.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.12\\microsoft.aspnetcore.components.webassembly.7.0.12.nupkg.sha512",
@@ -28,6 +29,7 @@
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.jsinterop\\7.0.12\\microsoft.jsinterop.7.0.12.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.12\\microsoft.jsinterop.webassembly.7.0.12.nupkg.sha512",
+    "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Jefrey zuniga\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"

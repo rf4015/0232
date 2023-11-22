@@ -20,3 +20,14 @@ C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\o
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
 C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.deps.json
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfoInputs.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfo.cs
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.csproj.CoreCompileInputs.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll

@@ -9,9 +9,9 @@ public partial class RefreshTokenHistory
 
     public int? UserId { get; set; }
 
-    public string? Token { get; set; }
+    public string Token { get; set; }
 
-    public string? RefreshToken { get; set; }
+    public string RefreshToken { get; set; }
 
     public DateTime? CreationDate { get; set; }
 
@@ -19,5 +19,5 @@ public partial class RefreshTokenHistory
 
     public bool? IsActive { get; set; }
 
-    public virtual UserProfile? User { get; set; }
+    public virtual UserProfile User { get; set; }
 }

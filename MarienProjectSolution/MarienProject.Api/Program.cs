@@ -30,8 +30,10 @@ builder.Services.AddDbContextPool<MarienPharmacyContext>(options =>
 );
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
+//JWT service
+builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
 //JWt configuration
 var privateKey = builder.Configuration.GetValue<string>("JwtSetting:PrivateKey");
 var keybytes = Encoding.ASCII.GetBytes(privateKey);
@@ -42,14 +44,14 @@ builder.Services.AddAuthentication(config =>
 	config.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(config =>
 {
-	config.RequireHttpsMetadata = false;
+	config.RequireHttpsMetadata = false;//https isn't required
 	config.SaveToken = true;
 	config.TokenValidationParameters = new TokenValidationParameters
 	{
-		ValidateIssuerSigningKey = true,
+		ValidateIssuerSigningKey = true,//Validating user by credentials
 		IssuerSigningKey = new SymmetricSecurityKey(keybytes),
-		ValidateIssuer = false,
-		ValidateAudience = false,
+		ValidateIssuer = false,//Who request isn't important, we're using credentials base
+		ValidateAudience = false, //It's not important to validate where users' requests are 
 		ValidateLifetime = true,
 		ClockSkew = TimeSpan.Zero
 	};
@@ -80,3 +82,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//Scaffold-DbContext "Server=LAPTOP-N56GM63T;Initial Catalog=MarienPharmacy;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force

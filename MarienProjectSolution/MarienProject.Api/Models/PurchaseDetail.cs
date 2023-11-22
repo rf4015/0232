@@ -25,9 +25,9 @@ public partial class PurchaseDetail
 
     public double Total { get; set; }
 
-    public virtual Employee Employee { get; set; } = null!;
+    public virtual Employee Employee { get; set; }
 
-    public virtual Purchase Purchase { get; set; } = null!;
+    public virtual Purchase Purchase { get; set; }
 
-    public virtual StoredMedication StoredMedication { get; set; } = null!;
+    public virtual StoredMedication StoredMedication { get; set; }
 }

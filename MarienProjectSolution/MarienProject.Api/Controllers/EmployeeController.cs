@@ -8,12 +8,16 @@ using Microsoft.Extensions.Logging;
 using Serilog.Core;
 using Microsoft.Data.SqlClient;
 using MarienProject.Api.Repositories.Contracts;
+using Microsoft.AspNetCore.Authorization;
+using MarienProject.Api.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace MarienProject.Api.Controllers
 {
-	[Route("api/[controller]")]
+	[Authorize]
+    [Route("api/[controller]")]
 	[ApiController]
-	public class EmployeeController : ControllerBase
+    public class EmployeeController : ControllerBase
 	{
 		private readonly IEmployeeRepository _employeeRepository;
 		private readonly ILogger<EmployeeController> _logger;
@@ -24,6 +28,7 @@ namespace MarienProject.Api.Controllers
 		}
 
 		[HttpGet]
+		[Route("GetAllEmployee")]
 		public async Task<ActionResult<IEnumerable<EmployeeDto>>> GetAllEmployees()
 		{
 			try
@@ -54,36 +59,15 @@ namespace MarienProject.Api.Controllers
 			}
 		}
 
-		[HttpGet("{id:int}")]
-		public async Task<ActionResult<EmployeeDto>> GetEmployeeById(int id)
-		{
-			try
-			{
-				var employee = await _employeeRepository.GetEmployeeById(id);
-				if (employee == null)
-				{
-					return NotFound(id);
-				}
-				else
-				{
-					var employeeDto = employee.ConvertToDto();
-					return Ok(employeeDto);
-				}
-			}
-			catch (Exception ex)
-			{
-				_logger.LogError(ex, "An error occurred while retrieving employee data by ID");
-				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-			}
-		}
-
-		[HttpPost]
-		public async Task<ActionResult<bool>> CreateEmployee(EmployeeDto employeeDto)
+        [HttpPost]
+		[Route("CreateEmployee")]
+		public async Task<ActionResult<bool>> CreateEmployee(SaveEmployeeDto employeeDto)
 		{
 			try
 			{
 				var employee = employeeDto.ConvertToModel();
-				var createStaus = await _employeeRepository.CreateEmployee(employee);
+
+				var createStaus = await _employeeRepository.CreateEmployee((Employee)employee[0], (UserProfile)employee[1]);
 				if (createStaus == false)
 				{
 					return NoContent();
@@ -100,7 +84,34 @@ namespace MarienProject.Api.Controllers
 			}
 		}
 
-		[HttpDelete("{id:int}")]
+        [HttpPut]
+		[Route("UpdateEmployee/{id}")]
+		public async Task<ActionResult<bool>> UpdateEmployee(int id,SaveEmployeeDto employeeDto)
+		{
+			try
+			{
+				var employee = employeeDto.ConvertToModel();
+				var updateStatus = await _employeeRepository.UpdateEmployeeById(id, (Employee)employee[0], (UserProfile)employee[1]);
+
+				if (updateStatus == false)
+				{
+					return NotFound();
+				}
+				else
+				{
+					return Ok(updateStatus);
+				}
+
+			}
+			catch (Exception ex)
+			{
+				_logger.LogError(ex, "An error occurred while updating an employee");
+				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+			}
+		}
+
+        [HttpDelete]
+		[Route("DeleteEmployee/{id}")]
 		public async Task<ActionResult<bool>> DeleteEmployee(int id)
 		{
 			try
@@ -122,26 +133,26 @@ namespace MarienProject.Api.Controllers
 			}
 		}
 
-		[HttpPatch("{id:int}")]
-		public async Task<ActionResult<bool>> UpdateEmployee(EmployeeDto employeeDto)
+        [HttpGet]
+		[Route("GetEmployeeById/{id}")]
+		public async Task<ActionResult<EmployeeDto>> GetEmployeeById(int id)
 		{
 			try
 			{
-				var employee = employeeDto.ConvertToModel();
-				var updateStatus = await _employeeRepository.UpdateEmployeeById(employee);
-				if (updateStatus == false)
+				var employee = await _employeeRepository.GetEmployeeById(id);
+				if (employee == null)
 				{
-					return NotFound();
+					return NotFound(id);
 				}
 				else
 				{
-					return Ok(updateStatus);
+					var employeeDto = employee.ConvertToDto();
+					return Ok(employeeDto);
 				}
-
 			}
 			catch (Exception ex)
 			{
-				_logger.LogError(ex, "An error occurred while updating an employee");
+				_logger.LogError(ex, "An error occurred while retrieving employee data by ID");
 				return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
 			}
 		}

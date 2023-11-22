@@ -1,11 +1,13 @@
 ﻿using MarienProject.Api.Models;
-using MarienProject.Api.Models.Token;
 using MarienProject.Api.Services.Contracts;
+using MarienProject.Models.Dtos;
+using MarienProject.Models.Dtos.JWT;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client.Platforms.Features.DesktopOs.Kerberos;
 using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
 using System.Security.Claims;
@@ -24,34 +26,49 @@ namespace MarienProject.Api.Services
 			_dbFarmaciaContext = dbFarmaciaContext;
 			_configuration = configuration;
 		}
-		private string GetToken(string idUser)
+		private string GenerateToken(int idUser)
 		{
-			var privatekey = _configuration.GetValue<string>("JwtSetting:PrivateKey");
+            var userProfile = _dbFarmaciaContext.UserProfiles.FirstOrDefault(r => r.Id == idUser);
+
+            var employee = _dbFarmaciaContext.Employees.FirstOrDefault(e => e.UserId == userProfile.Id);
+            var customer = _dbFarmaciaContext.Customers.FirstOrDefault(c => c.UserId == userProfile.Id);
+
+            var privatekey = _configuration.GetValue<string>("JwtSetting:PrivateKey");
 			var keyBytes = Encoding.ASCII.GetBytes(privatekey);
 
-			var claims = new ClaimsIdentity();
-			claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, idUser));
+			//Creating users'data for JWT
+			int? role = 0;
 
-			var credentialToken = new SigningCredentials(
+			if (employee != null) role = employee.RoleId;
+			else role = customer.RoleId;
+
+            var claims = new ClaimsIdentity();
+			claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, idUser.ToString()));
+			claims.AddClaim(new Claim(ClaimTypes.Role, role.ToString()));
+
+            //Creating credentilas for JWT
+            var credentialToken = new SigningCredentials(
 				new SymmetricSecurityKey(keyBytes),
 				SecurityAlgorithms.HmacSha256Signature
 				);
-
+			//Creating token' details
 			var tokenDescriptor = new SecurityTokenDescriptor
 			{
-				Subject = claims,
+				Subject = claims,//user's id
 				Expires = DateTime.UtcNow.AddMinutes(1),
 				SigningCredentials = credentialToken
 			};
 
+			//JWT's controller.
 			var tokenHandle = new JwtSecurityTokenHandler();
+			//Creating token with all details.
 			var tokenConfig = tokenHandle.CreateToken(tokenDescriptor);
-
+			//Getting token
 			var tokenCreated = tokenHandle.WriteToken(tokenConfig);
 
 			return tokenCreated;
 		}
-		private string GetRefreshToken()
+		private string GenerateRefreshToken()
 		{
 			var byteArray = new byte[64];
 			var refreshToken = "";
@@ -64,7 +81,7 @@ namespace MarienProject.Api.Services
 			return refreshToken;
 		}
 
-		private async Task<AuthorizationResponse> SaveRefreshtokenHistory(
+		private async Task<AuthorizationResponseDto> SaveRefreshtokenHistory(
 			int UserId,
 			string token,
 			string refreshToken)
@@ -74,50 +91,53 @@ namespace MarienProject.Api.Services
 				UserId = UserId,
 				Token = token,
 				RefreshToken = refreshToken,
-				ExpirationDate = DateTime.UtcNow,
-				CreationDate = DateTime.UtcNow.AddDays(5)
+				CreationDate = DateTime.UtcNow,
+				ExpirationDate = DateTime.UtcNow.AddMinutes(2)
 			};
 
 			await _dbFarmaciaContext.RefreshTokenHistories.AddAsync(refreshtokenHistory);
 			await _dbFarmaciaContext.SaveChangesAsync();
 
-			return new AuthorizationResponse { Token = token, RefreshToken = refreshToken, Result = true, Msg = "OK" };
+			return new AuthorizationResponseDto { Token = token, RefreshToken = refreshToken, Result = true, Msg = "OK" };
 		}
-		public async Task<AuthorizationResponse> ReturnToken(AuthorizationRequest request)
+		public async Task<AuthorizationResponseDto> ReturnToken(UserLoginRequestDto request)
 		{
-			var userFinded = _dbFarmaciaContext.UserProfiles.FirstOrDefault(e =>
+			var userFound = _dbFarmaciaContext.UserProfiles.FirstOrDefault(e =>
 				e.UserName == request.UserName &&
 				e.UserPassaword ==  request.Key
 			);
 
-			if(userFinded == null )
+			if(userFound == null )
 			{
-				return await Task.FromResult<AuthorizationResponse>(null);
+				return await Task.FromResult<AuthorizationResponseDto>(null);
 			}
-			string createdtoken = GetToken(userFinded.Id.ToString());
-			return new AuthorizationResponse() { Token = createdtoken, Result = true, Msg = "OK" };
-			string createdTefreshToken = GetRefreshToken();
 
-			//return await SaveRefreshtokenHistory(userFinded.EmpleadoId, createdtoken, createdTefreshToken);
+			//If there's an user with correct credential
+			string tokenCreated = GenerateToken(userFound.Id);
+			string TefreshTokenCreated = GenerateRefreshToken();
+
+			// new AuthorizationResponse() { Token = tokenCreated, Result=true, Msg="Ok"};
+			return await SaveRefreshtokenHistory(userFound.Id, tokenCreated, TefreshTokenCreated);
 		}
 
-		public async Task<AuthorizationResponse> ReturnRefreshToken(RefreshTokenRequest request, int userId)
+		public async Task<AuthorizationResponseDto> ReturnRefreshToken(RefreshTokenRequestDto request, int userId)
 		{
-			var refreshTokenFound = _dbFarmaciaContext.RefreshTokenHistories.FirstOrDefaultAsync(h =>
-				h.Token == request.TokenExpired &&
-				h.RefreshToken == request.RefreshToken &&
-				h.UserId == userId
-			);
+				//Finding refresh token
+				var refreshTokenFound = _dbFarmaciaContext.RefreshTokenHistories.FirstOrDefault(h =>
+					h.Token == request.TokenExpired &&
+					h.RefreshToken == request.RefreshToken &&
+					h.UserId == userId
+				);
 
-			if (refreshTokenFound == null)
-			{
-				return new AuthorizationResponse { Result = false, Msg = "Nonexistent Refresh token" };
-			}
+				if (refreshTokenFound == null)
+				{
+					return new AuthorizationResponseDto { Result = false, Msg = "Nonexistent Refresh token" };
+				}
 
-			var refreshTokenCreated = GetRefreshToken();
-			var tokencreated = GetToken(userId.ToString());
+				var refreshTokenCreated = GenerateRefreshToken();
+				var tokencreated = GenerateToken(userId);
 
-			return await SaveRefreshtokenHistory(userId, tokencreated, refreshTokenCreated);
+                return await SaveRefreshtokenHistory(userId, tokencreated, refreshTokenCreated);
 		}
-	}
+    }
 }

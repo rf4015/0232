@@ -23,7 +23,7 @@ public partial class SaleDetail
 
     public double Total { get; set; }
 
-    public virtual MedicationInStock MedicationInStock { get; set; } = null!;
+    public virtual MedicationInStock MedicationInStock { get; set; }
 
-    public virtual Sale Sale { get; set; } = null!;
+    public virtual Sale Sale { get; set; }
 }

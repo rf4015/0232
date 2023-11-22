@@ -15,7 +15,9 @@ public partial class StoredMedication
 
     public int? LocationId { get; set; }
 
-    public string? Batch { get; set; }
+    public int? PrescriptionId { get; set; }
+
+    public string Batch { get; set; }
 
     public int Stock { get; set; }
 
@@ -27,21 +29,23 @@ public partial class StoredMedication
 
     public DateTime? ExpeditionDate { get; set; }
 
-    public string? ExpiryWarning { get; set; }
+    public string ExpiryWarning { get; set; }
 
     public bool? State { get; set; }
 
     public virtual ICollection<InternalMovement> InternalMovements { get; set; } = new List<InternalMovement>();
 
-    public virtual StorageLocationCategory? Location { get; set; }
+    public virtual StorageLocationCategory Location { get; set; }
 
-    public virtual MedicationDetail MedicationDetail { get; set; } = null!;
+    public virtual MedicationDetail MedicationDetail { get; set; }
 
     public virtual ICollection<MedicationInStock> MedicationInStocks { get; set; } = new List<MedicationInStock>();
 
+    public virtual Prescription Prescription { get; set; }
+
     public virtual ICollection<PurchaseDetail> PurchaseDetails { get; set; } = new List<PurchaseDetail>();
 
-    public virtual Supplier Supplier { get; set; } = null!;
+    public virtual Supplier Supplier { get; set; }
 
-    public virtual UnitOfMeasurement? UnitMeasurement { get; set; }
+    public virtual UnitOfMeasurement UnitMeasurement { get; set; }
 }

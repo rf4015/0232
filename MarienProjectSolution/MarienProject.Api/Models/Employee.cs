@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MarienProject.Api.Models;
 
@@ -8,15 +7,15 @@ public partial class Employee
 {
     public int Id { get; set; }
 
-    public string FirstNames { get; set; } = null!;
+    public string FirstNames { get; set; }
 
-    public string LastNames { get; set; } = null!;
+    public string LastNames { get; set; }
 
-    public string Phone { get; set; } = null!;
+    public string Phone { get; set; }
 
-    public string EmailAddress { get; set; } = null!;
+    public string EmailAddress { get; set; }
 
-    public string Dni { get; set; } = null!;
+    public string Dni { get; set; }
 
     public int? UserId { get; set; }
 
@@ -26,13 +25,11 @@ public partial class Employee
 
     public virtual ICollection<PurchaseDetail> PurchaseDetails { get; set; } = new List<PurchaseDetail>();
 
-	[ForeignKey("RoleId")]
-	public virtual Role? Role { get; set; }
+    public virtual Role Role { get; set; }
 
     public virtual ICollection<Sale> SaleDeliveryEmployees { get; set; } = new List<Sale>();
 
     public virtual ICollection<Sale> SaleEmployees { get; set; } = new List<Sale>();
 
-    [ForeignKey("UserId")]
-    public virtual UserProfile? User { get; set; }
+    public virtual UserProfile User { get; set; }
 }
