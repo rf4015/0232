@@ -1,109 +1,3 @@
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.deps.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.runtimeconfig.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MarienProject.Api.props
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.build.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
-<<<<<<< HEAD
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
@@ -114,6 +8,8 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\EntityFramework.SqlServer.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\EntityFramework.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -157,6 +53,7 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Data.SqlClient.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
@@ -171,6 +68,11 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
@@ -178,6 +80,13 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
@@ -187,110 +96,8 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
+C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\EntityFramework.SqlServer.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\EntityFramework.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Data.SqlClient.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-=======
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\appsettings.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.exe
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.deps.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.runtimeconfig.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Api.pdb
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Bogus.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Humanizer.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.AspNetCore.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Serilog.Sinks.File.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\bin\Debug\net7.0\MarienProject.Models.pdb
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.AssemblyInfo.cs
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.MarienProject.Api.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.build.MarienProject.Api.props
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.MarienProject.Api.props
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.MarienProject.Api.props
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\scopedcss\bundle\MarienProject.Api.styles.css
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.csproj.CopyComplete
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\refint\MarienProject.Api.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.pdb
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\MarienProject.Api.genruntimeconfig.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Debug\net7.0\ref\MarienProject.Api.dll
->>>>>>> 0304586d01c6ace74a1a1474cfd1a3bd4aeaf80b

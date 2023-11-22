@@ -1,26 +1,3 @@
-C:\mygit\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.deps.json
-C:\mygit\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.dll
-C:\mygit\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.pdb
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfoInputs.cache
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfo.cs
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.csproj.CoreCompileInputs.cache
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.dll
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
-C:\mygit\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.deps.json
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfoInputs.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfo.cs
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.csproj.CoreCompileInputs.cache
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
-C:\Jefrey13\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll
-<<<<<<< HEAD
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.deps.json
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.pdb
@@ -32,16 +9,3 @@ C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolu
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
 C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll
-=======
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.deps.json
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\bin\Debug\net7.0\MarienProject.Models.pdb
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfoInputs.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.AssemblyInfo.cs
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.csproj.CoreCompileInputs.cache
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\refint\MarienProject.Models.dll
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\MarienProject.Models.pdb
-C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Models\obj\Debug\net7.0\ref\MarienProject.Models.dll
->>>>>>> 0304586d01c6ace74a1a1474cfd1a3bd4aeaf80b

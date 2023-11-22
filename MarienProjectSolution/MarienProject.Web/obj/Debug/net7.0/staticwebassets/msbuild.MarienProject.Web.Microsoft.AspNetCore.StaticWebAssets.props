@@ -297,11 +297,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-<<<<<<< HEAD
       <RelatedAsset>C:\Users\Jefrey zuniga\Desktop\JWT\JWT\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
-=======
-      <RelatedAsset>C:\Users\LENOVO\Documents\GitHub\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
->>>>>>> 0304586d01c6ace74a1a1474cfd1a3bd4aeaf80b
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
