@@ -1,0 +1,7 @@
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.AssemblyInfoInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.AssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.Api\obj\Release\net7.0\MarienProject.Api.MvcApplicationPartsAssemblyInfo.cache

@@ -14,7 +14,6 @@ public partial class Employee
     public string Phone { get; set; } = null!;
 
     public string EmailAddress { get; set; } = null!;
-
     public string Dni { get; set; } = null!;
 
     public int? UserId { get; set; }
