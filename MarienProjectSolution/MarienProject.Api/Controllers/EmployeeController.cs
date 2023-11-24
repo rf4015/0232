@@ -14,7 +14,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MarienProject.Api.Controllers
 {
-	[Authorize]
+	//[Authorize]
     [Route("api/[controller]")]
 	[ApiController]
     public class EmployeeController : ControllerBase

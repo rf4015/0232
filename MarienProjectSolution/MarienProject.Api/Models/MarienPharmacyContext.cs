@@ -47,6 +47,8 @@ public partial class MarienPharmacyContext : DbContext
 
     public virtual DbSet<MedicationLaboratory> MedicationLaboratories { get; set; }
 
+    public virtual DbSet<Menu> Menus { get; set; }
+
     public virtual DbSet<Municipality> Municipalities { get; set; }
 
     public virtual DbSet<Prescription> Prescriptions { get; set; }
@@ -442,6 +444,27 @@ public partial class MarienPharmacyContext : DbContext
             entity.Property(e => e.UpdateAt)
                 .HasColumnType("date")
                 .HasColumnName("Update_at");
+        });
+
+        modelBuilder.Entity<Menu>(entity =>
+        {
+            entity.HasKey(e => e.MenuId).HasName("PK__Menu__C99ED230A3ABDBFD");
+
+            entity.ToTable("Menu");
+
+            entity.Property(e => e.MenuName)
+                .IsRequired()
+                .HasMaxLength(150);
+            entity.Property(e => e.UrlImg).IsRequired();
+
+            entity.HasOne(d => d.MenuFather).WithMany(p => p.InverseMenuFather)
+                .HasForeignKey(d => d.MenuFatherId)
+                .HasConstraintName("idMenuFather");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Menus)
+                .HasForeignKey(d => d.RoleId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("idRol");
         });
 
         modelBuilder.Entity<Municipality>(entity =>

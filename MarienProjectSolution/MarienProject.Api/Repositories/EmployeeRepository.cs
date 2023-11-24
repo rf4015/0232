@@ -123,36 +123,26 @@ namespace MarienProject.Api.Repositories
 		}
 		public async Task<bool> DeleteEmployeeById(int id)
 		{
-			var employee = await _dbFarmaciaContext.Employees.FirstOrDefaultAsync(e => e.Id == id);
+            using (var transaction = _dbFarmaciaContext.Database.BeginTransaction())
+            {
+                try
+                {
+                    var employeeIdParam = new SqlParameter("@Id", id);
 
-			if (employee != null)
-			{
-				try
-				{
-					var userProfile = await _dbFarmaciaContext.UserProfiles.FirstOrDefaultAsync(u => u.Id == employee.UserId);
+                    await _dbFarmaciaContext.Database.ExecuteSqlRawAsync(
+                    "EXEC DeleteEmployee @Id", employeeIdParam);
+                    transaction.Commit(); // Confirmar la transacción si todo ha ido bien
 
-                    _dbFarmaciaContext.Employees.Remove(employee);
-                    if (userProfile != null)
-					{
-						_dbFarmaciaContext.UserProfiles.Remove(userProfile);
-					}
-					//_dbFarmaciaContext.RemoveRange(_dbFarmaciaContext.UserProfiles.Where(u => u.Id == employee.UserId));
-					
-					await _dbFarmaciaContext.SaveChangesAsync();
-					return true;
-				}
-				catch (Exception ex)
-				{
-                    if (ex.InnerException != null)
-                    {
-                        _logger.LogError(ex.InnerException, "Inner exception details");
-                    }
-
-                    _logger.LogError(ex.InnerException, "An error occurred while deleting the employee by Id");
-					return false;
-				}
-			}
-			return false;
+                    await _dbFarmaciaContext.SaveChangesAsync();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred while deleting the employee: " + ex.Message);
+                    transaction.Rollback(); // Deshacer la transacción si hay un error
+                    return false;
+                }
+            }
 		}
 	}
 }
