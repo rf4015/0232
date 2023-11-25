@@ -17,11 +17,11 @@ public partial class MedicationInStock
 
     public decimal SellingPrice { get; set; }
 
-    public virtual InternalMovement InternalMovement { get; set; } = null!;
+    public virtual InternalMovement InternalMovement { get; set; }
 
-    public virtual ShelfLocationCategory? Location { get; set; }
+    public virtual ShelfLocationCategory Location { get; set; }
 
     public virtual ICollection<SaleDetail> SaleDetails { get; set; } = new List<SaleDetail>();
 
-    public virtual StoredMedication StoredMedication { get; set; } = null!;
+    public virtual StoredMedication StoredMedication { get; set; }
 }

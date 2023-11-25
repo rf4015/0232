@@ -5,17 +5,21 @@ namespace MarienProject.Api.Models;
 
 public partial class Menu
 {
-    public int IdMenu { get; set; }
+    public int MenuId { get; set; }
 
-    public string MenuName { get; set; } = null!;
+    public string MenuName { get; set; }
 
-    public int? IdMenuFather { get; set; }
+    public int Positión { get; set; }
 
-    public int IdRole { get; set; }
+    public string UrlImg { get; set; }
 
-    public virtual Menu? IdMenuFatherNavigation { get; set; }
+    public int? MenuFatherId { get; set; }
 
-    public virtual Role IdRoleNavigation { get; set; } = null!;
+    public int RoleId { get; set; }
 
-    public virtual ICollection<Menu> InverseIdMenuFatherNavigation { get; set; } = new List<Menu>();
+    public virtual ICollection<Menu> InverseMenuFather { get; set; } = new List<Menu>();
+
+    public virtual Menu MenuFather { get; set; }
+
+    public virtual Role Role { get; set; }
 }

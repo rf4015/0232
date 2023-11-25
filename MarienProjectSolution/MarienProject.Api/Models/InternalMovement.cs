@@ -9,9 +9,9 @@ public partial class InternalMovement
 
     public int StoredMedicationId { get; set; }
 
-    public string? Description { get; set; }
+    public string Description { get; set; }
 
-    public string? Batch { get; set; }
+    public string Batch { get; set; }
 
     public DateTime? Date { get; set; }
 
@@ -23,5 +23,5 @@ public partial class InternalMovement
 
     public virtual ICollection<MedicationInStock> MedicationInStocks { get; set; } = new List<MedicationInStock>();
 
-    public virtual StoredMedication StoredMedication { get; set; } = null!;
+    public virtual StoredMedication StoredMedication { get; set; }
 }

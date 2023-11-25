@@ -3,6 +3,8 @@ using MarienProject.Api.Repositories.Contracts;
 using Microsoft.EntityFrameworkCore;
 using System.Collections;
 using Serilog;
+using Microsoft.Data.SqlClient;
+using System.Data.Entity.Validation;
 
 namespace MarienProject.Api.Repositories
 {
@@ -36,7 +38,10 @@ namespace MarienProject.Api.Repositories
 			try
 			{
 				var employee = await _dbFarmaciaContext.Employees
-									 .Include(e => e.Role).SingleOrDefaultAsync(e => e.Id == id);
+									 .Include(i => i.User)
+									 .Include(e => e.Role)
+									 .SingleOrDefaultAsync(i => i.Id == id);
+
 				if (employee == null)
 				{
 					throw new Exception("Employee not found");
@@ -50,49 +55,71 @@ namespace MarienProject.Api.Repositories
 				return null;
 			}
 		}
-
-		public async Task<bool> CreateEmployee(Employee employee)
+		public async Task<bool> CreateEmployee(Employee employee, UserProfile userProfile)
 		{
-			try
-			{
-				_dbFarmaciaContext.Employees.Add(employee);
-				await _dbFarmaciaContext.SaveChangesAsync();
-				return true;
-			}
-			catch (Exception ex)
-			{
-				Console.WriteLine("An error occurred while creating the employee: ", ex.Message);
-				return false;
-			}
-		}
-		public async Task<bool> UpdateEmployeeById(Employee updatedEmployee)
-		{
-			Employee employee = await _dbFarmaciaContext.Employees.FirstOrDefaultAsync(e => e.Id == updatedEmployee.Id);
-
-			if (employee != null)
+			using (var transaction = _dbFarmaciaContext.Database.BeginTransaction())
 			{
 				try
 				{
-					employee.FirstNames = updatedEmployee.FirstNames;
-					employee.LastNames = updatedEmployee.LastNames;
-					employee.Phone = updatedEmployee.Phone;
-					employee.Dni = updatedEmployee.Dni;
-					employee.State = updatedEmployee.State;
-					employee.EmailAddress = updatedEmployee.EmailAddress;
-					//If we need other special method to update:(Password, Username or Rol)!!
-
-					_dbFarmaciaContext.Entry(employee).State = EntityState.Modified; // Marcar la entidad como modificada
-					await _dbFarmaciaContext.SaveChangesAsync();
-
+					await ExecuteEmployeeProcedures(employee, userProfile, 1, null);
+					transaction.Commit(); // Confirmar la transacción si todo ha ido bien
 					return true;
 				}
 				catch (Exception ex)
 				{
-					_logger.LogError(ex, "An error occurred while updating the employee by Id");
+					Console.WriteLine("An error occurred while creating the employee: " + ex.Message);
+					transaction.Rollback(); // Deshacer la transacción si hay un error
 					return false;
 				}
 			}
-			return false;
+		}
+		public async Task<bool> UpdateEmployeeById(int id, Employee employee, UserProfile userProfile)
+		{
+			using (var transaction = _dbFarmaciaContext.Database.BeginTransaction())
+			{
+				try
+				{
+					await ExecuteEmployeeProcedures(employee, userProfile, 0, id);
+					transaction.Commit(); // Confirmar la transacción si todo ha ido bien
+					return true;
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine("An error occurred while updating the employee: " + ex.Message);
+					transaction.Rollback(); // Deshacer la transacción si hay un error
+					return false;
+				}
+			}
+		}
+		private async Task ExecuteEmployeeProcedures(Employee employee, UserProfile userProfile, int operation, int? id)
+		{
+			var firstNamesParam = new SqlParameter("@FirstNames", employee.FirstNames);
+			var lastNamesParam = new SqlParameter("@LastNames", employee.LastNames);
+			var emailAddressParam = new SqlParameter("@EmailAddress", employee.EmailAddress);
+			var dniParam = new SqlParameter("@Dni", employee.Dni);
+			var phoneParam = new SqlParameter("@Phone", employee.Phone);
+			var roleIdParam = new SqlParameter("@RoleId", employee.RoleId);
+			var stateParam = new SqlParameter("@State", employee.State);
+			var userNameParam = new SqlParameter("@UserName", userProfile.UserName);
+			var userPasswordParam = new SqlParameter("@UserPassword", userProfile.UserPassaword);
+			var imageProfileParam = new SqlParameter("@ImageProfile", userProfile.ProfileImage);
+
+			if(operation == 1)
+			{
+				await _dbFarmaciaContext.Database.ExecuteSqlRawAsync(
+                "EXEC CreateEmployee @FirstNames, @LastNames, @EmailAddress, @Dni, @Phone, @RoleId, @State, @UserName, @UserPassword, @ImageProfile",
+				firstNamesParam, lastNamesParam, emailAddressParam, dniParam, phoneParam, roleIdParam, stateParam, userNameParam, userPasswordParam, imageProfileParam);
+			}
+			else
+			{
+				var employeeIdParam = new SqlParameter("@EmployeeId",id);
+
+				await _dbFarmaciaContext.Database.ExecuteSqlRawAsync(
+				"EXEC UpdateEmployee @EmployeeId, @FirstNames, @LastNames, @EmailAddress, @Dni, @Phone, @RoleId, @State, @UserName, @UserPassword, @ImageProfile",
+				employeeIdParam, firstNamesParam, lastNamesParam, emailAddressParam, dniParam, phoneParam, roleIdParam, stateParam, userNameParam, userPasswordParam, imageProfileParam);
+			}
+
+			await _dbFarmaciaContext.SaveChangesAsync();
 		}
 		public async Task<bool> DeleteEmployeeById(int id)
 		{
@@ -102,13 +129,26 @@ namespace MarienProject.Api.Repositories
 			{
 				try
 				{
-					_dbFarmaciaContext.Employees.Remove(employee);
+					var userProfile = await _dbFarmaciaContext.UserProfiles.FirstOrDefaultAsync(u => u.Id == employee.UserId);
+
+                    _dbFarmaciaContext.Employees.Remove(employee);
+                    if (userProfile != null)
+					{
+						_dbFarmaciaContext.UserProfiles.Remove(userProfile);
+					}
+					//_dbFarmaciaContext.RemoveRange(_dbFarmaciaContext.UserProfiles.Where(u => u.Id == employee.UserId));
+					
 					await _dbFarmaciaContext.SaveChangesAsync();
 					return true;
 				}
 				catch (Exception ex)
 				{
-					_logger.LogError(ex, "An error occurred while deleting the employee by Id");
+                    if (ex.InnerException != null)
+                    {
+                        _logger.LogError(ex.InnerException, "Inner exception details");
+                    }
+
+                    _logger.LogError(ex.InnerException, "An error occurred while deleting the employee by Id");
 					return false;
 				}
 			}

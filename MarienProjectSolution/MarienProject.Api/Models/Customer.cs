@@ -7,13 +7,13 @@ public partial class Customer
 {
     public int Id { get; set; }
 
-    public string FirstNames { get; set; } = null!;
+    public string FirstNames { get; set; }
 
-    public string LastNames { get; set; } = null!;
+    public string LastNames { get; set; }
 
-    public string Phone { get; set; } = null!;
+    public string Phone { get; set; }
 
-    public string EmailAddress { get; set; } = null!;
+    public string EmailAddress { get; set; }
 
     public int? UserId { get; set; }
 
@@ -23,9 +23,9 @@ public partial class Customer
 
     public virtual ICollection<CustomerAddress> CustomerAddresses { get; set; } = new List<CustomerAddress>();
 
-    public virtual Role? Role { get; set; }
+    public virtual Role Role { get; set; }
 
     public virtual ICollection<Sale> Sales { get; set; } = new List<Sale>();
 
-    public virtual UserProfile? User { get; set; }
+    public virtual UserProfile User { get; set; }
 }

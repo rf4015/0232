@@ -1,0 +1,6201 @@
+-- Insertar venta 1
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    4, -- Municipality_Id
+    '2021-05-15', -- OrderDate
+    '2021-05-18', -- ShippingDate
+    '2021-05-20', -- DeliveryDate
+    '456 Oak St', -- [Address]
+    'Greenfield Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Insertar venta 2
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    3, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2022-03-10', -- OrderDate
+    '2022-03-12', -- ShippingDate
+    '2022-03-15', -- DeliveryDate
+    '789 Pine St', -- [Address]
+    'Hilltop Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 3
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    10, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    7, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    15, -- Municipality_Id
+    '2023-08-22', -- OrderDate
+    '2023-08-25', -- ShippingDate
+    '2023-08-28', -- DeliveryDate
+    '123 Maple St', -- [Address]
+    'Riverside Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 4
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    12, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    9, -- Municipality_Id
+    '2020-07-05', -- OrderDate
+    '2020-07-08', -- ShippingDate
+    '2020-07-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 5
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    10, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2021-11-18', -- OrderDate
+    '2021-11-20', -- ShippingDate
+    '2021-11-23', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 6
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    8, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    11, -- Municipality_Id
+    '2022-05-30', -- OrderDate
+    '2022-06-02', -- ShippingDate
+    '2022-06-05', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 7
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    2, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    5, -- Municipality_Id
+    '2023-01-12', -- OrderDate
+    '2023-01-15', -- ShippingDate
+    '2023-01-18', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 8
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    10, -- Municipality_Id
+    '2022-09-25', -- OrderDate
+    '2022-09-28', -- ShippingDate
+    '2022-10-01', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 9
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    6, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2021-03-08', -- OrderDate
+    '2021-03-10', -- ShippingDate
+    '2021-03-13', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 10
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    15, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    6, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    12, -- Municipality_Id
+    '2020-12-01', -- OrderDate
+    '2020-12-03', -- ShippingDate
+    '2020-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 11
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    4, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Insertar venta 12
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2022-02-15', -- OrderDate
+    '2022-02-18', -- ShippingDate
+    '2022-02-21', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 13
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 14
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    1, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2021-07-12', -- OrderDate
+    '2021-07-15', -- ShippingDate
+    '2021-07-18', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 15
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    10, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    13, -- Municipality_Id
+    '2022-12-20', -- OrderDate
+    '2022-12-23', -- ShippingDate
+    '2022-12-26', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 16
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    15, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    9, -- Municipality_Id
+    '2021-02-01', -- OrderDate
+    '2021-02-04', -- ShippingDate
+    '2021-02-07', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 17
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    6, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 18
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    10, -- Municipality_Id
+    '2023-03-15', -- OrderDate
+    '2023-03-18', -- ShippingDate
+    '2023-03-21', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 19
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    3, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    5, -- Municipality_Id
+    '2021-09-01', -- OrderDate
+    '2021-09-04', -- ShippingDate
+    '2021-09-07', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 20
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    12, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    12, -- Municipality_Id
+    '2020-11-25', -- OrderDate
+    '2020-11-28', -- ShippingDate
+    '2020-12-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 21
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    8, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    10, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2022-03-10', -- OrderDate
+    '2022-03-12', -- ShippingDate
+    '2022-03-15', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 22
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    1, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 23
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 24
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 25
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 26
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    1, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2021-07-12', -- OrderDate
+    '2021-07-15', -- ShippingDate
+    '2021-07-18', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 27
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    10, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    13, -- Municipality_Id
+    '2022-12-20', -- OrderDate
+    '2022-12-23', -- ShippingDate
+    '2022-12-26', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 28
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    15, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    9, -- Municipality_Id
+    '2021-02-01', -- OrderDate
+    '2021-02-04', -- ShippingDate
+    '2021-02-07', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 29
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    8, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2022-03-10', -- OrderDate
+    '2022-03-12', -- ShippingDate
+    '2022-03-15', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 30
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    1, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 31
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 32
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 33
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 34
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 35
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    3, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    8, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    5, -- Municipality_Id
+    '2021-09-01', -- OrderDate
+    '2021-09-04', -- ShippingDate
+    '2021-09-07', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '10001' -- PostalCode
+);
+
+-- Insertar venta 36
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    12, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    12, -- Municipality_Id
+    '2020-11-25', -- OrderDate
+    '2020-11-28', -- ShippingDate
+    '2020-12-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 37
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 38
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    6, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 39
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 40
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 41
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 42
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 43
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 44
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 45
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 46
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 47
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 48
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 49
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 50
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 51
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 52
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 53
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 54
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 55
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 56
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 57
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 58
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 59
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 60
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 61
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 62
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 63
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 64
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 65
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 66
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 67
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 68
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 69
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 70
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 71
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 72
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 73
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 74
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 75
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 76
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 77
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 78
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 79
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 80
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 81
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 82
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 83
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 84
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 85
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 86
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 87
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 88
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 89
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 90
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 91
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 92
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 93
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 94
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 95
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 96
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 97
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 98
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 99
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 100
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 101
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 102
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 103
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 104
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 105
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 106
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 107
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 108
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 109
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 110
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 111
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 112
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 113
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 114
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 115
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 116
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 117
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 118
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 119
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 120
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 121
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 122
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 123
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 124
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 125
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 126
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 127
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 128
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 129
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 130
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 131
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 132
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 133
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 134
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 135
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 136
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 137
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 138
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 139
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 140
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 141
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 142
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 143
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 144
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 145
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 146
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 147
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 148
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 149
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 150
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 151
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 152
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 153
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 154
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 155
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 156
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 157
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 158
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 159
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 160
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 161
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 162
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 163
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 164
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 165
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 166
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 167
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 168
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 169
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 170
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 171
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 172
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 173
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 174
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 175
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 176
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 177
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 178
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 179
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 180
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 181
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 182
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 183
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 184
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 185
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 186
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 187
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 188
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 189
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 190
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 191
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 192
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 193
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 194
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 195
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario
+
+-- Insertar venta 196
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 197
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 198
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 199
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 200
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 201
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    14, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    8, -- Employee_Id
+    12, -- DeliveryEmployee_Id
+    2, -- Municipality_Id
+    '2022-12-01', -- OrderDate
+    '2022-12-03', -- ShippingDate
+    '2022-12-06', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '50005' -- PostalCode
+);
+
+-- Insertar venta 202
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    7, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    1, -- DeliveryType_Id
+    10, -- Employee_Id
+    11, -- DeliveryEmployee_Id
+    6, -- Municipality_Id
+    '2020-10-05', -- OrderDate
+    '2020-10-08', -- ShippingDate
+    '2020-10-10', -- DeliveryDate
+    '789 Oak St', -- [Address]
+    'Sunnydale Residence', -- Residence
+    '30003' -- PostalCode
+);
+
+-- Insertar venta 203
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    5, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    7, -- Employee_Id
+    15, -- DeliveryEmployee_Id
+    7, -- Municipality_Id
+    '2022-06-10', -- OrderDate
+    '2022-06-12', -- ShippingDate
+    '2022-06-15', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Insertar venta 204
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    11, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    3, -- DeliveryType_Id
+    9, -- Employee_Id
+    14, -- DeliveryEmployee_Id
+    3, -- Municipality_Id
+    '2023-05-22', -- OrderDate
+    '2023-05-25', -- ShippingDate
+    '2023-05-28', -- DeliveryDate
+    '456 Pine St', -- [Address]
+    'Maplewood Residence', -- Residence
+    '40004' -- PostalCode
+);
+
+-- Insertar venta 205
+INSERT INTO Sale (
+    Customer_Id,
+    InvoiceStatus_Id,
+    DeliveryType_Id,
+    Employee_Id,
+    DeliveryEmployee_Id,
+    Municipality_Id,
+    OrderDate,
+    ShippingDate,
+    DeliveryDate,
+    [Address],
+    Residence,
+    PostalCode
+)
+VALUES (
+    9, -- Customer_Id
+    2, -- InvoiceStatus_Id
+    2, -- DeliveryType_Id
+    6, -- Employee_Id
+    13, -- DeliveryEmployee_Id
+    8, -- Municipality_Id
+    '2021-09-25', -- OrderDate
+    '2021-09-28', -- ShippingDate
+    '2021-10-01', -- DeliveryDate
+    '123 Elm St', -- [Address]
+    'Hillside Residence', -- Residence
+    '20002' -- PostalCode
+);
+
+-- Continúa con más inserciones según sea necesario

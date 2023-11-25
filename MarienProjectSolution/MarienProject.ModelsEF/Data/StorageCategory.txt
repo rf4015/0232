@@ -1,0 +1,311 @@
+---- Insertar categoría 1
+--INSERT INTO StorageCategory ([Name],[State])
+--VALUES ('Bodega Principal', 1);
+
+-- Insertar categoría 1
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Painkillers', 1 , 1);
+
+-- Insertar categoría 2
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antibiotics', 1 , 1);
+
+-- Insertar categoría 3
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anti-inflammatories', 1 , 1);
+
+-- Insertar categoría 4
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antipyretics', 1 , 1);
+
+-- Insertar categoría 5
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antidepressants', 1 , 1);
+
+-- Insertar categoría 6
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihistamines', 1 , 1);
+
+-- Insertar categoría 7
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Vitamin Supplements', 1 , 1);
+
+-- Insertar categoría 8
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antivirals', 1 , 1);
+
+-- Insertar categoría 9
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antifungals', 1 , 1);
+
+-- Insertar categoría 10
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anesthetics', 1 , 1);
+
+-- Insertar categoría 11
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihypertensives', 1 , 1);
+
+-- Insertar categoría 12
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Diuretics', 1 , 1);
+
+-- Insertar categoría 13
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiemetics', 1 , 1);
+
+-- Insertar categoría 14
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antacids', 1 , 1);
+
+-- Insertar categoría 15
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Laxatives', 1 , 1);
+
+-- Insertar categoría 16
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiparasitics', 1 , 1);
+
+-- Insertar categoría 17
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihistamines', 1 , 1);
+
+-- Insertar categoría 18
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Immunosuppressants', 1 , 1);
+
+-- Insertar categoría 19
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Cardiotonics', 1 , 1);
+
+-- Insertar categoría 20
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Hormones', 1 , 1);
+
+-- Insertar categoría 21
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Vitamins', 1 , 1);
+
+-- Insertar categoría 22
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anti-infectives', 1 , 1);
+
+-- Insertar categoría 23
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Muscle Relaxants', 1 , 1);
+
+-- Insertar categoría 24
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Expectorants', 1 , 1);
+
+-- Insertar categoría 25
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Bronchodilators', 1 , 1);
+
+-- Insertar categoría 26
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antacids', 1 , 1);
+
+-- Insertar categoría 27
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anticoagulants', 1 , 1);
+
+-- Insertar categoría 28
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antipsychotics', 1 , 1);
+
+-- Insertar categoría 29
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiepileptics', 1 , 1);
+
+-- Insertar categoría 30
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antidiabetics', 1 , 1);
+
+-- Insertar categoría 31
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anabolic Steroids', 1 , 1);
+
+-- Insertar categoría 32
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiarrhythmics', 1 , 1);
+
+-- Insertar categoría 33
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antithrombotics', 1 , 1);
+
+-- Insertar categoría 34
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihyperlipidemics', 1 , 1);
+
+-- Insertar categoría 35
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Local Anesthetics', 1 , 1);
+
+-- Insertar categoría 36
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiemetics', 1 , 1);
+
+-- Insertar categoría 37
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiasthmatics', 1 , 1);
+
+-- Insertar categoría 38
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antivirals', 1 , 1);
+
+-- Insertar categoría 39
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Corticosteroids', 1 , 1);
+
+-- Insertar categoría 40
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antifungals', 1 , 1);
+
+-- Insertar categoría 41
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antipyretics', 1 , 1);
+
+-- Insertar categoría 42
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anthelmintics', 1 , 1);
+
+-- Insertar categoría 43
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antimycotics', 1 , 1);
+
+-- Insertar categoría 44
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antacids', 1 , 1);
+
+-- Insertar categoría 45
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihemorrhagics', 1 , 1);
+
+-- Insertar categoría 46
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiretrovirals', 1 , 1);
+
+-- Insertar categoría 47
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anti-infectives', 1 , 1);
+
+-- Insertar categoría 48
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antivertiginous', 1 , 1);
+
+-- Insertar categoría 49
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anticonvulsants', 1 , 1);
+
+-- Insertar categoría 50
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antacids', 1 , 1);
+
+-- Insertar categoría 51
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Contraceptives', 1 , 1);
+
+-- Insertar categoría 52
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antitussives', 1 , 1);
+
+-- Insertar categoría 53
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiparasitics', 1 , 1);
+
+-- Insertar categoría 54
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Nonsteroidal Anti-inflammatories', 1 , 1);
+
+-- Insertar categoría 55
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antianemics', 1 , 1);
+
+-- Insertar categoría 56
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antirheumatics', 1 , 1);
+
+-- Insertar categoría 57
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihistamines', 1 , 1);
+
+-- Insertar categoría 58
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Decongestants', 1 , 1);
+
+-- Insertar categoría 59
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antioxidants', 1 , 1);
+
+-- Insertar categoría 60
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antihypertensives', 1 , 1);
+
+-- Insertar categoría 61
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antitumorals', 1 , 1);
+
+-- Insertar categoría 62
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antifibrinolytics', 1 , 1);
+
+-- Insertar categoría 63
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiseptics', 1 , 1);
+
+-- Insertar categoría 64
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiepileptics', 1 , 1);
+
+-- Insertar categoría 65
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antimigraines', 1 , 1);
+
+-- Insertar categoría 66
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antidiarrheals', 1 , 1);
+
+-- Insertar categoría 67
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antispasmodics', 1 , 1);
+
+-- Insertar categoría 68
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiemetics', 1 , 1);
+
+-- Insertar categoría 69
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antioxidants', 1 , 1);
+
+-- Insertar categoría 70
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antifungals', 1 , 1);
+
+-- Insertar categoría 71
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiseptics', 1 , 1);
+
+-- Insertar categoría 72
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiemetics', 1 , 1);
+
+-- Insertar categoría 73
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anti-infectives', 1 , 1);
+
+-- Insertar categoría 74
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antivirals', 1 , 1);
+
+-- Insertar categoría 75
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Anthelmintics', 1 , 1);
+
+-- Insertar categoría 76
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antithrombotics', 1 , 1);
+
+-- Insertar categoría 77
+INSERT INTO StorageLocationCategory ([Name], Storage_Id, [State])
+VALUES ('Antiepileptics', 1 , 1);

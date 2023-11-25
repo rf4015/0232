@@ -1,0 +1,3 @@
+Insert into InvoiceStatus values('Pending','The purchase/sale is in process')
+Insert into InvoiceStatus values('Completed','The purchase/sale took place')
+Insert into InvoiceStatus values('Canceled','Cancellation of the sale/purchase, did not occur')

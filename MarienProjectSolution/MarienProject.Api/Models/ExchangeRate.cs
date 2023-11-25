@@ -13,5 +13,5 @@ public partial class ExchangeRate
 
     public double SellingRate { get; set; }
 
-    public virtual Currency Currency { get; set; } = null!;
+    public virtual Currency Currency { get; set; }
 }

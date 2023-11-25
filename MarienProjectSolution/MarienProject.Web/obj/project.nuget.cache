@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Xbc41wWADSA3HaScx8L0VRNRtlMq8zQ69Tn4JEYTF9vRJvT2rEDsikX8lcTiXUunppxbE3DG5sDBTiHfJKO3hw==",
+  "dgSpecHash": "8O8ssmO27OyjDeCM2zymxRzuajZhBQyegToD2onGvDhtfVljHYsg3L0IzB/UWad8LD83D7Sh8vc9b4wRUJANew==",
   "success": true,
   "projectFilePath": "C:\\Users\\User1\\Documents\\SEMESTRE II 2023\\PROYECTO SAMUELIN\\Base2\\MarienProjectRepository\\MarienProjectSolution\\MarienProject.Web\\MarienProject.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.12\\microsoft.aspnetcore.authorization.7.0.12.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.12\\microsoft.aspnetcore.components.7.0.12.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\7.0.12\\microsoft.aspnetcore.components.analyzers.7.0.12.nupkg.sha512",
+    "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\5.0.0\\microsoft.aspnetcore.components.authorization.5.0.0.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\7.0.12\\microsoft.aspnetcore.components.forms.7.0.12.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.web\\7.0.12\\microsoft.aspnetcore.components.web.7.0.12.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\7.0.12\\microsoft.aspnetcore.components.webassembly.7.0.12.nupkg.sha512",
@@ -28,6 +29,7 @@
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.jsinterop\\7.0.12\\microsoft.jsinterop.7.0.12.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\microsoft.jsinterop.webassembly\\7.0.12\\microsoft.jsinterop.webassembly.7.0.12.nupkg.sha512",
+    "C:\\Users\\User1\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\User1\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",

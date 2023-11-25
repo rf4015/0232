@@ -1,0 +1,80 @@
+-- Inserción 1
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (82, 150, 14, 45, 124, 'Fake lot', 68, 312.75, 498.50, '15/05/2024', '20/07/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 2
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (103, 71, 2, 112, 86, 'Fake lot', 22, 142.60, 221.80, '10/09/2024', '25/11/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 3
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (36, 195, 5, 19, 57, 'Fake lot', 45, 247.90, 375.60, '07/08/2024', '15/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 4
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (126, 91, 12, 133, 42, 'Fake lot', 31, 178.80, 259.75, '25/06/2024', '08/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 5
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (14, 30, 9, 68, 95, 'Fake lot', 77, 420.40, 559.25, '30/07/2024', '25/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 6
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (65, 162, 15, 97, 124, 'Fake lot', 18, 107.90, 168.25, '20/06/2024', '02/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 7
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (119, 54, 7, 67, 79, 'Fake lot', 52, 287.50, 412.60, '15/10/2024', '24/12/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 8
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (59, 182, 11, 127, 56, 'Fake lot', 26, 196.20, 286.80, '03/09/2024', '17/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 9
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (135, 97, 16, 103, 118, 'Fake lot', 62, 348.00, 499.50, '10/08/2024', '27/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 10
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (44, 14, 3, 58, 30, 'Fake lot', 14, 85.75, 137.40, '25/07/2024', '07/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 11
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (93, 28, 13, 85, 105, 'Fake lot', 74, 392.25, 523.80, '12/09/2024', '20/11/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 12
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (77, 173, 10, 142, 63, 'Fake lot', 39, 232.60, 337.40, '28/06/2024', '11/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 13
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (112, 46, 14, 19, 112, 'Fake lot', 57, 318.90, 455.75, '05/08/2024', '15/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 14
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (50, 101, 4, 131, 37, 'Fake lot', 29, 166.75, 248.60, '22/07/2024', '04/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 15
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (128, 68, 16, 75, 84, 'Fake lot', 42, 247.00, 360.80, '17/09/2024', '25/11/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 16
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (72, 120, 11, 49, 26, 'Fake lot', 65, 364.50, 505.20, '02/08/2024', '10/10/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 17
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (13, 195, 9, 147, 73, 'Fake lot', 18, 109.80, 177.40, '18/07/2024', '28/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 18
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (33, 88, 6, 88, 124, 'Fake lot', 51, 278.25, 392.80, '25/06/2024', '05/09/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 19
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (102, 153, 1, 116, 45, 'Fake lot', 22, 139.40, 221.20, '30/08/2024', '12/11/2024', 'Expiration notice Nearby', 1);
+
+-- Inserción 20
+Insert into StoredMedication (MedicationDetail_Id, Supplier_Id, UnitMeasurement_Id, Location_Id, PrescriptionId, Batch, Stock, PurchasePrice, SellingPrice, ExpiryDate, ExpeditionDate, ExpiryWarning, State)
+values (14, 67, 15, 102, 110, 'Fake lot', 77, 415.80, 554.60, '15/07/2024', '20/09/2024', 'Expiration notice Nearby', 1);
+

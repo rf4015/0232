@@ -1,0 +1,1151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" Namespace="BD.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005">
+        <EntityContainer Name="BDTargetContainer" >
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="BD" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="BDContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="EmployeeSet" EntityType="BD.Employee" />
+          <EntitySet Name="RoleSet" EntityType="BD.Role" />
+          <EntitySet Name="UserProfileSet" EntityType="BD.UserProfile" />
+          <EntitySet Name="MedicationSet" EntityType="BD.Medication" />
+          <EntitySet Name="MedicationCategorySet" EntityType="BD.MedicationCategory" />
+          <EntitySet Name="MedicationLaboratorySet" EntityType="BD.MedicationLaboratory" />
+          <EntitySet Name="GenericMedicationNameSet" EntityType="BD.GenericMedicationName" />
+          <EntitySet Name="MedicationDetailSet" EntityType="BD.MedicationDetail" />
+          <EntitySet Name="SupplierSet" EntityType="BD.Supplier" />
+          <EntitySet Name="UnitOfMeasurementSet" EntityType="BD.UnitOfMeasurement" />
+          <EntitySet Name="ConversionSet" EntityType="BD.Conversion" />
+          <EntitySet Name="StorageCategorySet" EntityType="BD.StorageCategory" />
+          <EntitySet Name="StorageLocationCategorySet" EntityType="BD.StorageLocationCategory" />
+          <EntitySet Name="ShelfCategorySet" EntityType="BD.ShelfCategory" />
+          <EntitySet Name="ShelfLocationCategorySet" EntityType="BD.ShelfLocationCategory" />
+          <EntitySet Name="StoredMedicationSet" EntityType="BD.StoredMedication" />
+          <EntitySet Name="InternalMovementSet" EntityType="BD.InternalMovement" />
+          <EntitySet Name="MedicationInStockSet" EntityType="BD.MedicationInStock" />
+          <EntitySet Name="InvoiceStatusSet" EntityType="BD.InvoiceStatus" />
+          <EntitySet Name="PurchaseSet" EntityType="BD.Purchase" />
+          <EntitySet Name="PurchaseDetailSet" EntityType="BD.PurchaseDetail" />
+          <EntitySet Name="CustomerSet" EntityType="BD.Customer" />
+          <EntitySet Name="DeliveryTypeSet" EntityType="BD.DeliveryType" />
+          <EntitySet Name="CitySet" EntityType="BD.City" />
+          <EntitySet Name="MunicipalitySet" EntityType="BD.Municipality" />
+          <EntitySet Name="CurrencySet" EntityType="BD.Currency" />
+          <EntitySet Name="SaleSet" EntityType="BD.Sale" />
+          <EntitySet Name="SaleDetailSet" EntityType="BD.SaleDetail" />
+          <EntitySet Name="CustomerAddressSet" EntityType="BD.CustomerAddress" />
+          <EntitySet Name="RefreshTokenHistorySet" EntityType="BD.RefreshTokenHistory" />
+          <AssociationSet Name="RoleEmployee" Association="BD.RoleEmployee">
+            <End Role="Role" EntitySet="RoleSet" />
+            <End Role="Employee" EntitySet="EmployeeSet" />
+          </AssociationSet>
+          <AssociationSet Name="UserProfileEmployee" Association="BD.UserProfileEmployee">
+            <End Role="UserProfile" EntitySet="UserProfileSet" />
+            <End Role="Employee" EntitySet="EmployeeSet" />
+          </AssociationSet>
+          <AssociationSet Name="MedicationCategoryMedication" Association="BD.MedicationCategoryMedication">
+            <End Role="MedicationCategory" EntitySet="MedicationCategorySet" />
+            <End Role="Medication" EntitySet="MedicationSet" />
+          </AssociationSet>
+          <AssociationSet Name="MedicationMedicationDetail" Association="BD.MedicationMedicationDetail">
+            <End Role="Medication" EntitySet="MedicationSet" />
+            <End Role="MedicationDetail" EntitySet="MedicationDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="MedicationLaboratoryMedicationDetail" Association="BD.MedicationLaboratoryMedicationDetail">
+            <End Role="MedicationLaboratory" EntitySet="MedicationLaboratorySet" />
+            <End Role="MedicationDetail" EntitySet="MedicationDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="GenericMedicationNameMedicationDetail" Association="BD.GenericMedicationNameMedicationDetail">
+            <End Role="GenericMedicationName" EntitySet="GenericMedicationNameSet" />
+            <End Role="MedicationDetail" EntitySet="MedicationDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="UnitOfMeasurementConversion" Association="BD.UnitOfMeasurementConversion">
+            <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurementSet" />
+            <End Role="Conversion" EntitySet="ConversionSet" />
+          </AssociationSet>
+          <AssociationSet Name="StorageCategoryStorageLocationCategory" Association="BD.StorageCategoryStorageLocationCategory">
+            <End Role="StorageCategory" EntitySet="StorageCategorySet" />
+            <End Role="StorageLocationCategory" EntitySet="StorageLocationCategorySet" />
+          </AssociationSet>
+          <AssociationSet Name="ShelfCategoryShelfLocationCategory" Association="BD.ShelfCategoryShelfLocationCategory">
+            <End Role="ShelfCategory" EntitySet="ShelfCategorySet" />
+            <End Role="ShelfLocationCategory" EntitySet="ShelfLocationCategorySet" />
+          </AssociationSet>
+          <AssociationSet Name="MedicationDetailStoredMedication" Association="BD.MedicationDetailStoredMedication">
+            <End Role="MedicationDetail" EntitySet="MedicationDetailSet" />
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+          </AssociationSet>
+          <AssociationSet Name="SupplierStoredMedication" Association="BD.SupplierStoredMedication">
+            <End Role="Supplier" EntitySet="SupplierSet" />
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+          </AssociationSet>
+          <AssociationSet Name="UnitOfMeasurementStoredMedication" Association="BD.UnitOfMeasurementStoredMedication">
+            <End Role="UnitOfMeasurement" EntitySet="UnitOfMeasurementSet" />
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+          </AssociationSet>
+          <AssociationSet Name="StorageLocationCategoryStoredMedication" Association="BD.StorageLocationCategoryStoredMedication">
+            <End Role="StorageLocationCategory" EntitySet="StorageLocationCategorySet" />
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+          </AssociationSet>
+          <AssociationSet Name="StoredMedicationInternalMovement" Association="BD.StoredMedicationInternalMovement">
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+            <End Role="InternalMovement" EntitySet="InternalMovementSet" />
+          </AssociationSet>
+          <AssociationSet Name="StoredMedicationMedicationInStock" Association="BD.StoredMedicationMedicationInStock">
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+            <End Role="MedicationInStock" EntitySet="MedicationInStockSet" />
+          </AssociationSet>
+          <AssociationSet Name="InternalMovementMedicationInStock" Association="BD.InternalMovementMedicationInStock">
+            <End Role="InternalMovement" EntitySet="InternalMovementSet" />
+            <End Role="MedicationInStock" EntitySet="MedicationInStockSet" />
+          </AssociationSet>
+          <AssociationSet Name="ShelfLocationCategoryMedicationInStock" Association="BD.ShelfLocationCategoryMedicationInStock">
+            <End Role="ShelfLocationCategory" EntitySet="ShelfLocationCategorySet" />
+            <End Role="MedicationInStock" EntitySet="MedicationInStockSet" />
+          </AssociationSet>
+          <AssociationSet Name="SupplierPurchase" Association="BD.SupplierPurchase">
+            <End Role="Supplier" EntitySet="SupplierSet" />
+            <End Role="Purchase" EntitySet="PurchaseSet" />
+          </AssociationSet>
+          <AssociationSet Name="InvoiceStatusPurchase" Association="BD.InvoiceStatusPurchase">
+            <End Role="InvoiceStatus" EntitySet="InvoiceStatusSet" />
+            <End Role="Purchase" EntitySet="PurchaseSet" />
+          </AssociationSet>
+          <AssociationSet Name="PurchasePurchaseDetail" Association="BD.PurchasePurchaseDetail">
+            <End Role="Purchase" EntitySet="PurchaseSet" />
+            <End Role="PurchaseDetail" EntitySet="PurchaseDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="StoredMedicationPurchaseDetail" Association="BD.StoredMedicationPurchaseDetail">
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+            <End Role="PurchaseDetail" EntitySet="PurchaseDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="EmployeePurchaseDetail" Association="BD.EmployeePurchaseDetail">
+            <End Role="Employee" EntitySet="EmployeeSet" />
+            <End Role="PurchaseDetail" EntitySet="PurchaseDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="UserProfileCustomer" Association="BD.UserProfileCustomer">
+            <End Role="UserProfile" EntitySet="UserProfileSet" />
+            <End Role="Customer" EntitySet="CustomerSet" />
+          </AssociationSet>
+          <AssociationSet Name="RoleCustomer" Association="BD.RoleCustomer">
+            <End Role="Role" EntitySet="RoleSet" />
+            <End Role="Customer" EntitySet="CustomerSet" />
+          </AssociationSet>
+          <AssociationSet Name="CityMunicipality" Association="BD.CityMunicipality">
+            <End Role="City" EntitySet="CitySet" />
+            <End Role="Municipality" EntitySet="MunicipalitySet" />
+          </AssociationSet>
+          <AssociationSet Name="CustomerSale" Association="BD.CustomerSale">
+            <End Role="Customer" EntitySet="CustomerSet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="InvoiceStatusSale" Association="BD.InvoiceStatusSale">
+            <End Role="InvoiceStatus" EntitySet="InvoiceStatusSet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="DeliveryTypeSale" Association="BD.DeliveryTypeSale">
+            <End Role="DeliveryType" EntitySet="DeliveryTypeSet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="EmployeeSale" Association="BD.EmployeeSale">
+            <End Role="Employee" EntitySet="EmployeeSet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="EmployeeSale1" Association="BD.EmployeeSale1">
+            <End Role="Employee" EntitySet="EmployeeSet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="MunicipalitySale" Association="BD.MunicipalitySale">
+            <End Role="Municipality" EntitySet="MunicipalitySet" />
+            <End Role="Sale" EntitySet="SaleSet" />
+          </AssociationSet>
+          <AssociationSet Name="SaleSaleDetail" Association="BD.SaleSaleDetail">
+            <End Role="Sale" EntitySet="SaleSet" />
+            <End Role="SaleDetail" EntitySet="SaleDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="MedicationInStockSaleDetail" Association="BD.MedicationInStockSaleDetail">
+            <End Role="MedicationInStock" EntitySet="MedicationInStockSet" />
+            <End Role="SaleDetail" EntitySet="SaleDetailSet" />
+          </AssociationSet>
+          <AssociationSet Name="CustomerCustomerAddress" Association="BD.CustomerCustomerAddress">
+            <End Role="Customer" EntitySet="CustomerSet" />
+            <End Role="CustomerAddress" EntitySet="CustomerAddressSet" />
+          </AssociationSet>
+          <AssociationSet Name="MunicipalityCustomerAddress" Association="BD.MunicipalityCustomerAddress">
+            <End Role="Municipality" EntitySet="MunicipalitySet" />
+            <End Role="CustomerAddress" EntitySet="CustomerAddressSet" />
+          </AssociationSet>
+          <AssociationSet Name="UserProfileRefreshTokenHistory" Association="BD.UserProfileRefreshTokenHistory">
+            <End Role="UserProfile" EntitySet="UserProfileSet" />
+            <End Role="RefreshTokenHistory" EntitySet="RefreshTokenHistorySet" />
+          </AssociationSet>
+          <EntitySet Name="MenuSet" EntityType="BD.Menu" />
+          <EntitySet Name="ExchangeRateSet" EntityType="BD.ExchangeRate" />
+          <AssociationSet Name="CurrencyExchangeRate" Association="BD.CurrencyExchangeRate">
+            <End Role="Currency" EntitySet="CurrencySet" />
+            <End Role="ExchangeRate" EntitySet="ExchangeRateSet" />
+          </AssociationSet>
+          <AssociationSet Name="MenuMenu" Association="BD.MenuMenu">
+            <End Role="Menu" EntitySet="MenuSet" />
+            <End Role="Menu1" EntitySet="MenuSet" />
+          </AssociationSet>
+          <AssociationSet Name="RoleMenu" Association="BD.RoleMenu">
+            <End Role="Role" EntitySet="RoleSet" />
+            <End Role="Menu" EntitySet="MenuSet" />
+          </AssociationSet>
+          <EntitySet Name="PrescriptionSet" EntityType="BD.Prescription" />
+          <AssociationSet Name="PrescriptionStoredMedication" Association="BD.PrescriptionStoredMedication">
+            <End Role="Prescription" EntitySet="PrescriptionSet" />
+            <End Role="StoredMedication" EntitySet="StoredMedicationSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Employee">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstNames" Type="String" Nullable="false" />
+          <Property Name="LastNames" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="EmailAddress" Type="String" Nullable="false" />
+          <Property Name="Dni" Type="String" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="BD.RoleEmployee" FromRole="Employee" ToRole="Role" />
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="UserProfile" Relationship="BD.UserProfileEmployee" FromRole="Employee" ToRole="UserProfile" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PurchaseDetail" Relationship="BD.EmployeePurchaseDetail" FromRole="Employee" ToRole="PurchaseDetail" />
+          <NavigationProperty Name="Sale" Relationship="BD.EmployeeSale" FromRole="Employee" ToRole="Sale" />
+          <NavigationProperty Name="Sale1" Relationship="BD.EmployeeSale1" FromRole="Employee" ToRole="Sale" />
+        </EntityType>
+        <EntityType Name="Role">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="Employee" Relationship="BD.RoleEmployee" FromRole="Role" ToRole="Employee" />
+          <NavigationProperty Name="Customer" Relationship="BD.RoleCustomer" FromRole="Role" ToRole="Customer" />
+          <NavigationProperty Name="Menu" Relationship="BD.RoleMenu" FromRole="Role" ToRole="Menu" />
+        </EntityType>
+        <EntityType Name="UserProfile">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="String" Nullable="false" />
+          <Property Name="UserPassaword" Type="String" Nullable="false" />
+          <Property Name="ProfileImage" Type="Byte" Nullable="false" />
+          <NavigationProperty Name="Employee" Relationship="BD.UserProfileEmployee" FromRole="UserProfile" ToRole="Employee" />
+          <NavigationProperty Name="Customer" Relationship="BD.UserProfileCustomer" FromRole="UserProfile" ToRole="Customer" />
+          <NavigationProperty Name="RefreshTokenHistory" Relationship="BD.UserProfileRefreshTokenHistory" FromRole="UserProfile" ToRole="RefreshTokenHistory" />
+        </EntityType>
+        <EntityType Name="Medication">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="MedicationCategory" Relationship="BD.MedicationCategoryMedication" FromRole="Medication" ToRole="MedicationCategory" />
+          <Property Name="Category_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MedicationDetail" Relationship="BD.MedicationMedicationDetail" FromRole="Medication" ToRole="MedicationDetail" />
+        </EntityType>
+        <EntityType Name="MedicationCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="Medication" Relationship="BD.MedicationCategoryMedication" FromRole="MedicationCategory" ToRole="Medication" />
+        </EntityType>
+        <EntityType Name="MedicationLaboratory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Update_at" Type="DateTime" Nullable="false" />
+          <Property Name="Delete_at" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="MedicationDetail" Relationship="BD.MedicationLaboratoryMedicationDetail" FromRole="MedicationLaboratory" ToRole="MedicationDetail" />
+        </EntityType>
+        <EntityType Name="GenericMedicationName">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Update_at" Type="DateTime" Nullable="false" />
+          <Property Name="Delete_at" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="MedicationDetail" Relationship="BD.GenericMedicationNameMedicationDetail" FromRole="GenericMedicationName" ToRole="MedicationDetail" />
+        </EntityType>
+        <EntityType Name="MedicationDetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Update_at" Type="DateTime" Nullable="false" />
+          <Property Name="Delete_at" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Medication" Relationship="BD.MedicationMedicationDetail" FromRole="MedicationDetail" ToRole="Medication" />
+          <Property Name="Medication_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MedicationLaboratory" Relationship="BD.MedicationLaboratoryMedicationDetail" FromRole="MedicationDetail" ToRole="MedicationLaboratory" />
+          <Property Name="MedicationLaboratory_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="GenericMedicationName" Relationship="BD.GenericMedicationNameMedicationDetail" FromRole="MedicationDetail" ToRole="GenericMedicationName" />
+          <Property Name="GenericMedicationNameId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.MedicationDetailStoredMedication" FromRole="MedicationDetail" ToRole="StoredMedication" />
+        </EntityType>
+        <EntityType Name="Supplier">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="DNI" Type="String" Nullable="false" />
+          <Property Name="Email" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="Int32" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.SupplierStoredMedication" FromRole="Supplier" ToRole="StoredMedication" />
+          <NavigationProperty Name="Purchase" Relationship="BD.SupplierPurchase" FromRole="Supplier" ToRole="Purchase" />
+        </EntityType>
+        <EntityType Name="UnitOfMeasurement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Conversion" Relationship="BD.UnitOfMeasurementConversion" FromRole="UnitOfMeasurement" ToRole="Conversion" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.UnitOfMeasurementStoredMedication" FromRole="UnitOfMeasurement" ToRole="StoredMedication" />
+        </EntityType>
+        <EntityType Name="Conversion">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Value" Type="Int32" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Update_at" Type="DateTime" Nullable="false" />
+          <Property Name="Delete_at" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="UnitOfMeasurement" Relationship="BD.UnitOfMeasurementConversion" FromRole="Conversion" ToRole="UnitOfMeasurement" />
+          <Property Name="UnitOfMeasurement_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StorageCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="StorageLocationCategory" Relationship="BD.StorageCategoryStorageLocationCategory" FromRole="StorageCategory" ToRole="StorageLocationCategory" />
+        </EntityType>
+        <EntityType Name="StorageLocationCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="StorageCategory" Relationship="BD.StorageCategoryStorageLocationCategory" FromRole="StorageLocationCategory" ToRole="StorageCategory" />
+          <Property Name="Storage_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.StorageLocationCategoryStoredMedication" FromRole="StorageLocationCategory" ToRole="StoredMedication" />
+        </EntityType>
+        <EntityType Name="ShelfCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ShelfLocationCategory" Relationship="BD.ShelfCategoryShelfLocationCategory" FromRole="ShelfCategory" ToRole="ShelfLocationCategory" />
+        </EntityType>
+        <EntityType Name="ShelfLocationCategory">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="ShelfCategory" Relationship="BD.ShelfCategoryShelfLocationCategory" FromRole="ShelfLocationCategory" ToRole="ShelfCategory" />
+          <Property Name="Shelf_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MedicationInStock" Relationship="BD.ShelfLocationCategoryMedicationInStock" FromRole="ShelfLocationCategory" ToRole="MedicationInStock" />
+        </EntityType>
+        <EntityType Name="StoredMedication">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Batch" Type="String" Nullable="false" />
+          <Property Name="Stock" Type="Int32" Nullable="false" />
+          <Property Name="PurchasePrice" Type="Decimal" Nullable="false" />
+          <Property Name="SellingPrice" Type="Decimal" Nullable="false" />
+          <Property Name="ExpiryDate" Type="DateTime" Nullable="false" />
+          <Property Name="ExpeditionDate" Type="DateTime" Nullable="false" />
+          <Property Name="ExpiryWarning" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="MedicationDetail" Relationship="BD.MedicationDetailStoredMedication" FromRole="StoredMedication" ToRole="MedicationDetail" />
+          <Property Name="MedicationDetail_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Supplier" Relationship="BD.SupplierStoredMedication" FromRole="StoredMedication" ToRole="Supplier" />
+          <Property Name="Supplier_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="UnitOfMeasurement" Relationship="BD.UnitOfMeasurementStoredMedication" FromRole="StoredMedication" ToRole="UnitOfMeasurement" />
+          <Property Name="UnitMeasurement_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="StorageLocationCategory" Relationship="BD.StorageLocationCategoryStoredMedication" FromRole="StoredMedication" ToRole="StorageLocationCategory" />
+          <Property Name="Location_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="InternalMovement" Relationship="BD.StoredMedicationInternalMovement" FromRole="StoredMedication" ToRole="InternalMovement" />
+          <NavigationProperty Name="MedicationInStock" Relationship="BD.StoredMedicationMedicationInStock" FromRole="StoredMedication" ToRole="MedicationInStock" />
+          <NavigationProperty Name="PurchaseDetail" Relationship="BD.StoredMedicationPurchaseDetail" FromRole="StoredMedication" ToRole="PurchaseDetail" />
+          <NavigationProperty Name="Prescription" Relationship="BD.PrescriptionStoredMedication" FromRole="StoredMedication" ToRole="Prescription" />
+          <Property Name="PrescriptionId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="InternalMovement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <Property Name="Batch" Type="String" Nullable="false" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <Property Name="Created_at" Type="DateTime" Nullable="false" />
+          <Property Name="Update_at" Type="DateTime" Nullable="false" />
+          <Property Name="Delete_at" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.StoredMedicationInternalMovement" FromRole="InternalMovement" ToRole="StoredMedication" />
+          <Property Name="StoredMedication_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MedicationInStock" Relationship="BD.InternalMovementMedicationInStock" FromRole="InternalMovement" ToRole="MedicationInStock" />
+        </EntityType>
+        <EntityType Name="MedicationInStock">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Stock" Type="Int32" Nullable="false" />
+          <Property Name="SellingPrice" Type="Decimal" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.StoredMedicationMedicationInStock" FromRole="MedicationInStock" ToRole="StoredMedication" />
+          <Property Name="StoredMedication_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="InternalMovement" Relationship="BD.InternalMovementMedicationInStock" FromRole="MedicationInStock" ToRole="InternalMovement" />
+          <Property Name="InternalMovement_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="ShelfLocationCategory" Relationship="BD.ShelfLocationCategoryMedicationInStock" FromRole="MedicationInStock" ToRole="ShelfLocationCategory" />
+          <Property Name="Location_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="SaleDetail" Relationship="BD.MedicationInStockSaleDetail" FromRole="MedicationInStock" ToRole="SaleDetail" />
+        </EntityType>
+        <EntityType Name="InvoiceStatus">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Status" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="Purchase" Relationship="BD.InvoiceStatusPurchase" FromRole="InvoiceStatus" ToRole="Purchase" />
+          <NavigationProperty Name="Sale" Relationship="BD.InvoiceStatusSale" FromRole="InvoiceStatus" ToRole="Sale" />
+        </EntityType>
+        <EntityType Name="Purchase">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DeliveryDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="Supplier" Relationship="BD.SupplierPurchase" FromRole="Purchase" ToRole="Supplier" />
+          <Property Name="Supplier_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="InvoiceStatus" Relationship="BD.InvoiceStatusPurchase" FromRole="Purchase" ToRole="InvoiceStatus" />
+          <Property Name="InvoiceStatus_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PurchaseDetail" Relationship="BD.PurchasePurchaseDetail" FromRole="Purchase" ToRole="PurchaseDetail" />
+        </EntityType>
+        <EntityType Name="PurchaseDetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Discount" Type="Double" Nullable="false" />
+          <Property Name="Tax" Type="Double" Nullable="false" />
+          <Property Name="Subtotal" Type="Double" Nullable="false" />
+          <Property Name="Total" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Purchase" Relationship="BD.PurchasePurchaseDetail" FromRole="PurchaseDetail" ToRole="Purchase" />
+          <Property Name="Purchase_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.StoredMedicationPurchaseDetail" FromRole="PurchaseDetail" ToRole="StoredMedication" />
+          <Property Name="StoredMedication_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee" Relationship="BD.EmployeePurchaseDetail" FromRole="PurchaseDetail" ToRole="Employee" />
+          <Property Name="Employee_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstNames" Type="String" Nullable="false" />
+          <Property Name="LastNames" Type="String" Nullable="false" />
+          <Property Name="Phone" Type="String" Nullable="false" />
+          <Property Name="EmailAddress" Type="String" Nullable="false" />
+          <Property Name="State" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="UserProfile" Relationship="BD.UserProfileCustomer" FromRole="Customer" ToRole="UserProfile" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="BD.RoleCustomer" FromRole="Customer" ToRole="Role" />
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Sale" Relationship="BD.CustomerSale" FromRole="Customer" ToRole="Sale" />
+          <NavigationProperty Name="CustomerAddress" Relationship="BD.CustomerCustomerAddress" FromRole="Customer" ToRole="CustomerAddress" />
+        </EntityType>
+        <EntityType Name="DeliveryType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Type" Type="String" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="Sale" Relationship="BD.DeliveryTypeSale" FromRole="DeliveryType" ToRole="Sale" />
+        </EntityType>
+        <EntityType Name="City">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="Municipality" Relationship="BD.CityMunicipality" FromRole="City" ToRole="Municipality" />
+        </EntityType>
+        <EntityType Name="Municipality">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <NavigationProperty Name="City" Relationship="BD.CityMunicipality" FromRole="Municipality" ToRole="City" />
+          <Property Name="City_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Sale" Relationship="BD.MunicipalitySale" FromRole="Municipality" ToRole="Sale" />
+          <NavigationProperty Name="CustomerAddress" Relationship="BD.MunicipalityCustomerAddress" FromRole="Municipality" ToRole="CustomerAddress" />
+        </EntityType>
+        <EntityType Name="Currency">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" Nullable="false" />
+          <NavigationProperty Name="ExchangeRate" Relationship="BD.CurrencyExchangeRate" FromRole="Currency" ToRole="ExchangeRate" />
+        </EntityType>
+        <EntityType Name="Sale">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderDate" Type="String" Nullable="false" />
+          <Property Name="ShippingDate" Type="String" Nullable="false" />
+          <Property Name="DeliveryDate" Type="String" Nullable="false" />
+          <Property Name="Address" Type="String" Nullable="false" />
+          <Property Name="Residence" Type="String" Nullable="false" />
+          <Property Name="PostalCode" Type="String" Nullable="false" />
+          <Property Name="CreditCardNumber" Type="String" Nullable="false" />
+          <NavigationProperty Name="Customer" Relationship="BD.CustomerSale" FromRole="Sale" ToRole="Customer" />
+          <Property Name="Customer_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="InvoiceStatus" Relationship="BD.InvoiceStatusSale" FromRole="Sale" ToRole="InvoiceStatus" />
+          <Property Name="InvoiceStatus_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="DeliveryType" Relationship="BD.DeliveryTypeSale" FromRole="Sale" ToRole="DeliveryType" />
+          <Property Name="DeliveryType_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee" Relationship="BD.EmployeeSale" FromRole="Sale" ToRole="Employee" />
+          <Property Name="Employee_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Employee1" Relationship="BD.EmployeeSale1" FromRole="Sale" ToRole="Employee" />
+          <Property Name="DeliveryEmployee_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Municipality" Relationship="BD.MunicipalitySale" FromRole="Sale" ToRole="Municipality" />
+          <Property Name="Municipality_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="SaleDetail" Relationship="BD.SaleSaleDetail" FromRole="Sale" ToRole="SaleDetail" />
+        </EntityType>
+        <EntityType Name="SaleDetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <Property Name="Quantity" Type="Int32" Nullable="false" />
+          <Property Name="Discount" Type="Double" Nullable="false" />
+          <Property Name="Tax" Type="Double" Nullable="false" />
+          <Property Name="Subtotal" Type="Double" Nullable="false" />
+          <Property Name="Total" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Sale" Relationship="BD.SaleSaleDetail" FromRole="SaleDetail" ToRole="Sale" />
+          <Property Name="Sale_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="MedicationInStock" Relationship="BD.MedicationInStockSaleDetail" FromRole="SaleDetail" ToRole="MedicationInStock" />
+          <Property Name="MedicationInStock_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CustomerAddress">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Residence" Type="String" Nullable="false" />
+          <Property Name="PostalCode" Type="String" Nullable="false" />
+          <NavigationProperty Name="Customer" Relationship="BD.CustomerCustomerAddress" FromRole="CustomerAddress" ToRole="Customer" />
+          <Property Name="Customer_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Municipality" Relationship="BD.MunicipalityCustomerAddress" FromRole="CustomerAddress" ToRole="Municipality" />
+          <Property Name="Municipality_Id" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="RefreshTokenHistory">
+          <Key>
+            <PropertyRef Name="HistorialTokenId" />
+          </Key>
+          <Property Name="HistorialTokenId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Token" Type="String" Nullable="false" />
+          <Property Name="RefreshToken" Type="String" Nullable="false" />
+          <Property Name="CreationDate" Type="DateTime" Nullable="false" />
+          <Property Name="ExpirationDate" Type="DateTime" Nullable="false" />
+          <Property Name="IsActive" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="UserProfile" Relationship="BD.UserProfileRefreshTokenHistory" FromRole="RefreshTokenHistory" ToRole="UserProfile" />
+          <Property Name="UserId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="RoleEmployee">
+          <End Type="BD.Role" Role="Role" Multiplicity="1" />
+          <End Type="BD.Employee" Role="Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UserProfileEmployee">
+          <End Type="BD.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="BD.Employee" Role="Employee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Employee">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MedicationCategoryMedication">
+          <End Type="BD.MedicationCategory" Role="MedicationCategory" Multiplicity="1" />
+          <End Type="BD.Medication" Role="Medication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MedicationCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Medication">
+              <PropertyRef Name="Category_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MedicationMedicationDetail">
+          <End Type="BD.Medication" Role="Medication" Multiplicity="1" />
+          <End Type="BD.MedicationDetail" Role="MedicationDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Medication">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationDetail">
+              <PropertyRef Name="Medication_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MedicationLaboratoryMedicationDetail">
+          <End Type="BD.MedicationLaboratory" Role="MedicationLaboratory" Multiplicity="1" />
+          <End Type="BD.MedicationDetail" Role="MedicationDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MedicationLaboratory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationDetail">
+              <PropertyRef Name="MedicationLaboratory_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="GenericMedicationNameMedicationDetail">
+          <End Type="BD.GenericMedicationName" Role="GenericMedicationName" Multiplicity="1" />
+          <End Type="BD.MedicationDetail" Role="MedicationDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GenericMedicationName">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationDetail">
+              <PropertyRef Name="GenericMedicationNameId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UnitOfMeasurementConversion">
+          <End Type="BD.UnitOfMeasurement" Role="UnitOfMeasurement" Multiplicity="1" />
+          <End Type="BD.Conversion" Role="Conversion" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnitOfMeasurement">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Conversion">
+              <PropertyRef Name="UnitOfMeasurement_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StorageCategoryStorageLocationCategory">
+          <End Type="BD.StorageCategory" Role="StorageCategory" Multiplicity="1" />
+          <End Type="BD.StorageLocationCategory" Role="StorageLocationCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StorageCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StorageLocationCategory">
+              <PropertyRef Name="Storage_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ShelfCategoryShelfLocationCategory">
+          <End Type="BD.ShelfCategory" Role="ShelfCategory" Multiplicity="1" />
+          <End Type="BD.ShelfLocationCategory" Role="ShelfLocationCategory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShelfCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ShelfLocationCategory">
+              <PropertyRef Name="Shelf_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MedicationDetailStoredMedication">
+          <End Type="BD.MedicationDetail" Role="MedicationDetail" Multiplicity="1" />
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MedicationDetail">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StoredMedication">
+              <PropertyRef Name="MedicationDetail_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SupplierStoredMedication">
+          <End Type="BD.Supplier" Role="Supplier" Multiplicity="1" />
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplier">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StoredMedication">
+              <PropertyRef Name="Supplier_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UnitOfMeasurementStoredMedication">
+          <End Type="BD.UnitOfMeasurement" Role="UnitOfMeasurement" Multiplicity="1" />
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UnitOfMeasurement">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StoredMedication">
+              <PropertyRef Name="UnitMeasurement_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StorageLocationCategoryStoredMedication">
+          <End Type="BD.StorageLocationCategory" Role="StorageLocationCategory" Multiplicity="1" />
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StorageLocationCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StoredMedication">
+              <PropertyRef Name="Location_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StoredMedicationInternalMovement">
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="1" />
+          <End Type="BD.InternalMovement" Role="InternalMovement" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StoredMedication">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="InternalMovement">
+              <PropertyRef Name="StoredMedication_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StoredMedicationMedicationInStock">
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="1" />
+          <End Type="BD.MedicationInStock" Role="MedicationInStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StoredMedication">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationInStock">
+              <PropertyRef Name="StoredMedication_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="InternalMovementMedicationInStock">
+          <End Type="BD.InternalMovement" Role="InternalMovement" Multiplicity="1" />
+          <End Type="BD.MedicationInStock" Role="MedicationInStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="InternalMovement">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationInStock">
+              <PropertyRef Name="InternalMovement_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ShelfLocationCategoryMedicationInStock">
+          <End Type="BD.ShelfLocationCategory" Role="ShelfLocationCategory" Multiplicity="1" />
+          <End Type="BD.MedicationInStock" Role="MedicationInStock" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ShelfLocationCategory">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="MedicationInStock">
+              <PropertyRef Name="Location_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SupplierPurchase">
+          <End Type="BD.Supplier" Role="Supplier" Multiplicity="1" />
+          <End Type="BD.Purchase" Role="Purchase" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Supplier">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Purchase">
+              <PropertyRef Name="Supplier_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="InvoiceStatusPurchase">
+          <End Type="BD.InvoiceStatus" Role="InvoiceStatus" Multiplicity="1" />
+          <End Type="BD.Purchase" Role="Purchase" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="InvoiceStatus">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Purchase">
+              <PropertyRef Name="InvoiceStatus_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PurchasePurchaseDetail">
+          <End Type="BD.Purchase" Role="Purchase" Multiplicity="1" />
+          <End Type="BD.PurchaseDetail" Role="PurchaseDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Purchase">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PurchaseDetail">
+              <PropertyRef Name="Purchase_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StoredMedicationPurchaseDetail">
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="1" />
+          <End Type="BD.PurchaseDetail" Role="PurchaseDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StoredMedication">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PurchaseDetail">
+              <PropertyRef Name="StoredMedication_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="EmployeePurchaseDetail">
+          <End Type="BD.Employee" Role="Employee" Multiplicity="1" />
+          <End Type="BD.PurchaseDetail" Role="PurchaseDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PurchaseDetail">
+              <PropertyRef Name="Employee_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UserProfileCustomer">
+          <End Type="BD.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="BD.Customer" Role="Customer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Customer">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RoleCustomer">
+          <End Type="BD.Role" Role="Role" Multiplicity="1" />
+          <End Type="BD.Customer" Role="Customer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Customer">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CityMunicipality">
+          <End Type="BD.City" Role="City" Multiplicity="1" />
+          <End Type="BD.Municipality" Role="Municipality" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="City">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Municipality">
+              <PropertyRef Name="City_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CustomerSale">
+          <End Type="BD.Customer" Role="Customer" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="Customer_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="InvoiceStatusSale">
+          <End Type="BD.InvoiceStatus" Role="InvoiceStatus" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="InvoiceStatus">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="InvoiceStatus_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="DeliveryTypeSale">
+          <End Type="BD.DeliveryType" Role="DeliveryType" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DeliveryType">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="DeliveryType_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="EmployeeSale">
+          <End Type="BD.Employee" Role="Employee" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="Employee_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="EmployeeSale1">
+          <End Type="BD.Employee" Role="Employee" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Employee">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="DeliveryEmployee_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MunicipalitySale">
+          <End Type="BD.Municipality" Role="Municipality" Multiplicity="1" />
+          <End Type="BD.Sale" Role="Sale" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Municipality">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Sale">
+              <PropertyRef Name="Municipality_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SaleSaleDetail">
+          <End Type="BD.Sale" Role="Sale" Multiplicity="1" />
+          <End Type="BD.SaleDetail" Role="SaleDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sale">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleDetail">
+              <PropertyRef Name="Sale_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MedicationInStockSaleDetail">
+          <End Type="BD.MedicationInStock" Role="MedicationInStock" Multiplicity="1" />
+          <End Type="BD.SaleDetail" Role="SaleDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MedicationInStock">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="SaleDetail">
+              <PropertyRef Name="MedicationInStock_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="CustomerCustomerAddress">
+          <End Type="BD.Customer" Role="Customer" Multiplicity="1" />
+          <End Type="BD.CustomerAddress" Role="CustomerAddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CustomerAddress">
+              <PropertyRef Name="Customer_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MunicipalityCustomerAddress">
+          <End Type="BD.Municipality" Role="Municipality" Multiplicity="1" />
+          <End Type="BD.CustomerAddress" Role="CustomerAddress" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Municipality">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="CustomerAddress">
+              <PropertyRef Name="Municipality_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="UserProfileRefreshTokenHistory">
+          <End Type="BD.UserProfile" Role="UserProfile" Multiplicity="1" />
+          <End Type="BD.RefreshTokenHistory" Role="RefreshTokenHistory" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="UserProfile">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="RefreshTokenHistory">
+              <PropertyRef Name="UserId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Menu">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MenuName" Type="String" Nullable="false" />
+          <Property Name="Position" Type="String" Nullable="false" />
+          <Property Name="UrlImg" Type="String" Nullable="false" />
+          <NavigationProperty Name="Menu1" Relationship="BD.MenuMenu" FromRole="Menu" ToRole="Menu1" />
+          <NavigationProperty Name="Menu2" Relationship="BD.MenuMenu" FromRole="Menu1" ToRole="Menu" />
+          <Property Name="MenuFatherId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Role" Relationship="BD.RoleMenu" FromRole="Menu" ToRole="Role" />
+          <Property Name="RoleId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ExchangeRate">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="DateTime" Nullable="false" />
+          <Property Name="BuyingRate" Type="Double" Nullable="false" />
+          <Property Name="SellingRate" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Currency" Relationship="BD.CurrencyExchangeRate" FromRole="ExchangeRate" ToRole="Currency" />
+          <Property Name="CurrencyId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="CurrencyExchangeRate">
+          <End Type="BD.Currency" Role="Currency" Multiplicity="1" />
+          <End Type="BD.ExchangeRate" Role="ExchangeRate" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Currency">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ExchangeRate">
+              <PropertyRef Name="CurrencyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="MenuMenu">
+          <End Type="BD.Menu" Role="Menu" Multiplicity="1" />
+          <End Type="BD.Menu" Role="Menu1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Menu">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Menu1">
+              <PropertyRef Name="MenuFatherId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="RoleMenu">
+          <End Type="BD.Role" Role="Role" Multiplicity="1" />
+          <End Type="BD.Menu" Role="Menu" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Role">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Menu">
+              <PropertyRef Name="RoleId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Prescription">
+          <Key>
+            <PropertyRef Name="PrescriptionId" />
+          </Key>
+          <Property Name="PrescriptionId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NotesPrescription" Type="String" Nullable="false" />
+          <Property Name="State" Type="String" Nullable="false" />
+          <Property Name="Created_at" Type="String" Nullable="false" />
+          <Property Name="Update_at" Type="String" Nullable="false" />
+          <Property Name="Delete_at" Type="String" Nullable="false" />
+          <NavigationProperty Name="StoredMedication" Relationship="BD.PrescriptionStoredMedication" FromRole="Prescription" ToRole="StoredMedication" />
+        </EntityType>
+        <Association Name="PrescriptionStoredMedication">
+          <End Type="BD.Prescription" Role="Prescription" Multiplicity="1" />
+          <End Type="BD.StoredMedication" Role="StoredMedication" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Prescription">
+              <PropertyRef Name="PrescriptionId" />
+            </Principal>
+            <Dependent Role="StoredMedication">
+              <PropertyRef Name="PrescriptionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs" Space="C-S">
+        <Alias Key="Model" Value="BD" />
+        <Alias Key="Target" Value="BD.Store" />
+        <EntityContainerMapping CdmEntityContainer="BDContainer" StorageEntityContainer="BDTargetContainer">
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

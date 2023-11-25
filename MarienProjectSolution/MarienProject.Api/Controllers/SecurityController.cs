@@ -1,50 +1,53 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using MarienProject.Api.Models.Token;
 using MarienProject.Api.Services.Contracts;
 using System.IdentityModel.Tokens.Jwt;
+using MarienProject.Models.Dtos;
+using MarienProject.Models.Dtos.JWT;
 
 namespace MarienProject.Api.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/controller")]
 	[ApiController]
 	public class SecurityController : ControllerBase
 	{
-		private readonly IAuthorizationService _athorizationServive;
+		private readonly IAuthorizationService _authorizationServive;
 
-		public SecurityController(IAuthorizationService athorizationServive)
+		public SecurityController(IAuthorizationService authorizationServive)
 		{
-			_athorizationServive = athorizationServive;
+            _authorizationServive = authorizationServive;
 		}
-		//Get token and refresh token throught the credential
+		//Get token and refresh token by credential
+		
 		[HttpPost]
-		[Route("Authenticate")]
-		public async Task<IActionResult> Authenticate([FromBody] AuthorizationRequest request)
+		[Route("login")]
+		public async Task<IActionResult> Login([FromBody] UserLoginRequestDto request)
 		{
-			var result = await _athorizationServive.ReturnToken(request);
+			var result = await _authorizationServive.ReturnToken(request);
 
 			if (result == null)
 			{
-				return Unauthorized();
+				return Unauthorized(new { Message = "Invalid credentials" });
 			}
-
-			return Ok(result);
+            // Si el inicio de sesión es exitoso, puedes generar y devolver un token aquí si lo necesitas
+            return Ok(new { Message = "Login successful", AccessToken = result });
 		}
 
-		//Get onother refresh token, throught another refresh token
+		//Get onother refresh token, by another refresh token
 		[HttpPost]
-		[Route("GetRefreshToken")]
-		public async Task<IActionResult> GetRefreshToken([FromBody] RefreshTokenRequest request)
+		[Route("getRefreshToken")]
+		public async Task<IActionResult> GetRefreshToken([FromBody] RefreshTokenRequestDto request)
 		{
 			var tokenHandler = new JwtSecurityTokenHandler();
-			var tokenExpired = tokenHandler.ReadJwtToken(request.TokenExpired);
+			var isTokenExpired = tokenHandler.ReadJwtToken(request.TokenExpired);
 
-			if (tokenExpired.ValidTo > DateTime.UtcNow) return BadRequest(new AuthorizationResponse { Result = false, Msg = "Token hasn't expired yet" });
+			if (isTokenExpired.ValidTo > DateTime.UtcNow) return BadRequest(new AuthorizationResponseDto { Result = false, Msg = "Token hasn't expired yet" });
 
-			string userId = tokenExpired.Claims.First(i =>
+			//Gettingn token' id
+			string userId = isTokenExpired.Claims.First(i =>
 					i.Type == JwtRegisteredClaimNames.NameId).Value.ToString();
 
-			var authorizationResponse = await _athorizationServive.ReturnRefreshToken(request, int.Parse(userId));
+			var authorizationResponse = await _authorizationServive.ReturnRefreshToken(request, int.Parse(userId));
 			if (authorizationResponse.Result)
 			{
 				return Ok(authorizationResponse);

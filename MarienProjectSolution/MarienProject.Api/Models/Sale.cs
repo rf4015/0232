@@ -25,25 +25,25 @@ public partial class Sale
 
     public DateTime? DeliveryDate { get; set; }
 
-    public string? Address { get; set; }
+    public string Address { get; set; }
 
-    public string? Residence { get; set; }
+    public string Residence { get; set; }
 
-    public string? PostalCode { get; set; }
+    public string PostalCode { get; set; }
 
-    public string? CreditCardNumber { get; set; }
+    public string CreditCardNumber { get; set; }
 
-    public virtual Customer Customer { get; set; } = null!;
+    public virtual Customer Customer { get; set; }
 
-    public virtual Employee? DeliveryEmployee { get; set; }
+    public virtual Employee DeliveryEmployee { get; set; }
 
-    public virtual DeliveryType DeliveryType { get; set; } = null!;
+    public virtual DeliveryType DeliveryType { get; set; }
 
-    public virtual Employee? Employee { get; set; }
+    public virtual Employee Employee { get; set; }
 
-    public virtual InvoiceStatus InvoiceStatus { get; set; } = null!;
+    public virtual InvoiceStatus InvoiceStatus { get; set; }
 
-    public virtual Municipality? Municipality { get; set; }
+    public virtual Municipality Municipality { get; set; }
 
     public virtual ICollection<SaleDetail> SaleDetails { get; set; } = new List<SaleDetail>();
 }

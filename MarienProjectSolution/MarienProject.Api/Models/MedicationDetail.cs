@@ -13,9 +13,7 @@ public partial class MedicationDetail
 
     public int GenericMedicationNameId { get; set; }
 
-    public string? Description { get; set; }
-
-    public DateTime? Prescription { get; set; }
+    public string Description { get; set; }
 
     public bool? State { get; set; }
 
@@ -25,11 +23,11 @@ public partial class MedicationDetail
 
     public DateTime? DeleteAt { get; set; }
 
-    public virtual GenericMedicationName GenericMedicationName { get; set; } = null!;
+    public virtual GenericMedicationName GenericMedicationName { get; set; }
 
-    public virtual Medication Medication { get; set; } = null!;
+    public virtual Medication Medication { get; set; }
 
-    public virtual MedicationLaboratory MedicationLaboratory { get; set; } = null!;
+    public virtual MedicationLaboratory MedicationLaboratory { get; set; }
 
     public virtual ICollection<StoredMedication> StoredMedications { get; set; } = new List<StoredMedication>();
 }

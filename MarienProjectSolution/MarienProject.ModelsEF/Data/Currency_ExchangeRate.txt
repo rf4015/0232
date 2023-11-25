@@ -1,0 +1,19 @@
+--Insert Currency
+-- Insertar dólares
+INSERT INTO Currency (Description) VALUES ('Dollar');
+
+-- Insertar córdobas NIO
+INSERT INTO Currency (Description) VALUES ('Cordobas');
+
+-- Insertar Euros
+INSERT INTO Currency (Description) VALUES ('Euro');
+
+--Insert Exchange Rate
+-- Insertar tasas de cambio para Dólares
+INSERT INTO ExchangeRate (Currency_Id, [Date], BuyingRate, SellingRate) VALUES (1,GETDATE(),36.32,36.91);
+
+-- Insertar tasas de cambio para Córdobas
+INSERT INTO ExchangeRate (Currency_Id, [Date], BuyingRate, SellingRate) VALUES (2,GETDATE(),1.00,1.10);
+
+-- Insertar tasas de cambio para Euros
+INSERT INTO ExchangeRate (Currency_Id, [Date], BuyingRate, SellingRate) VALUES (3,GETDATE(),37.49,41.73);

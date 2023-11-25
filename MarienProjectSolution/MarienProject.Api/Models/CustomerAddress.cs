@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text.Json.Serialization;
 
 namespace MarienProject.Api.Models;
 
@@ -12,13 +11,13 @@ public partial class CustomerAddress
 
     public int MunicipalityId { get; set; }
 
-    public string Address { get; set; } = null!;
+    public string Address { get; set; }
 
-    public string Residence { get; set; } = null!;
+    public string Residence { get; set; }
 
-    public string? PostalCode { get; set; }
-    [JsonIgnore]
-    public virtual Customer Customer { get; set; } = null!;
-    [JsonIgnore]
-    public virtual Municipality Municipality { get; set; } = null!;
+    public string PostalCode { get; set; }
+
+    public virtual Customer Customer { get; set; }
+
+    public virtual Municipality Municipality { get; set; }
 }
