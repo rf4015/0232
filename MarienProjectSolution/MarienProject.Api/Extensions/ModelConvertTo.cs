@@ -41,16 +41,36 @@ public static class ModelConvertTo
 
     public static Customer ConvertToAddCustomer(this CustomerActionsDto customerDto)
     {
-
         return new Customer
         {
             FirstNames = customerDto.FirstNames,
             LastNames = customerDto.LastNames,
             EmailAddress = customerDto.EmailAddress,
             Phone = customerDto.Phone,
-            RoleId = 4,
+            RoleId = 4
         };
     }
+
+    public static object[] CreateCustomerActs(this CreateCustomerActions user)
+    {
+        UserProfile UserProfile = new UserProfile()
+        {
+            UserName = user.UserName,
+            UserPassaword = user.UserPassword,
+            ProfileImage = user.ProfileImage
+        };
+        Customer customer = new Customer() 
+        {
+            FirstNames = user.FirstNames,
+            LastNames = user.LastNames,
+            EmailAddress = user.EmailAddress,
+            Phone = user.Phone,
+            RoleId = 4,
+            State = true
+        };
+        return new object[] { customer, UserProfile };
+    }
+
     public static Role ConvertToRole(this RoleDto roleDto)
 	{
 		return new Role()

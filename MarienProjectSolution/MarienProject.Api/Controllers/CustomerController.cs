@@ -5,6 +5,7 @@ using MarienProject.Api.Repositories;
 using MarienProject.Api.Repositories.Contracts;
 using MarienProject.Models.Dtos;
 using MarienProject.Models.Dtos.Actions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -12,6 +13,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MarienProject.Api.Controllers
 {
+    //[Authorize]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
@@ -27,6 +34,7 @@ namespace MarienProject.Api.Controllers
         }
 
         [HttpGet]
+        [Route("GelAllCustomers")]
         public async Task<ActionResult<List<CustomerDto>>> GetAllCustomers()
         {
             try
@@ -89,7 +97,9 @@ namespace MarienProject.Api.Controllers
 
 
 
-        [HttpGet("{id:int}")]
+        [HttpGet]
+        [Route("GetCustomerById/{id}")]
+
         public async Task<ActionResult<CustomerDto>> GetCustomerById(int id)
         {
             try
@@ -111,13 +121,15 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
         [HttpPost]
-        public async Task<ActionResult<bool>> CreateCustomer(CustomerActionsDto customerDto)
+        [Route("CreateCustomers")]
+        public async Task<ActionResult<bool>> CreateCustomer([FromBody]CreateCustomerActions customerActions)
         {
             try
             {
-                var customer = customerDto.ConvertToAddCustomer();
-                var createStaus = await _customerRepository.CreateCustomer(customer);
+                var userCustomer = customerActions.CreateCustomerActs();
+                var createStaus = await _customerRepository.CreateCustomer((Customer)userCustomer[0], (UserProfile)userCustomer[1]);
 
                 if (createStaus == false)
                 {
@@ -134,7 +146,8 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpDelete("{id:int}")]
+        [HttpDelete]
+        [Route("DeleteCustomer/{id}")]
         public async Task<ActionResult<bool>> DeleteCustomer(int id)
         {
             try
@@ -155,7 +168,8 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpPatch("{id:int}")]
+        [HttpPut]
+        [Route("UpdateCustomer/{id}")]
         public async Task<ActionResult<bool>> UpdateCustomer(CustomerDto customerDto)
         {
             try

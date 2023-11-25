@@ -14,7 +14,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MarienProject.Api.Controllers
 {
-	[Authorize]
+	//[Authorize]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [Route("api/[controller]")]
 	[ApiController]
     public class EmployeeController : ControllerBase

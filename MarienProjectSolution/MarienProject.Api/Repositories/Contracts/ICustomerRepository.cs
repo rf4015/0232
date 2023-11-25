@@ -6,7 +6,7 @@ namespace MarienProject.Api.Repositories.Contracts
     {
         Task<IEnumerable<Customer>> GetAllCustomers();
         Task<Customer> GetCustomerById(int id);
-        Task<bool> CreateCustomer(Customer newCustomer);
+        Task<bool> CreateCustomer(Customer newCustomer, UserProfile user);
         Task<bool> UpdateCustomer(Customer updatedCustomer);
         Task<bool> DeleteCustomer(int id);
     }

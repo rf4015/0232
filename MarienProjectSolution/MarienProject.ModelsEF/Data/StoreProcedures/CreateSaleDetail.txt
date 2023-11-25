@@ -1,0 +1,63 @@
+--CREATE
+CREATE PROCEDURE uspCreateSaleDetail
+-- Add the parameters for the stored procedure here
+@IdMedicationInStock AS INT,
+@Quantity AS INT,
+@Discount AS DECIMAL(18,2),
+@Tax AS DECIMAL(18,2)
+
+AS
+
+DECLARE @SellingPrice DECIMAL(18,2);
+DECLARE @SubTotal DECIMAL(18,2);
+DECLARE @Total DECIMAL(18,2);
+DECLARE @QuantityInStock INT;
+
+SET @SellingPrice = (SELECT SellingPrice 
+FROM StoredMedication 
+WHERE Id = @IdMedicationInStock)
+
+SET @QuantityInStock = (SELECT Stock 
+FROM MedicationInStock WHERE Id = @IdMedicationInStock)
+BEGIN
+	IF EXISTS (SELECT Id FROM MedicationInStock 
+	WHERE Id = @IdMedicationInStock)
+	BEGIN
+		SET @Tax = @Tax / 100;
+		SET @Discount = @Discount / 100;
+		SET @SubTotal = (@Quantity * @SellingPrice) - @Discount;
+		SET @Total = @SubTotal + (@SubTotal * @Tax);
+
+		IF(@QuantityInStock >= @Quantity AND @QuantityInStock > 0)
+		BEGIN
+			INSERT INTO 
+			SaleDetail(Sale_Id, 
+			MedicationInStock_Id, 
+			Price, 
+			Quantity, 
+			Discount, 
+			Tax, 
+			Subtotal, 
+			Total)
+		
+			VALUES
+
+			((SELECT MAX(Id) FROM Sale), --Id_sale
+			@IdMedicationInStock, --Id_Medication to Sell
+			@SellingPrice, --Price's Medication from IdMedication parameter 
+			@Quantity,
+			@Discount,
+			@Tax,
+			@SubTotal,
+			@Total)
+
+			UPDATE MedicationInStock SET Stock = Stock - @Quantity 
+			WHERE Id = @IdMedicationInStock
+		END
+	END
+	ELSE
+	BEGIN
+		PRINT('The product was not found or the there is not existences for this product');
+	END
+END
+GO

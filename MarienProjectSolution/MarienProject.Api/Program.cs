@@ -31,10 +31,17 @@ builder.Services.AddDbContextPool<MarienPharmacyContext>(options =>
 );
 
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<ICustomerRepository, CustomerRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+builder.Services.AddScoped<ISaleDetailRepository, SaleDetailRepository>();
 
 //JWT service
 builder.Services.AddScoped<IAuthorizationService, AuthorizationService>();
+
+builder.Services.AddControllers().AddJsonOptions(e=> e.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
+
 //JWt configuration
 var privateKey = builder.Configuration.GetValue<string>("JwtSetting:PrivateKey");
 var keybytes = Encoding.ASCII.GetBytes(privateKey);

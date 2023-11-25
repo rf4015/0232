@@ -1,0 +1,48 @@
+CREATE PROCEDURE uspUpdateSale
+@Id_Sale AS INT,
+@Id_Customer AS INT,
+@Id_InvoiceStatus INT,
+@Id_DeliveryType INT,
+@Id_Employee INT,
+@Id_DeliveryEmployee INT,
+@Id_Municipality INT,
+--@OrderDate DATE,
+--@ShippingDate DATE,
+--@DeliveryDate DATE,
+@Address NVARCHAR(150),
+@Residence NVARCHAR(30),
+@PostalCode NVARCHAR(15),
+@CreditCardNumber NVARCHAR(16)
+
+AS
+
+BEGIN
+		IF EXISTS(SELECT Id FROM Sale WHERE Id = @Id_Sale AND EXISTS 
+		(SELECT Id FROM Customer WHERE Id = @Id_Customer) AND EXISTS 
+		(SELECT Id FROM InvoiceStatus WHERE Id = @Id_InvoiceStatus) AND EXISTS 
+		(SELECT Id, DeliveryEmployee_Id FROM Employee 
+		WHERE Id = @Id_Employee AND DeliveryEmployee_Id = @Id_DeliveryEmployee) AND EXISTS
+		(SELECT Id FROM DeliveryType WHERE Id = @Id_DeliveryType) AND EXISTS
+		(SELECT Id FROM Municipality WHERE Id = @Id_Municipality))
+		BEGIN
+			UPDATE Sale SET 
+				Customer_Id = @Id_Customer,
+				InvoiceStatus_Id = @Id_InvoiceStatus,
+				DeliveryType_Id = @Id_DeliveryType,
+				Employee_Id = @Id_Employee,
+				DeliveryEmployee_Id = @Id_Employee,
+				Municipality_Id = @Id_Municipality,
+				OrderDate = GETDATE(),
+				ShippingDate = GETDATE(),
+				DeliveryDate = GETDATE(),
+				[Address] = @Address,
+				Residence = @Residence,
+				PostalCode = @PostalCode,
+				CreditCardNumber = @CreditCardNumber 
+				WHERE Id = @Id_Sale
+		END
+		ELSE
+		BEGIN
+			PRINT('An ocurred error while updating sale, error has ocurred because the data is wrong');
+		END
+END

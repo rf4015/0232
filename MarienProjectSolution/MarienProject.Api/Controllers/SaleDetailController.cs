@@ -4,11 +4,18 @@ using MarienProject.Api.Repositories;
 using MarienProject.Api.Repositories.Contracts;
 using MarienProject.Models.Dtos;
 using MarienProject.Models.Dtos.Actions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MarienProject.Api.Controllers
 {
+    //[Authorize]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [Route("api/[controller]")]
     [ApiController]
     public class SaleDetailController : ControllerBase
@@ -23,6 +30,7 @@ namespace MarienProject.Api.Controllers
         }
 
         [HttpGet]
+        [Route("GetAllSaleDetails")]
         public async Task<ActionResult<IEnumerable<SaleDetailDto>>> GetAllSalesDetails()
         {
             var sales = await _saleDetailRepository.GetAllSalesDetails();
@@ -37,6 +45,7 @@ namespace MarienProject.Api.Controllers
 
 
         [HttpPost]
+        [Route("CreateSaleDetail")]
         public async Task<ActionResult<bool>> CreateSale([FromBody] SaleDetailActionsDto saleDto)
         {
             try
@@ -60,7 +69,8 @@ namespace MarienProject.Api.Controllers
             }
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet]
+        [Route("GetSaleDetailById/{id}")]
         public async Task<ActionResult<SaleDetailDto>> GetSalesDetailsById(int id)
         {
             try
@@ -84,7 +94,8 @@ namespace MarienProject.Api.Controllers
             }
         }
 
-        [HttpDelete("{id:int}")]
+        [HttpDelete]
+        [Route("DeleteSaleDetail/{id}")]
         public async Task<ActionResult<bool>> DeleteSaleDetail(int id)
         {
             try

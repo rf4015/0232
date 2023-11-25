@@ -102,6 +102,11 @@
     <Content Include="Data\StorageCategory.txt" />
     <Content Include="Data\StoredMedication.txt" />
     <Content Include="Data\StoredMedicationT.txt" />
+    <Content Include="Data\StoreProcedures\CreateSale.txt" />
+    <Content Include="Data\StoreProcedures\CreateSaleDetail.txt" />
+    <Content Include="Data\StoreProcedures\DeleteSaleDetail.txt" />
+    <Content Include="Data\StoreProcedures\UpdateSale.txt" />
+    <Content Include="Data\StoreProcedures\UpdateSaleDetail.txt" />
     <Content Include="Data\Supplier.txt" />
     <Content Include="Data\UnitOfMeasurement.txt" />
   </ItemGroup>

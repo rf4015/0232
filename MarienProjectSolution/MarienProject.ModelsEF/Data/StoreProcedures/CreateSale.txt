@@ -1,0 +1,27 @@
+CREATE PROCEDURE uspCreateCustomer
+@UserName AS NVARCHAR(50),
+@UserPassword AS NVARCHAR(50),
+@ProfileImage AS NVARCHAR(500),
+@FirstNames AS NVARCHAR(50),
+@LastNames AS NVARCHAR(50),
+@Phone AS CHAR(8),
+@EmailAddress AS NVARCHAR(120)
+AS
+BEGIN
+
+DECLARE @LastUserProfile INT
+		IF EXISTS (SELECT Id FROM [Role])
+			BEGIN
+				INSERT INTO UserProfile (UserName,UserPassaword,ProfileImage) 
+				VALUES (@UserName,@UserPassword,@ProfileImage)
+				
+				SET @LastUserProfile = (SELECT MAX(Id) FROM UserProfile)
+
+				INSERT INTO Customer (FirstNames,LastNames, Phone,EmailAddress,UserId,RoleId,[State])
+				VALUES(@FirstNames,@LastNames,@Phone,@EmailAddress,@LastUserProfile, 4, 1);
+			END
+		ELSE 
+		BEGIN
+			PRINT('The Role was not found...')
+		END
+END

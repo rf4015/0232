@@ -1,0 +1,88 @@
+--UPDATE
+CREATE PROCEDURE uspUpdateSaleDetail
+@Id_SaleDetail INT,
+--@Id_Sale INT,
+@IdMedicationInStock AS INT,
+@Quantity AS INT,
+@Discount AS DECIMAL(18,2),
+@Tax AS DECIMAL(18,2)
+
+AS
+
+--DECLARE @Sale INT;
+DECLARE @MedicationInStock INT
+DECLARE @SellingPrice DECIMAL(18,2);
+DECLARE @SubTotal DECIMAL(18,2);
+DECLARE @Total DECIMAL(18,2);
+DECLARE @QuantityInStock INT;
+DECLARE @OldQuantity INT;
+DECLARE @ResultOfOperation INT;
+
+SET @SellingPrice = (SELECT SellingPrice 
+FROM StoredMedication 
+WHERE Id = @IdMedicationInStock)
+
+SET @QuantityInStock = (SELECT Stock 
+FROM MedicationInStock WHERE Id = @IdMedicationInStock)
+
+SET @MedicationInStock = (SELECT Id FROM MedicationInStock WHERE Id = @IdMedicationInStock)
+
+--SET @Sale = (SELECT Id FROM Sale WHERE Id = @Id_Sale)
+
+SET @OldQuantity = (SELECT Quantity 
+					FROM SaleDetail 
+					WHERE Id = @Id_SaleDetail) --Latest SaleDetail
+
+BEGIN
+	IF EXISTS (SELECT Id FROM SaleDetail WHERE Id = @Id_SaleDetail 
+	AND @MedicationInStock = @IdMedicationInStock)
+
+	BEGIN
+		SET @Tax = @Tax / 100;
+		SET @Discount = @Discount / 100;
+		SET @SubTotal = (@Quantity * @SellingPrice) - @Discount;
+		SET @Total = @SubTotal + (@SubTotal * @Tax);
+
+		IF(@Quantity <= @QuantityInStock AND @QuantityInStock > 0)
+		BEGIN
+			UPDATE SaleDetail 
+			SET 
+			MedicationInStock_Id = @IdMedicationInStock,
+			Quantity = @Quantity,
+			Discount = @Discount,
+			Tax = @Tax,
+			Subtotal = @SubTotal,
+			Total = @Total
+			WHERE Id = @Id_SaleDetail
+
+			IF(@OldQuantity > @Quantity)
+			BEGIN
+				SET @ResultOfOperation = @OldQuantity - @Quantity
+				UPDATE MedicationInStock 
+				SET Stock = Stock + @ResultOfOperation 
+				WHERE Id = @IdMedicationInStock
+			END
+			ELSE IF(@OldQuantity < @Quantity)
+			BEGIN
+				SET @ResultOfOperation = @Quantity - @OldQuantity;
+				UPDATE MedicationInStock 
+				SET Stock = Stock - @ResultOfOperation
+				WHERE Id = @IdMedicationInStock
+			END
+			ELSE
+			BEGIN
+				UPDATE MedicationInStock 
+				SET Stock = Stock 
+				WHERE Id = @IdMedicationInStock
+			END
+		END
+		ELSE
+		BEGIN
+			PRINT('There is not existences for the product specificied')
+		END
+	END
+	ELSE
+	BEGIN
+		PRINT('The SaleDetail especified was not found or Medication id is not valid')
+	END
+END

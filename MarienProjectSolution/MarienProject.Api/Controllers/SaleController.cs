@@ -4,11 +4,18 @@ using MarienProject.Api.Repositories;
 using MarienProject.Api.Repositories.Contracts;
 using MarienProject.Models.Dtos;
 using MarienProject.Models.Dtos.Actions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MarienProject.Api.Controllers
 {
+    //[Authorize]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [Route("api/[controller]")]
     [ApiController]
     public class SaleController : ControllerBase
@@ -23,6 +30,7 @@ namespace MarienProject.Api.Controllers
         }
 
         [HttpGet]
+        [Route("GetAllSales")]
         public async Task<ActionResult<IEnumerable<SaleDto>>> GetAllSales()
         {
             var sales = await _saleRepository.GetAllSales();
@@ -36,6 +44,7 @@ namespace MarienProject.Api.Controllers
         }
 
         [HttpPost]
+        [Route("CreateSale")]
         public async Task<ActionResult<bool>> CreateSale([FromBody] SaleActionsDto saleDto)
         {
             try
@@ -58,7 +67,8 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpGet("{id:int}")]
+        [HttpGet]
+        [Route("GetSaleById/{id}")]
         public async Task<ActionResult<SaleDto>> GetSaleById(int id)
         {
             try
@@ -82,7 +92,8 @@ namespace MarienProject.Api.Controllers
             }
         }
 
-        [HttpPut("{id:int}")]
+        [HttpPut]
+        [Route("UpdateSale/{id}")]
         public async Task<ActionResult<bool>> UpdateSale(int id, SaleActionsDto saleDto)
         {
             try
@@ -105,7 +116,8 @@ namespace MarienProject.Api.Controllers
             }
         }
 
-        [HttpDelete("{id:int}")]
+        [HttpDelete]
+        [Route("DeleteSale/{id}")]
         public async Task<ActionResult<bool>> DeleteSale(int id)
         {
             try

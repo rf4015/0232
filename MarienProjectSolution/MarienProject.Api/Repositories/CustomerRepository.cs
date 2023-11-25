@@ -28,6 +28,7 @@ namespace MarienProject.Api.Repositories
             catch (Exception ex)
             {
                 _logger.LogError(ex, "An error occurred while getting all customers");
+
                 return null;
             }
 
@@ -53,20 +54,32 @@ namespace MarienProject.Api.Repositories
                 return null;
             }
         }
-        public async Task<bool> CreateCustomer(Customer customer)
+        public async Task<bool> CreateCustomer(Customer customer, UserProfile user)
         {
             try
             {
-                var id =  _dbFarmaciaContext.UserProfiles.Max(c => c.Id);
+                //var id =  _dbFarmaciaContext.UserProfiles.Max(c => c.Id);
 
-                if (customer.UserId == id)
+                //if (customer.UserId == id)
+                //{
+                //    return false;
+                //}
+
+                //customer.UserId = id;
+                //_dbFarmaciaContext.Customers.Add(customer);
+                //await _dbFarmaciaContext.SaveChangesAsync();
+
+                var result = await _dbFarmaciaContext.Database.ExecuteSqlRawAsync($"uspCreateCustomer @UserName = '{user.UserName}', @UserPassword = '{user.UserPassaword}', @ProfileImage = '{user.ProfileImage}', @FirstNames = '{customer.FirstNames}', @LastNames = '{customer.LastNames}', @Phone = '{customer.Phone}', @EmailAddress = '{customer.EmailAddress}'");
+
+                if(result > 0)
+                {
+                    return true;
+                }
+                else
                 {
                     return false;
                 }
-                customer.UserId = id;
-                _dbFarmaciaContext.Customers.Add(customer);
-                await _dbFarmaciaContext.SaveChangesAsync();
-                return true;
+
             }
             catch (Exception ex)
             {

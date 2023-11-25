@@ -1,0 +1,17 @@
+--DELETE
+CREATE PROCEDURE uspDeleteSaleDetail
+@IdSaleDetail INT
+AS
+DECLARE @SaleId INT
+BEGIN
+	IF EXISTS (SELECT Id FROM SaleDetail WHERE Id = @IdSaleDetail)
+	BEGIN
+		SET @SaleId = (SELECT Sale_Id FROM SaleDetail WHERE Id = @IdSaleDetail)
+		UPDATE Sale SET InvoiceStatus_Id = 3 
+		WHERE Id = @SaleId
+	END
+	ELSE
+	BEGIN
+		PRINT('The SaleDetail was not found')
+	END
+END

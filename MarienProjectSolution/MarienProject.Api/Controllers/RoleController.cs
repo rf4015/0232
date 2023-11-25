@@ -6,12 +6,20 @@ using MarienProject.Api.Repositories;
 using MarienProject.Api.Repositories.Contracts;
 using MarienProject.Models.Dtos;
 using MarienProject.Models.Dtos.Actions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace MarienProject.Api.Controllers
 {
+
+    //[Authorize]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     [Route("api/[controller]")]
     [ApiController]
     public class RoleController : ControllerBase
@@ -42,6 +50,7 @@ namespace MarienProject.Api.Controllers
         }
 
         [HttpPost]
+        [Route("CreateRole")]
         public async Task<ActionResult<bool>> CreateRole([FromBody] RoleActionsDto roleDto)
         {
             try
@@ -66,7 +75,8 @@ namespace MarienProject.Api.Controllers
         }
 
 
-        [HttpGet("{id:int}")]
+        [HttpGet]
+        [Route("GetRoleById/{id}")]
         public async Task<ActionResult<RoleDto>> GetRoleById(int id)
         {
             try
@@ -89,7 +99,8 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpDelete("{id:int}")]
+        [HttpDelete]
+        [Route("DeleteRole/{id}")]
         public async Task<ActionResult<bool>> DeleteRole(int id)
         {
             try
@@ -110,7 +121,8 @@ namespace MarienProject.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-        [HttpPut("{id:int}")]
+        [HttpPut]
+        [Route("UpdateRole/{id}")]
         public async Task<ActionResult<bool>> UpdateRole( int id, RoleActionsDto roleDto)
         {
             try

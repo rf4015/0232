@@ -7,7 +7,12 @@ using MarienProject.Models.Dtos.JWT;
 
 namespace MarienProject.Api.Controllers
 {
-	[Route("api/controller")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+    [Route("api/controller")]
 	[ApiController]
 	public class SecurityController : ControllerBase
 	{

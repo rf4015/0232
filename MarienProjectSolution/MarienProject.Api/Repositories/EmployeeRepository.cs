@@ -24,7 +24,9 @@ namespace MarienProject.Api.Repositories
 			{
 				var employees = await _dbFarmaciaContext.Employees
 									.Include(e => e.Role)
-									.Include(e =>e.User).ToArrayAsync();
+									.Include(e =>e.User)
+									.Where(e=> e.State == true).
+									ToArrayAsync();
 				return employees;
 			}
 			catch (Exception ex)
@@ -123,7 +125,8 @@ namespace MarienProject.Api.Repositories
 		}
 		public async Task<bool> DeleteEmployeeById(int id)
 		{
-			var employee = await _dbFarmaciaContext.Employees.FirstOrDefaultAsync(e => e.Id == id);
+			var employee = await _dbFarmaciaContext.Employees
+				.FirstOrDefaultAsync(e => e.Id == id);
 
 			if (employee != null)
 			{
