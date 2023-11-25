@@ -8,7 +8,7 @@ var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
 
-// Configura el HttpClient
+// Configura el HttpClient, CAMBIAR:localhost:7169, EL PUERTO
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:7169") });
 //builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) }.EnableIntercept(sp));
 

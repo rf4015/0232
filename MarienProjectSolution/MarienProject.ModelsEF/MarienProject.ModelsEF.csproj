@@ -97,6 +97,7 @@
     <Content Include="Data\Sale.txt" />
     <Content Include="Data\SaleDetail.txt" />
     <Content Include="Data\SaleDetailTW.txt" />
+    <Content Include="Data\ScriptDataBase\ScriptMarienPharmacy.txt" />
     <Content Include="Data\ShelfCategory.txt" />
     <Content Include="Data\ShelfLocationCategory.txt" />
     <Content Include="Data\StorageCategory.txt" />

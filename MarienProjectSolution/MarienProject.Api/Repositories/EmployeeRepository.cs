@@ -134,28 +134,30 @@ namespace MarienProject.Api.Repositories
 				{
 					var userProfile = await _dbFarmaciaContext.UserProfiles.FirstOrDefaultAsync(u => u.Id == employee.UserId);
 
-                    _dbFarmaciaContext.Employees.Remove(employee);
-                    if (userProfile != null)
+                    var result = await _dbFarmaciaContext.Database.ExecuteSqlRawAsync(
+                    $"EXEC DeleteEmployee @Id = {id}");
+                    //transaction.Commit(); // Confirmar la transacción si todo ha ido bien
+					if(result > 0)
 					{
-						_dbFarmaciaContext.UserProfiles.Remove(userProfile);
+						return true;
 					}
-					//_dbFarmaciaContext.RemoveRange(_dbFarmaciaContext.UserProfiles.Where(u => u.Id == employee.UserId));
-					
-					await _dbFarmaciaContext.SaveChangesAsync();
-					return true;
-				}
-				catch (Exception ex)
-				{
-                    if (ex.InnerException != null)
-                    {
-                        _logger.LogError(ex.InnerException, "Inner exception details");
-                    }
-
-                    _logger.LogError(ex.InnerException, "An error occurred while deleting the employee by Id");
-					return false;
-				}
+					else
+					{
+						return false;
+					}
+                    //await _dbFarmaciaContext.SaveChangesAsync();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("An error occurred while deleting the employee: " + ex.Message);
+                    //transaction.Rollback(); // Deshacer la transacción si hay un error
+                    return false;
+                }
+            }
+			else
+			{
+				return false;
 			}
-			return false;
 		}
 	}
 }
