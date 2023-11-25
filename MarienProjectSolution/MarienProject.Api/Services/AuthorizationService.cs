@@ -55,7 +55,7 @@ namespace MarienProject.Api.Services
 			var tokenDescriptor = new SecurityTokenDescriptor
 			{
 				Subject = claims,//user's id
-				Expires = DateTime.UtcNow.AddMinutes(1),
+				Expires = DateTime.UtcNow.AddMinutes(60),
 				SigningCredentials = credentialToken
 			};
 
