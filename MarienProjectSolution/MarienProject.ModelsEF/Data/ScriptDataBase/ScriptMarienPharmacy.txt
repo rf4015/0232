@@ -1,0 +1,1134 @@
+USE [MarienPharmacy]
+GO
+/****** Object:  Table [dbo].[City]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[City](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](150) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Conversion]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Conversion](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UnitOfMeasurement_Id] [int] NOT NULL,
+	[Description] [varchar](100) NULL,
+	[Value] [int] NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Currency]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Currency](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Description] [varchar](100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Customer]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Customer](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[FirstNames] [nvarchar](50) NOT NULL,
+	[LastNames] [nvarchar](50) NOT NULL,
+	[Phone] [char](8) NOT NULL,
+	[EmailAddress] [nvarchar](120) NOT NULL,
+	[UserId] [int] NULL,
+	[RoleId] [int] NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[EmailAddress] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[Phone] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[CustomerAddress]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CustomerAddress](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Customer_Id] [int] NOT NULL,
+	[Municipality_Id] [int] NOT NULL,
+	[Address] [nvarchar](150) NOT NULL,
+	[Residence] [nvarchar](150) NOT NULL,
+	[PostalCode] [nvarchar](10) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DeliveryType]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DeliveryType](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Type] [nvarchar](150) NOT NULL,
+	[Description] [nvarchar](250) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Employee]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Employee](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[FirstNames] [nvarchar](50) NOT NULL,
+	[LastNames] [nvarchar](50) NOT NULL,
+	[Phone] [char](8) NOT NULL,
+	[EmailAddress] [nvarchar](120) NOT NULL,
+	[Dni] [char](14) NOT NULL,
+	[UserId] [int] NULL,
+	[RoleId] [int] NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[EmailAddress] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[Phone] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ExchangeRate]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ExchangeRate](
+	[Currency_Id] [int] NOT NULL,
+	[Date] [date] NULL,
+	[BuyingRate] [float] NOT NULL,
+	[SellingRate] [float] NOT NULL
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[GenericMedicationName]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[GenericMedicationName](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[InternalMovement]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[InternalMovement](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[StoredMedication_Id] [int] NOT NULL,
+	[Description] [varchar](200) NULL,
+	[Batch] [varchar](200) NULL,
+	[Date] [date] NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[InvoiceStatus]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[InvoiceStatus](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Status] [nvarchar](150) NOT NULL,
+	[Description] [nvarchar](150) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Medication]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Medication](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[Category_Id] [int] NOT NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MedicationCategory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MedicationCategory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MedicationDetail]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MedicationDetail](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Medication_Id] [int] NOT NULL,
+	[MedicationLaboratory_Id] [int] NOT NULL,
+	[GenericMedicationName_Id] [int] NOT NULL,
+	[Description] [varchar](250) NULL,
+	[State] [bit] NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MedicationInStock]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MedicationInStock](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[StoredMedication_Id] [int] NOT NULL,
+	[InternalMovement_Id] [int] NOT NULL,
+	[Location_Id] [int] NULL,
+	[Stock] [int] NOT NULL,
+	[SellingPrice] [decimal](18, 0) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[MedicationLaboratory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[MedicationLaboratory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL,
+	[State] [bit] NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Menu]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Menu](
+	[MenuId] [int] IDENTITY(1,1) NOT NULL,
+	[MenuName] [nvarchar](150) NOT NULL,
+	[Positión] [int] NOT NULL,
+	[UrlImg] [nvarchar](max) NOT NULL,
+	[MenuFatherId] [int] NULL,
+	[RoleId] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[MenuId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Municipality]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Municipality](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[City_Id] [int] NOT NULL,
+	[Name] [nvarchar](150) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Prescription]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Prescription](
+	[PrescriptionId] [int] IDENTITY(1,1) NOT NULL,
+	[NotesPrescription] [nvarchar](max) NULL,
+	[State] [bit] NULL,
+	[Created_at] [date] NULL,
+	[Update_at] [date] NULL,
+	[Delete_at] [date] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[PrescriptionId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Purchase]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Purchase](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Supplier_Id] [int] NOT NULL,
+	[DeliveryDate] [date] NOT NULL,
+	[InvoiceStatus_Id] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[PurchaseDetail]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[PurchaseDetail](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Purchase_Id] [int] NOT NULL,
+	[StoredMedication_Id] [int] NOT NULL,
+	[Employee_Id] [int] NOT NULL,
+	[Price] [float] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[Discount] [float] NOT NULL,
+	[Tax] [float] NOT NULL,
+	[Subtotal] [float] NOT NULL,
+	[Total] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[RefreshTokenHistory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[RefreshTokenHistory](
+	[HistorialTokenId] [int] IDENTITY(1,1) NOT NULL,
+	[UserId] [int] NULL,
+	[Token] [varchar](500) NULL,
+	[RefreshToken] [varchar](500) NULL,
+	[CreationDate] [datetime] NULL,
+	[ExpirationDate] [datetime] NULL,
+	[IsActive]  AS (case when [ExpirationDate]<getdate() then CONVERT([bit],(0)) else CONVERT([bit],(1)) end),
+PRIMARY KEY CLUSTERED 
+(
+	[HistorialTokenId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Role]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Role](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](150) NOT NULL,
+	[Description] [varchar](300) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Sale]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Sale](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Customer_Id] [int] NOT NULL,
+	[InvoiceStatus_Id] [int] NOT NULL,
+	[DeliveryType_Id] [int] NOT NULL,
+	[Employee_Id] [int] NULL,
+	[DeliveryEmployee_Id] [int] NULL,
+	[Municipality_Id] [int] NULL,
+	[OrderDate] [date] NULL,
+	[ShippingDate] [date] NULL,
+	[DeliveryDate] [date] NULL,
+	[Address] [nvarchar](150) NULL,
+	[Residence] [nvarchar](30) NULL,
+	[PostalCode] [nvarchar](15) NULL,
+	[CreditCardNumber] [nvarchar](16) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[SaleDetail]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[SaleDetail](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Sale_Id] [int] NOT NULL,
+	[MedicationInStock_Id] [int] NOT NULL,
+	[Price] [float] NOT NULL,
+	[Quantity] [int] NOT NULL,
+	[Discount] [float] NOT NULL,
+	[Tax] [float] NOT NULL,
+	[Subtotal] [float] NOT NULL,
+	[Total] [float] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ShelfCategory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ShelfCategory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](40) NOT NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[ShelfLocationCategory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[ShelfLocationCategory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](40) NOT NULL,
+	[Shelf_Id] [int] NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[StorageCategory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[StorageCategory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](40) NOT NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[StorageLocationCategory]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[StorageLocationCategory](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](40) NOT NULL,
+	[Storage_Id] [int] NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[StoredMedication]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[StoredMedication](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[MedicationDetail_Id] [int] NOT NULL,
+	[Supplier_Id] [int] NOT NULL,
+	[UnitMeasurement_Id] [int] NULL,
+	[Location_Id] [int] NULL,
+	[PrescriptionId] [int] NULL,
+	[Batch] [varchar](200) NULL,
+	[Stock] [int] NOT NULL,
+	[PurchasePrice] [decimal](18, 0) NOT NULL,
+	[SellingPrice] [decimal](18, 0) NOT NULL,
+	[ExpiryDate] [date] NULL,
+	[ExpeditionDate] [date] NULL,
+	[ExpiryWarning] [varchar](100) NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[Supplier]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Supplier](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](100) NOT NULL,
+	[DNI] [varchar](20) NULL,
+	[Email] [varchar](50) NULL,
+	[Phone] [int] NULL,
+	[State] [bit] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[UnitOfMeasurement]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[UnitOfMeasurement](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[UserProfile]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[UserProfile](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[UserName] [nvarchar](50) NOT NULL,
+	[UserPassaword] [varchar](50) NOT NULL,
+	[ProfileImage] [nvarchar](500) NULL,
+ CONSTRAINT [PK__UserProf__3214EC0747840AA3] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+ CONSTRAINT [UC_UserProfile_Username] UNIQUE NONCLUSTERED 
+(
+	[UserName] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY],
+ CONSTRAINT [UQ__UserProf__C9F28456F270CF68] UNIQUE NONCLUSTERED 
+(
+	[UserName] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Customer] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[Employee] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[Medication] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[MedicationCategory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[MedicationDetail] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[MedicationLaboratory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[Prescription] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[ShelfCategory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[ShelfLocationCategory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[StorageCategory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[StorageLocationCategory] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[StoredMedication] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[Supplier] ADD  DEFAULT ((1)) FOR [State]
+GO
+ALTER TABLE [dbo].[Conversion]  WITH CHECK ADD FOREIGN KEY([UnitOfMeasurement_Id])
+REFERENCES [dbo].[UnitOfMeasurement] ([Id])
+GO
+ALTER TABLE [dbo].[Customer]  WITH CHECK ADD  CONSTRAINT [FK_Customer_Role] FOREIGN KEY([RoleId])
+REFERENCES [dbo].[Role] ([Id])
+GO
+ALTER TABLE [dbo].[Customer] CHECK CONSTRAINT [FK_Customer_Role]
+GO
+ALTER TABLE [dbo].[Customer]  WITH CHECK ADD  CONSTRAINT [FK_Customer_User] FOREIGN KEY([UserId])
+REFERENCES [dbo].[UserProfile] ([Id])
+GO
+ALTER TABLE [dbo].[Customer] CHECK CONSTRAINT [FK_Customer_User]
+GO
+ALTER TABLE [dbo].[CustomerAddress]  WITH CHECK ADD FOREIGN KEY([Customer_Id])
+REFERENCES [dbo].[Customer] ([Id])
+GO
+ALTER TABLE [dbo].[CustomerAddress]  WITH CHECK ADD FOREIGN KEY([Municipality_Id])
+REFERENCES [dbo].[Municipality] ([Id])
+GO
+ALTER TABLE [dbo].[Employee]  WITH CHECK ADD  CONSTRAINT [FK_Client_Role] FOREIGN KEY([RoleId])
+REFERENCES [dbo].[Role] ([Id])
+GO
+ALTER TABLE [dbo].[Employee] CHECK CONSTRAINT [FK_Client_Role]
+GO
+ALTER TABLE [dbo].[Employee]  WITH CHECK ADD  CONSTRAINT [FK_Client_User] FOREIGN KEY([UserId])
+REFERENCES [dbo].[UserProfile] ([Id])
+GO
+ALTER TABLE [dbo].[Employee] CHECK CONSTRAINT [FK_Client_User]
+GO
+ALTER TABLE [dbo].[ExchangeRate]  WITH CHECK ADD FOREIGN KEY([Currency_Id])
+REFERENCES [dbo].[Currency] ([Id])
+GO
+ALTER TABLE [dbo].[InternalMovement]  WITH CHECK ADD FOREIGN KEY([StoredMedication_Id])
+REFERENCES [dbo].[StoredMedication] ([Id])
+GO
+ALTER TABLE [dbo].[Medication]  WITH CHECK ADD FOREIGN KEY([Category_Id])
+REFERENCES [dbo].[MedicationCategory] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationDetail]  WITH CHECK ADD FOREIGN KEY([GenericMedicationName_Id])
+REFERENCES [dbo].[GenericMedicationName] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationDetail]  WITH CHECK ADD FOREIGN KEY([Medication_Id])
+REFERENCES [dbo].[Medication] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationDetail]  WITH CHECK ADD FOREIGN KEY([MedicationLaboratory_Id])
+REFERENCES [dbo].[MedicationLaboratory] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationInStock]  WITH CHECK ADD FOREIGN KEY([InternalMovement_Id])
+REFERENCES [dbo].[InternalMovement] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationInStock]  WITH CHECK ADD FOREIGN KEY([Location_Id])
+REFERENCES [dbo].[ShelfLocationCategory] ([Id])
+GO
+ALTER TABLE [dbo].[MedicationInStock]  WITH CHECK ADD FOREIGN KEY([StoredMedication_Id])
+REFERENCES [dbo].[StoredMedication] ([Id])
+GO
+ALTER TABLE [dbo].[Menu]  WITH CHECK ADD  CONSTRAINT [idMenuFather] FOREIGN KEY([MenuFatherId])
+REFERENCES [dbo].[Menu] ([MenuId])
+GO
+ALTER TABLE [dbo].[Menu] CHECK CONSTRAINT [idMenuFather]
+GO
+ALTER TABLE [dbo].[Menu]  WITH CHECK ADD  CONSTRAINT [idRol] FOREIGN KEY([RoleId])
+REFERENCES [dbo].[Role] ([Id])
+GO
+ALTER TABLE [dbo].[Menu] CHECK CONSTRAINT [idRol]
+GO
+ALTER TABLE [dbo].[Municipality]  WITH CHECK ADD FOREIGN KEY([City_Id])
+REFERENCES [dbo].[City] ([Id])
+GO
+ALTER TABLE [dbo].[Purchase]  WITH CHECK ADD FOREIGN KEY([InvoiceStatus_Id])
+REFERENCES [dbo].[InvoiceStatus] ([Id])
+GO
+ALTER TABLE [dbo].[Purchase]  WITH CHECK ADD FOREIGN KEY([Supplier_Id])
+REFERENCES [dbo].[Supplier] ([Id])
+GO
+ALTER TABLE [dbo].[PurchaseDetail]  WITH CHECK ADD FOREIGN KEY([Employee_Id])
+REFERENCES [dbo].[Employee] ([Id])
+GO
+ALTER TABLE [dbo].[PurchaseDetail]  WITH CHECK ADD FOREIGN KEY([Purchase_Id])
+REFERENCES [dbo].[Purchase] ([Id])
+GO
+ALTER TABLE [dbo].[PurchaseDetail]  WITH CHECK ADD FOREIGN KEY([StoredMedication_Id])
+REFERENCES [dbo].[StoredMedication] ([Id])
+GO
+ALTER TABLE [dbo].[RefreshTokenHistory]  WITH CHECK ADD  CONSTRAINT [FK__RefreshTo__UserI__07C12930] FOREIGN KEY([UserId])
+REFERENCES [dbo].[UserProfile] ([Id])
+GO
+ALTER TABLE [dbo].[RefreshTokenHistory] CHECK CONSTRAINT [FK__RefreshTo__UserI__07C12930]
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([Customer_Id])
+REFERENCES [dbo].[Customer] ([Id])
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([DeliveryEmployee_Id])
+REFERENCES [dbo].[Employee] ([Id])
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([DeliveryType_Id])
+REFERENCES [dbo].[DeliveryType] ([Id])
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([Employee_Id])
+REFERENCES [dbo].[Employee] ([Id])
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([InvoiceStatus_Id])
+REFERENCES [dbo].[InvoiceStatus] ([Id])
+GO
+ALTER TABLE [dbo].[Sale]  WITH CHECK ADD FOREIGN KEY([Municipality_Id])
+REFERENCES [dbo].[Municipality] ([Id])
+GO
+ALTER TABLE [dbo].[SaleDetail]  WITH CHECK ADD FOREIGN KEY([MedicationInStock_Id])
+REFERENCES [dbo].[MedicationInStock] ([Id])
+GO
+ALTER TABLE [dbo].[SaleDetail]  WITH CHECK ADD FOREIGN KEY([Sale_Id])
+REFERENCES [dbo].[Sale] ([Id])
+GO
+ALTER TABLE [dbo].[ShelfLocationCategory]  WITH CHECK ADD FOREIGN KEY([Shelf_Id])
+REFERENCES [dbo].[ShelfCategory] ([Id])
+GO
+ALTER TABLE [dbo].[StorageLocationCategory]  WITH CHECK ADD FOREIGN KEY([Storage_Id])
+REFERENCES [dbo].[StorageCategory] ([Id])
+GO
+ALTER TABLE [dbo].[StoredMedication]  WITH CHECK ADD FOREIGN KEY([Location_Id])
+REFERENCES [dbo].[StorageLocationCategory] ([Id])
+GO
+ALTER TABLE [dbo].[StoredMedication]  WITH CHECK ADD FOREIGN KEY([MedicationDetail_Id])
+REFERENCES [dbo].[MedicationDetail] ([Id])
+GO
+ALTER TABLE [dbo].[StoredMedication]  WITH CHECK ADD FOREIGN KEY([PrescriptionId])
+REFERENCES [dbo].[Prescription] ([PrescriptionId])
+GO
+ALTER TABLE [dbo].[StoredMedication]  WITH CHECK ADD FOREIGN KEY([Supplier_Id])
+REFERENCES [dbo].[Supplier] ([Id])
+GO
+ALTER TABLE [dbo].[StoredMedication]  WITH CHECK ADD FOREIGN KEY([UnitMeasurement_Id])
+REFERENCES [dbo].[UnitOfMeasurement] ([Id])
+GO
+/****** Object:  StoredProcedure [dbo].[CreateEmployee]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[CreateEmployee]
+    @FirstNames NVARCHAR(50),
+    @LastNames NVARCHAR(50),
+    @EmailAddress NVARCHAR(120),
+    @Dni CHAR(14),
+    @Phone CHAR(8),
+    @RoleId INT,
+    @State BIT,
+    @UserName NVARCHAR(50),
+    @UserPassword VARCHAR(50),
+    @ImageProfile NVARCHAR(500) null
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION; -- Iniciar una transacción
+
+        -- Insertar el UserProfile y obtener el ID generado automáticamente
+        DECLARE @UserProfileId INT;
+
+        INSERT INTO UserProfile(UserName, UserPassaword, ProfileImage)
+        VALUES (@UserName, @UserPassword, @ImageProfile);
+
+        SET @UserProfileId = SCOPE_IDENTITY();
+
+        -- Insertar el Employee con el ID del UserProfile
+        INSERT INTO Employee(FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId, State)
+        VALUES (@FirstNames, @LastNames, @Phone, @EmailAddress, @Dni, @UserProfileId, @RoleId, @State);
+
+        COMMIT; -- Confirmar la transacción si todo ha ido bien
+    END TRY
+    BEGIN CATCH
+		PRINT ERROR_MESSAGE();
+        ROLLBACK; -- Deshacer la transacción si ocurre un error
+    END CATCH;
+END
+GO
+/****** Object:  StoredProcedure [dbo].[CreateGeneralUser]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[CreateGeneralUser]
+    @FirstNames NVARCHAR(50),
+    @LastNames NVARCHAR(50),
+    @EmailAddress NVARCHAR(120),
+    @Dni CHAR(14) NULL,
+    @Phone CHAR(8),
+    @RoleId INT,
+    @State BIT,
+    @UserName NVARCHAR(50),
+    @UserPassword VARCHAR(50),
+    @ImageProfile NVARCHAR(500)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION; -- Iniciar una transacción
+
+        -- Insertar el UserProfile y obtener el ID generado automáticamente
+        DECLARE @UserProfileId INT;
+
+        INSERT INTO UserProfile(UserName, UserPassaword, ProfileImage)
+        VALUES (@UserName, @UserPassword, @ImageProfile);
+
+        SET @UserProfileId = SCOPE_IDENTITY();
+
+        -- validar el rol
+		INSERT INTO Customer(FirstNames, LastNames, Phone, EmailAddress, UserId, RoleId, State)
+		SELECT @FirstNames, @LastNames, @Phone, @EmailAddress, @UserProfileId, @RoleId, @State
+		WHERE @RoleId = 4;
+
+		INSERT INTO Employee(FirstNames, LastNames, Phone, EmailAddress, Dni, UserId, RoleId, State)
+		SELECT @FirstNames, @LastNames, @Phone, @EmailAddress, @Dni, @UserProfileId, @RoleId, @State
+		WHERE @RoleId <> 4;
+
+        COMMIT; -- Confirmar la transacción si todo ha ido bien
+    END TRY
+    BEGIN CATCH
+		PRINT ERROR_MESSAGE();
+        ROLLBACK; -- Deshacer la transacción si ocurre un error
+    END CATCH;
+END
+GO
+/****** Object:  StoredProcedure [dbo].[DeleteEmployee]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[DeleteEmployee]
+@Id INT
+AS
+BEGIN
+	IF EXISTS (SELECT Id FROM Employee WHERE Id = @Id)
+	BEGIN
+		UPDATE Employee SET [State] = 0
+		WHERE Id = @Id
+	END
+	ELSE
+	BEGIN
+		PRINT('The Employee was not found')
+	END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[UpdateEmployee]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[UpdateEmployee]
+    @EmployeeId INT,
+    @FirstNames NVARCHAR(50),
+    @LastNames NVARCHAR(50),
+    @EmailAddress NVARCHAR(50),
+    @Dni CHAR(50),
+    @Phone CHAR(50),
+    @RoleId INT,
+    @State BIT,
+    @UserName NVARCHAR(50),
+    @UserPassword VARCHAR(50),
+    @ImageProfile VARCHAR(150)
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION; -- Iniciar una transacción
+
+        -- Actualizar el UserProfile existente
+        UPDATE UserProfile
+        SET
+            UserName = @UserName,
+            UserPassaword = @UserPassword,
+            ProfileImage = @ImageProfile
+        WHERE Id = (SELECT UserId FROM Employee WHERE Id = @EmployeeId);
+
+        -- Actualizar la información del Employee
+        UPDATE Employee
+        SET
+            FirstNames = @FirstNames,
+            LastNames = @LastNames,
+            Phone = @Phone,
+            EmailAddress = @EmailAddress,
+            Dni = @Dni,
+            RoleId = @RoleId,
+            State = @State
+        WHERE Id = @EmployeeId;
+
+        COMMIT; -- Confirmar la transacción si todo ha ido bien
+    END TRY
+    BEGIN CATCH
+		PRINT ERROR_MESSAGE();
+        ROLLBACK; -- Deshacer la transacción si ocurre un error
+    END CATCH;
+END
+GO
+/****** Object:  StoredProcedure [dbo].[uspCreateCustomer]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspCreateCustomer]
+@UserName AS NVARCHAR(50),
+@UserPassword AS NVARCHAR(50),
+@ProfileImage AS NVARCHAR(500),
+@FirstNames AS NVARCHAR(50),
+@LastNames AS NVARCHAR(50),
+@Phone AS CHAR(8),
+@EmailAddress AS NVARCHAR(120)
+AS
+BEGIN
+
+DECLARE @LastUserProfile INT
+
+		IF EXISTS (SELECT Id FROM [Role])
+			BEGIN
+				INSERT INTO UserProfile (UserName,UserPassaword,ProfileImage) 
+				VALUES (@UserName,@UserPassword,@ProfileImage)
+				
+				SET @LastUserProfile = (SELECT MAX(Id) FROM UserProfile)
+
+				INSERT INTO Customer (FirstNames,LastNames, Phone,EmailAddress,UserId,RoleId,[State])
+				VALUES(@FirstNames,@LastNames,@Phone,@EmailAddress,@LastUserProfile, 4, 1);
+			END
+		ELSE 
+		BEGIN
+			PRINT('The Role was not found...')
+		END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[uspDeleteSaleDetail]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+--DELETE
+CREATE PROCEDURE [dbo].[uspDeleteSaleDetail]
+@IdSaleDetail INT
+AS
+DECLARE @SaleId INT
+BEGIN
+	IF EXISTS (SELECT Id FROM SaleDetail WHERE Id = @IdSaleDetail)
+	BEGIN
+		SET @SaleId = (SELECT Sale_Id FROM SaleDetail WHERE Id = @IdSaleDetail)
+		UPDATE Sale SET InvoiceStatus_Id = 3 
+		WHERE Id = @SaleId
+	END
+	ELSE
+	BEGIN
+		PRINT('The SaleDetail was not found')
+	END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[uspUpdateSale]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspUpdateSale]
+@Id_Sale AS INT,
+@Id_Customer AS INT,
+@Id_InvoiceStatus INT,
+@Id_DeliveryType INT,
+@Id_Employee INT,
+@Id_DeliveryEmployee INT,
+@Id_Municipality INT,
+--@OrderDate DATE,
+--@ShippingDate DATE,
+--@DeliveryDate DATE,
+@Address NVARCHAR(150),
+@Residence NVARCHAR(30),
+@PostalCode NVARCHAR(15),
+@CreditCardNumber NVARCHAR(16)
+
+AS
+
+BEGIN
+		IF EXISTS(SELECT Id FROM Sale WHERE Id = @Id_Sale AND EXISTS 
+		(SELECT Id FROM Customer WHERE Id = @Id_Customer) AND EXISTS 
+		(SELECT Id FROM InvoiceStatus WHERE Id = @Id_InvoiceStatus) AND EXISTS 
+		(SELECT Id, DeliveryEmployee_Id FROM Employee 
+		WHERE Id = @Id_Employee AND DeliveryEmployee_Id = @Id_DeliveryEmployee) AND EXISTS
+		(SELECT Id FROM DeliveryType WHERE Id = @Id_DeliveryType) AND EXISTS
+		(SELECT Id FROM Municipality WHERE Id = @Id_Municipality))
+		BEGIN
+			UPDATE Sale SET 
+				Customer_Id = @Id_Customer,
+				InvoiceStatus_Id = @Id_InvoiceStatus,
+				DeliveryType_Id = @Id_DeliveryType,
+				Employee_Id = @Id_Employee,
+				DeliveryEmployee_Id = @Id_Employee,
+				Municipality_Id = @Id_Municipality,
+				OrderDate = GETDATE(),
+				ShippingDate = GETDATE(),
+				DeliveryDate = GETDATE(),
+				[Address] = @Address,
+				Residence = @Residence,
+				PostalCode = @PostalCode,
+				CreditCardNumber = @CreditCardNumber 
+				WHERE Id = @Id_Sale
+		END
+		ELSE
+		BEGIN
+			PRINT('An ocurred error while updating sale, error has ocurred because the data is wrong');
+		END
+END
+GO
+/****** Object:  StoredProcedure [dbo].[uspUpdateSaleDetail]    Script Date: 25/11/2023 0:29:51 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[uspUpdateSaleDetail]
+@Id_SaleDetail INT,
+--@Id_Sale INT,
+@IdMedicationInStock AS INT,
+@Quantity AS INT,
+@Discount AS DECIMAL(18,2),
+@Tax AS DECIMAL(18,2)
+
+AS
+
+--DECLARE @Sale INT;
+DECLARE @MedicationInStock INT
+DECLARE @SellingPrice DECIMAL(18,2);
+DECLARE @SubTotal DECIMAL(18,2);
+DECLARE @Total DECIMAL(18,2);
+DECLARE @QuantityInStock INT;
+DECLARE @OldQuantity INT;
+DECLARE @ResultOfOperation INT;
+
+SET @SellingPrice = (SELECT SellingPrice 
+FROM StoredMedication 
+WHERE Id = @IdMedicationInStock)
+
+SET @QuantityInStock = (SELECT Stock 
+FROM MedicationInStock WHERE Id = @IdMedicationInStock)
+
+SET @MedicationInStock = (SELECT Id FROM MedicationInStock WHERE Id = @IdMedicationInStock)
+
+--SET @Sale = (SELECT Id FROM Sale WHERE Id = @Id_Sale)
+
+SET @OldQuantity = (SELECT Quantity 
+					FROM SaleDetail 
+					WHERE Id = @Id_SaleDetail) --Latest SaleDetail
+
+BEGIN
+	IF EXISTS (SELECT Id FROM SaleDetail WHERE Id = @Id_SaleDetail 
+	AND @MedicationInStock = @IdMedicationInStock)
+
+	BEGIN
+		SET @Tax = @Tax / 100;
+		SET @Discount = @Discount / 100;
+		SET @SubTotal = (@Quantity * @SellingPrice) - @Discount;
+		SET @Total = @SubTotal + (@SubTotal * @Tax);
+
+		IF(@Quantity <= @QuantityInStock AND @QuantityInStock > 0)
+		BEGIN
+			UPDATE SaleDetail 
+			SET 
+			MedicationInStock_Id = @IdMedicationInStock,
+			Quantity = @Quantity,
+			Discount = @Discount,
+			Tax = @Tax,
+			Subtotal = @SubTotal,
+			Total = @Total
+			WHERE Id = @Id_SaleDetail
+
+			IF(@OldQuantity > @Quantity)
+			BEGIN
+				SET @ResultOfOperation = @OldQuantity - @Quantity
+				UPDATE MedicationInStock 
+				SET Stock = Stock + @ResultOfOperation 
+				WHERE Id = @IdMedicationInStock
+			END
+			ELSE IF(@OldQuantity < @Quantity)
+			BEGIN
+				SET @ResultOfOperation = @Quantity - @OldQuantity;
+				UPDATE MedicationInStock 
+				SET Stock = Stock - @ResultOfOperation
+				WHERE Id = @IdMedicationInStock
+			END
+			ELSE
+			BEGIN
+				UPDATE MedicationInStock 
+				SET Stock = Stock 
+				WHERE Id = @IdMedicationInStock
+			END
+		END
+		ELSE
+		BEGIN
+			PRINT('There is not existences for the product specificied')
+		END
+	END
+	ELSE
+	BEGIN
+		PRINT('The SaleDetail especified was not found or Medication id is not valid')
+	END
+END
+GO
