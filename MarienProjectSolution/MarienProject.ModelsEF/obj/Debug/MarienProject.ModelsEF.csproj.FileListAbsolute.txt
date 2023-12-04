@@ -34,3 +34,5 @@ C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectR
 C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.csproj.CopyComplete
 C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.dll
 C:\Users\User1\Documents\SEMESTRE II 2023\PROYECTO SAMUELIN\Base2\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.pdb
+C:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.dll
+C:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.ModelsEF\obj\Debug\MarienProject.ModelsEF.pdb

@@ -9,25 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = MarienProject.Web
 build_property.RootNamespace = MarienProject.Web
-build_property.ProjectDir = C:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\
+build_property.ProjectDir = c:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.Web
+build_property.MSBuildProjectDirectory = c:\Users\tugan\OneDrive\Documentos\MarienProjectRepository\MarienProjectSolution\MarienProject.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/App.razor]
+[c:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/_Imports.razor]
+[c:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/Shared/MainLayout.razor]
+[c:/Users/tugan/OneDrive/Documentos/MarienProjectRepository/MarienProjectSolution/MarienProject.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-m7en0a15z9
